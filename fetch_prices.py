@@ -39,17 +39,17 @@ def krx_price(code):
 
 
 def krx_index(ticker):
-    """pykrx 로 KRX 지수(예: 1001 코스피) 최근 2거래일 종가."""
-    from pykrx import stock
-    end = dt.datetime.now(KST).date()
-    start = end - dt.timedelta(days=14)
-    df = stock.get_index_ohlcv(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), ticker, name_display=False)
-    df = df[df["종가"] > 0]
+    """국내 지수(예: KS11 코스피) 최근 2거래일 종가. FinanceDataReader 사용."""
+    import FinanceDataReader as fdr
+    start = (dt.datetime.now(KST).date() - dt.timedelta(days=14)).strftime("%Y-%m-%d")
+    df = fdr.DataReader(ticker, start)
+    df = df.dropna(subset=["Close"])
+    df = df[df["Close"] > 0]
     if len(df) == 0:
         raise ValueError("no rows")
-    close = float(df["종가"].iloc[-1])
-    prev = float(df["종가"].iloc[-2]) if len(df) > 1 else None
-    return {"close": close, "prev_close": prev, "date": df.index[-1].strftime("%Y-%m-%d"), "source": f"pykrx (KRX 지수 {ticker})"}
+    close = float(df["Close"].iloc[-1])
+    prev = float(df["Close"].iloc[-2]) if len(df) > 1 else None
+    return {"close": close, "prev_close": prev, "date": df.index[-1].strftime("%Y-%m-%d"), "source": f"FinanceDataReader ({ticker})"}
 
 
 def yf_history(symbol):
