@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:23+09:00",
+  "updated_at": "2026-10-14T01:24+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -11,8 +11,27 @@
       "krx_name": "삼성전자",
       "source": "pykrx (KRX)",
       "change_pct": -6.77,
-      "fundamental": null,
-      "flows": null
+      "fundamental": {
+        "per": 10.5,
+        "pbr": 2.72,
+        "eps": 22292.0,
+        "bps": 86052.0,
+        "div_yield": 0.71,
+        "source": "네이버 증권"
+      },
+      "flows": {
+        "date": "2026-10-13",
+        "외국인_순매수_주": -5943474.0,
+        "기관_순매수_주": 1016744.0,
+        "개인_순매수_주": 5221370.0,
+        "외국인_5일_주": -11611058.0,
+        "기관_5일_주": -5803511.0,
+        "외국인_순매수_원_근사": -1390772916000.0,
+        "기관_순매수_원_근사": 237918096000.0,
+        "외국인_5일_원_근사": -2876561914000.0,
+        "기관_5일_원_근사": -1542024563000.0,
+        "source": "네이버 증권 (순매수량 × 종가로 금액 근사)"
+      }
     },
     {
       "code": "005500",
@@ -24,8 +43,27 @@
       "krx_name": "삼진제약",
       "source": "pykrx (KRX)",
       "change_pct": -0.7,
-      "fundamental": null,
-      "flows": null
+      "fundamental": {
+        "per": 11.56,
+        "pbr": 0.84,
+        "eps": 1716.0,
+        "bps": 23604.0,
+        "div_yield": 4.03,
+        "source": "네이버 증권"
+      },
+      "flows": {
+        "date": "2026-10-13",
+        "외국인_순매수_주": -611.0,
+        "기관_순매수_주": 36.0,
+        "개인_순매수_주": 571.0,
+        "외국인_5일_주": -13604.0,
+        "기관_5일_주": 1049.0,
+        "외국인_순매수_원_근사": -12122240.0,
+        "기관_순매수_원_근사": 714240.0,
+        "외국인_5일_원_근사": -271104710.0,
+        "기관_5일_원_근사": 21445950.0,
+        "source": "네이버 증권 (순매수량 × 종가로 금액 근사)"
+      }
     },
     {
       "code": "003490",
@@ -37,8 +75,27 @@
       "krx_name": "대한항공",
       "source": "pykrx (KRX)",
       "change_pct": -1.13,
-      "fundamental": null,
-      "flows": null
+      "fundamental": {
+        "per": null,
+        "pbr": 1.07,
+        "eps": -693.0,
+        "bps": 28464.0,
+        "div_yield": 2.46,
+        "source": "네이버 증권"
+      },
+      "flows": {
+        "date": "2026-10-13",
+        "외국인_순매수_주": -56512.0,
+        "기관_순매수_주": 551904.0,
+        "개인_순매수_주": -497501.0,
+        "외국인_5일_주": 1648862.0,
+        "기관_5일_주": -579150.0,
+        "외국인_순매수_원_근사": -1726441600.0,
+        "기관_순매수_원_근사": 16860667200.0,
+        "외국인_5일_원_근사": 50565900750.0,
+        "기관_5일_원_근사": -17699113300.0,
+        "source": "네이버 증권 (순매수량 × 종가로 금액 근사)"
+      }
     },
     {
       "code": "379800",
@@ -90,21 +147,21 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7798.02978515625,
+      "close": 7799.08984375,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
-      "change_pct": -0.12
+      "change_pct": -0.1
     },
     {
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27208.51171875,
+      "close": 27210.84765625,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.14
+      "change_pct": -0.13
     },
     {
       "name": "코스피",
@@ -120,82 +177,101 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1340.9200439453125,
+      "close": 1341.050048828125,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
-      "change_pct": -0.15
+      "change_pct": -0.14
     },
     {
       "name": "미국 10년물",
       "symbol": "^TNX",
       "fallback": null,
-      "close": 5.224999904632568,
+      "close": 5.2270002365112305,
       "prev_close": 5.239999771118164,
       "date": "2026-10-13",
       "source": "yfinance (^TNX)",
-      "change_pct": -0.29
+      "change_pct": -0.25
     },
     {
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4183.2998046875,
+      "close": 4183.10009765625,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.17
+      "change_pct": -0.18
     }
   ],
   "fallbacks": [],
-  "errors": [
-    "삼성전자(005930): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "삼성전자(005930): 수급 조회 실패 (No tables found)",
-    "삼진제약(005500): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "삼진제약(005500): 수급 조회 실패 (No tables found)",
-    "대한항공(003490): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "대한항공(003490): 수급 조회 실패 (No tables found)"
-  ],
+  "errors": [],
   "debug": [
     {
-      "url": "https://finance.naver.com/item/main.naver?code=005930",
-      "final": "https://stock.naver.com/domestic/stock/005930/price",
+      "url": "https://m.stock.naver.com/api/stock/005930/integration",
       "status": 200,
-      "len": 133277,
-      "title": "Npay 증권",
-      "per_ctx": null,
-      "flow_ctx": null,
-      "head": "<!DOCTYPE html><html lang=\"ko\" class=\"\" data-theme=\"light\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=1366, initial-scale=1.0, user-scalable=yes\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://ssl.pstatic.net/imgstock"
+      "keys": [
+        "stockEndType",
+        "itemCode",
+        "reutersCode",
+        "stockName",
+        "totalInfos",
+        "iconInfos",
+        "description",
+        "etfKeyIndicator",
+        "dealTrendInfos",
+        "researches",
+        "industryCode",
+        "industryCompareInfo",
+        "consensusInfo",
+        "shareholdersMeetingInfo",
+        "irScheduleInfo"
+      ],
+      "sample": "{'stockEndType': 'stock', 'itemCode': '005930', 'reutersCode': '005930', 'stockName': '삼성전자', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '250,500'}, {'code': 'openPrice', 'key': '시가', 'value': '245,500', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'highPrice', 'key': '고가', 'value': '247,500', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '228,000', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '43,302,975'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '10조 1,432억'}, {'code': 'marketValue', 'key': '시총', 'value': '1,368조 292억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '46.30%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '380,000'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '90,200'}, {'code': 'per', 'key': 'PER', 'value': '10.50배', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '22,292원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': '5.14배'}, {'code': 'cnsEps', 'key': '추정E"
     },
     {
-      "url": "https://finance.naver.com/item/frgn.naver?code=005930",
-      "final": "https://stock.naver.com/domestic/stock/005930/investmentinfo",
+      "url": "https://m.stock.naver.com/api/stock/005500/integration",
       "status": 200,
-      "len": 131961,
-      "title": "Npay 증권",
-      "per_ctx": null,
-      "flow_ctx": null,
-      "head": "<!DOCTYPE html><html lang=\"ko\" class=\"\" data-theme=\"light\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=1366, initial-scale=1.0, user-scalable=yes\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://ssl.pstatic.net/imgstock"
+      "keys": [
+        "stockEndType",
+        "itemCode",
+        "reutersCode",
+        "stockName",
+        "totalInfos",
+        "iconInfos",
+        "description",
+        "etfKeyIndicator",
+        "dealTrendInfos",
+        "researches",
+        "industryCode",
+        "industryCompareInfo",
+        "consensusInfo",
+        "shareholdersMeetingInfo",
+        "irScheduleInfo"
+      ],
+      "sample": "{'stockEndType': 'stock', 'itemCode': '005500', 'reutersCode': '005500', 'stockName': '삼진제약', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '20,100'}, {'code': 'openPrice', 'key': '시가', 'value': '20,100', 'compareToPreviousPrice': {'code': '3', 'text': '보합', 'name': 'UNCHANGED'}}, {'code': 'highPrice', 'key': '고가', 'value': '20,150', 'compareToPreviousPrice': {'code': '2', 'text': '상승', 'name': 'RISING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '19,290', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '64,435'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '12.6억'}, {'code': 'marketValue', 'key': '시총', 'value': '2,643억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '3.64%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '26,400'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '16,580'}, {'code': 'per', 'key': 'PER', 'value': '11.56배', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '1,716원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': 'N/A'}, {'code': 'cnsEps', 'key': '추정EPS', 'value': 'N/A'}, "
     },
     {
-      "url": "https://finance.naver.com/item/main.naver?code=005500",
-      "final": "https://stock.naver.com/domestic/stock/005500/price",
+      "url": "https://m.stock.naver.com/api/stock/003490/integration",
       "status": 200,
-      "len": 133277,
-      "title": "Npay 증권",
-      "per_ctx": null,
-      "flow_ctx": null,
-      "head": "<!DOCTYPE html><html lang=\"ko\" class=\"\" data-theme=\"light\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=1366, initial-scale=1.0, user-scalable=yes\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://ssl.pstatic.net/imgstock"
-    },
-    {
-      "url": "https://finance.naver.com/item/frgn.naver?code=005500",
-      "final": "https://stock.naver.com/domestic/stock/005500/investmentinfo",
-      "status": 200,
-      "len": 131961,
-      "title": "Npay 증권",
-      "per_ctx": null,
-      "flow_ctx": null,
-      "head": "<!DOCTYPE html><html lang=\"ko\" class=\"\" data-theme=\"light\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=1366, initial-scale=1.0, user-scalable=yes\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"https://ssl.pstatic.net/imgstock"
+      "keys": [
+        "stockEndType",
+        "itemCode",
+        "reutersCode",
+        "stockName",
+        "totalInfos",
+        "iconInfos",
+        "description",
+        "etfKeyIndicator",
+        "dealTrendInfos",
+        "researches",
+        "industryCode",
+        "industryCompareInfo",
+        "consensusInfo",
+        "shareholdersMeetingInfo",
+        "irScheduleInfo"
+      ],
+      "sample": "{'stockEndType': 'stock', 'itemCode': '003490', 'reutersCode': '003490', 'stockName': '대한항공', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '31,100'}, {'code': 'openPrice', 'key': '시가', 'value': '30,550', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'highPrice', 'key': '고가', 'value': '30,550', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '29,400', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '2,305,249'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '694억'}, {'code': 'marketValue', 'key': '시총', 'value': '11조 2,491억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '53.57%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '32,500'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '21,000'}, {'code': 'per', 'key': 'PER', 'value': 'N/A', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '-693원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': '31.86배'}, {'code': 'cnsEps', 'key': '추정EPS', 'value': '95"
     }
   ]
 }
