@@ -61,6 +61,10 @@ def naver_fundamental(code):
     """네이버 금융 종목 메인에서 PER·PBR·EPS·배당수익률 (최근 실적 기준)."""
     import re
     html = _get(f"https://finance.naver.com/item/main.naver?code={code}")
+    import os
+    if os.environ.get("HP_DEBUG"):
+        i = html.find("_per")
+        print("DEBUG main len", len(html), "idx", i, repr(html[max(0, i - 300):i + 300]) if i >= 0 else repr(html[:600]))
     def em(i):
         m = re.search(r'<em id="' + i + r'"[^>]*>\s*([-0-9.,]+)\s*</em>', html)
         return _num(m.group(1).replace(",", "")) if m else None
