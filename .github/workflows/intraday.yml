@@ -1,0 +1,43 @@
+name: 한피탈 장중 시세
+
+on:
+  schedule:
+    # UTC 00:00~06:00 (월~금) = 한국시간 09:00~15:00 매시 정각. 예약 실행은 몇 분 밀릴 수 있다.
+    - cron: "0 0-6 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-commit
+  cancel-in-progress: false
+
+jobs:
+  intraday:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install yfinance requests pandas
+
+      - name: Fetch intraday
+        run: python intraday.py
+        env:
+          HP_DEBUG: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+
+      - name: Commit intraday.json
+        run: |
+          git config user.name "hanpital-bot"
+          git config user.email "hanpital-bot@users.noreply.github.com"
+          git add intraday.json
+          git diff --cached --quiet && exit 0
+          git commit -m "장중 시세 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1
