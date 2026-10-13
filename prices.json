@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:20+09:00",
+  "updated_at": "2026-10-14T01:21+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -90,7 +90,7 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7797.5498046875,
+      "close": 7798.10986328125,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
@@ -100,11 +100,11 @@
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27213.060546875,
+      "close": 27211.625,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.12
+      "change_pct": -0.13
     },
     {
       "name": "코스피",
@@ -120,7 +120,7 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1341.219970703125,
+      "close": 1341.18994140625,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
@@ -140,20 +140,20 @@
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4183.10009765625,
+      "close": 4182.2998046875,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.18
+      "change_pct": -0.2
     }
   ],
   "fallbacks": [],
   "errors": [
     "삼성전자(005930): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "삼성전자(005930): 수급 조회 실패 (Missing optional dependency 'html5lib'.  Use pip or conda to install html5lib.)",
+    "삼성전자(005930): 수급 조회 실패 (No tables found)",
     "삼진제약(005500): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "삼진제약(005500): 수급 조회 실패 (Missing optional dependency 'html5lib'.  Use pip or conda to install html5lib.)",
+    "삼진제약(005500): 수급 조회 실패 (No tables found)",
     "대한항공(003490): PER·PBR 조회 실패 (PER/PBR 값을 찾지 못함)",
-    "대한항공(003490): 수급 조회 실패 (Missing optional dependency 'html5lib'.  Use pip or conda to install html5lib.)"
+    "대한항공(003490): 수급 조회 실패 (No tables found)"
   ]
 }
