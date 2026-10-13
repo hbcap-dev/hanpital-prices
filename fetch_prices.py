@@ -209,7 +209,9 @@ def build_universe(held_codes):
             pass
         time.sleep(0.15)
     cand = [r for r in uni if r["code"] not in held_codes and r.get("per") and r["per"] > 0
-            and r.get("target_gap") is not None]
+            and r.get("target_gap") is not None
+            # 우선주는 보통주 목표주가가 그대로 붙어 괴리율이 부풀려지므로 제외
+            and r["code"].endswith("0") and not r["name"].rstrip("B").endswith("우")]
     cand.sort(key=lambda r: r["target_gap"], reverse=True)
     screen = cand[:20]
     return uni, screen, errs
