@@ -38,6 +38,20 @@ def krx_price(code):
     return {"close": close, "prev_close": prev, "date": date, "krx_name": name, "source": "pykrx (KRX)"}
 
 
+def krx_index(ticker):
+    """pykrx 로 KRX 지수(예: 1001 코스피) 최근 2거래일 종가."""
+    from pykrx import stock
+    end = dt.datetime.now(KST).date()
+    start = end - dt.timedelta(days=14)
+    df = stock.get_index_ohlcv(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), ticker)
+    df = df[df["종가"] > 0]
+    if len(df) == 0:
+        raise ValueError("no rows")
+    close = float(df["종가"].iloc[-1])
+    prev = float(df["종가"].iloc[-2]) if len(df) > 1 else None
+    return {"close": close, "prev_close": prev, "date": df.index[-1].strftime("%Y-%m-%d"), "source": f"pykrx (KRX 지수 {ticker})"}
+
+
 def yf_history(symbol):
     import yfinance as yf
     h = yf.Ticker(symbol).history(period="10d", auto_adjust=False)
@@ -91,15 +105,25 @@ def main():
         out["stocks"].append(row)
 
     for m in cfg["markets"]:
-        row = {"name": m["name"], "symbol": m["symbol"]}
-        try:
-            r = yf_history(m["symbol"])
-            row.update(r)
-            row["change_pct"] = pct(r["close"], r.get("prev_close"))
-            row["source"] = f"yfinance ({m['symbol']})"
-        except Exception as e:  # noqa: BLE001
-            out["errors"].append(f"{m['symbol']} 조회 실패: {e}")
-            row["close"] = None
+        row = {"name": m["name"], "symbol": m["symbol"], "fallback": None}
+        r = None
+        if m.get("krx_index"):
+            try:
+                r = krx_index(m["krx_index"])
+            except Exception as e0:  # noqa: BLE001
+                row["fallback"] = "KRX 조회 실패 → 야후로 대체"
+                out["fallbacks"].append(f"{m['name']}: KRX 조회 실패 → 야후로 대체 ({e0})")
+        if r is None:
+            try:
+                r = yf_history(m["symbol"])
+                r["source"] = f"yfinance ({m['symbol']})"
+            except Exception as e:  # noqa: BLE001
+                out["errors"].append(f"{m['name']}({m['symbol']}): 조회 실패 ({e})")
+                row["close"] = None
+                out["markets"].append(row)
+                continue
+        row.update(r)
+        row["change_pct"] = pct(r["close"], r.get("prev_close"))
         out["markets"].append(row)
 
     if out["fallbacks"] or out["errors"]:

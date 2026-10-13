@@ -12,7 +12,7 @@
   "markets": [
     {"name": "S&P500", "symbol": "^GSPC"},
     {"name": "나스닥", "symbol": "^IXIC"},
-    {"name": "코스피", "symbol": "^KS11"},
+    {"name": "코스피", "symbol": "^KS11", "krx_index": "1001"},
     {"name": "원/달러", "symbol": "KRW=X"},
     {"name": "미국 10년물", "symbol": "^TNX"},
     {"name": "금", "symbol": "GC=F"}
