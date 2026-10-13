@@ -43,7 +43,7 @@ def krx_index(ticker):
     from pykrx import stock
     end = dt.datetime.now(KST).date()
     start = end - dt.timedelta(days=14)
-    df = stock.get_index_ohlcv(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), ticker)
+    df = stock.get_index_ohlcv(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), ticker, name_display=False)
     df = df[df["종가"] > 0]
     if len(df) == 0:
         raise ValueError("no rows")
