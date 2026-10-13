@@ -1,20 +1,67 @@
 {
-  "_설명": "한피탈이 매일 시세를 가져올 종목 목록. 보유 종목과 리밸런싱으로 살 예정인 종목을 함께 둔다. 코드는 KRX 6자리.",
+  "_설명": "한피탈이 매일 시세를 가져올 종목 목록. 보유 종목과 리밸런싱으로 살 예정인 종목을 함께 둔다. 코드는 KRX 6자리. etf=true 종목은 PER·PBR·수급을 수집하지 않는다(ETF에는 해당 없음).",
   "stocks": [
-    {"code": "005930", "name": "삼성전자"},
-    {"code": "005500", "name": "삼진제약"},
-    {"code": "003490", "name": "대한항공"},
-    {"code": "379800", "name": "KODEX 미국S&P500"},
-    {"code": "365780", "name": "ACE 국고채10년"},
-    {"code": "148020", "name": "RISE 200"},
-    {"code": "488770", "name": "KODEX 머니마켓액티브"}
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "etf": false
+    },
+    {
+      "code": "005500",
+      "name": "삼진제약",
+      "etf": false
+    },
+    {
+      "code": "003490",
+      "name": "대한항공",
+      "etf": false
+    },
+    {
+      "code": "379800",
+      "name": "KODEX 미국S&P500",
+      "etf": true
+    },
+    {
+      "code": "365780",
+      "name": "ACE 국고채10년",
+      "etf": true
+    },
+    {
+      "code": "148020",
+      "name": "RISE 200",
+      "etf": true
+    },
+    {
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "etf": true
+    }
   ],
   "markets": [
-    {"name": "S&P500", "symbol": "^GSPC"},
-    {"name": "나스닥", "symbol": "^IXIC"},
-    {"name": "코스피", "symbol": "^KS11", "krx_index": "KS11"},
-    {"name": "원/달러", "symbol": "KRW=X"},
-    {"name": "미국 10년물", "symbol": "^TNX"},
-    {"name": "금", "symbol": "GC=F"}
+    {
+      "name": "S&P500",
+      "symbol": "^GSPC"
+    },
+    {
+      "name": "나스닥",
+      "symbol": "^IXIC"
+    },
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "krx_index": "KS11"
+    },
+    {
+      "name": "원/달러",
+      "symbol": "KRW=X"
+    },
+    {
+      "name": "미국 10년물",
+      "symbol": "^TNX"
+    },
+    {
+      "name": "금",
+      "symbol": "GC=F"
+    }
   ]
 }

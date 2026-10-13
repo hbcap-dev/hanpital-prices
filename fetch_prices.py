@@ -38,6 +38,50 @@ def krx_price(code):
     return {"close": close, "prev_close": prev, "date": date, "krx_name": name, "source": "pykrx (KRX)"}
 
 
+def _num(v):
+    try:
+        f = float(v)
+        return None if f != f else f  # NaN → None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def krx_fundamental(code):
+    """pykrx 로 최근 거래일 PER·PBR·EPS·BPS·배당수익률."""
+    from pykrx import stock
+    end = dt.datetime.now(KST).date()
+    start = end - dt.timedelta(days=14)
+    df = stock.get_market_fundamental(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), code)
+    if df is None or len(df) == 0:
+        raise ValueError("no rows")
+    r = df.iloc[-1]
+    return {
+        "date": df.index[-1].strftime("%Y-%m-%d"),
+        "per": _num(r.get("PER")), "pbr": _num(r.get("PBR")),
+        "eps": _num(r.get("EPS")), "bps": _num(r.get("BPS")),
+        "div_yield": _num(r.get("DIV")),
+        "source": "pykrx (KRX)",
+    }
+
+
+def krx_flows(code):
+    """pykrx 로 투자자별 순매수 금액(원): 최근 거래일과 최근 5거래일 합."""
+    from pykrx import stock
+    end = dt.datetime.now(KST).date()
+    start = end - dt.timedelta(days=20)
+    df = stock.get_market_trading_value_by_date(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), code)
+    if df is None or len(df) == 0:
+        raise ValueError("no rows")
+    cols = {"외국인": "외국인합계", "기관": "기관합계", "개인": "개인"}
+    last, last5 = df.iloc[-1], df.tail(5)
+    out = {"date": df.index[-1].strftime("%Y-%m-%d"), "source": "pykrx (KRX)"}
+    for k, c in cols.items():
+        if c in df.columns:
+            out[f"{k}_순매수"] = _num(last[c])
+            out[f"{k}_5일"] = _num(last5[c].sum())
+    return out
+
+
 def krx_index(ticker):
     """국내 지수(예: KS11 코스피) 최근 2거래일 종가. FinanceDataReader 사용."""
     import FinanceDataReader as fdr
@@ -102,6 +146,17 @@ def main():
                 continue
         row.update(r)
         row["change_pct"] = pct(r["close"], r.get("prev_close"))
+        if not s.get("etf"):
+            try:
+                row["fundamental"] = krx_fundamental(s["code"])
+            except Exception as e:  # noqa: BLE001
+                row["fundamental"] = None
+                out["errors"].append(f"{s['name']}({s['code']}): PER·PBR 조회 실패 ({e})")
+            try:
+                row["flows"] = krx_flows(s["code"])
+            except Exception as e:  # noqa: BLE001
+                row["flows"] = None
+                out["errors"].append(f"{s['name']}({s['code']}): 수급 조회 실패 ({e})")
         out["stocks"].append(row)
 
     for m in cfg["markets"]:
