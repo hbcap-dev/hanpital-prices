@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:24+09:00",
+  "updated_at": "2026-10-14T01:25+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -17,7 +17,16 @@
         "eps": 22292.0,
         "bps": 86052.0,
         "div_yield": 0.71,
-        "source": "네이버 증권"
+        "high_52w": 380000.0,
+        "low_52w": 90200.0,
+        "foreign_rate": 46.3,
+        "source": "네이버 증권",
+        "consensus": {
+          "itemCode": "005930",
+          "createDate": "2026-10-12",
+          "recommMean": "4.00",
+          "priceTargetMean": "495,227"
+        }
       },
       "flows": {
         "date": "2026-10-13",
@@ -49,6 +58,9 @@
         "eps": 1716.0,
         "bps": 23604.0,
         "div_yield": 4.03,
+        "high_52w": 26400.0,
+        "low_52w": 16580.0,
+        "foreign_rate": 3.64,
         "source": "네이버 증권"
       },
       "flows": {
@@ -81,7 +93,16 @@
         "eps": -693.0,
         "bps": 28464.0,
         "div_yield": 2.46,
-        "source": "네이버 증권"
+        "high_52w": 32500.0,
+        "low_52w": 21000.0,
+        "foreign_rate": 53.57,
+        "source": "네이버 증권",
+        "consensus": {
+          "itemCode": "003490",
+          "createDate": "2026-10-12",
+          "recommMean": "3.91",
+          "priceTargetMean": "38,909"
+        }
       },
       "flows": {
         "date": "2026-10-13",
@@ -147,7 +168,7 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7799.08984375,
+      "close": 7799.6298828125,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
@@ -157,11 +178,11 @@
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27210.84765625,
+      "close": 27215.4609375,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.13
+      "change_pct": -0.11
     },
     {
       "name": "코스피",
@@ -177,31 +198,31 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1341.050048828125,
+      "close": 1340.81005859375,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
-      "change_pct": -0.14
+      "change_pct": -0.16
     },
     {
       "name": "미국 10년물",
       "symbol": "^TNX",
       "fallback": null,
-      "close": 5.2270002365112305,
+      "close": 5.224999904632568,
       "prev_close": 5.239999771118164,
       "date": "2026-10-13",
       "source": "yfinance (^TNX)",
-      "change_pct": -0.25
+      "change_pct": -0.29
     },
     {
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4183.10009765625,
+      "close": 4183.60009765625,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.18
+      "change_pct": -0.17
     }
   ],
   "fallbacks": [],
