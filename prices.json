@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:12+09:00",
+  "updated_at": "2026-10-14T00:13+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -84,21 +84,21 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7796.60986328125,
+      "close": 7798.10986328125,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
-      "change_pct": -0.14
+      "change_pct": -0.12
     },
     {
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27187.08203125,
+      "close": 27194.462890625,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.22
+      "change_pct": -0.19
     },
     {
       "name": "코스피",
@@ -114,11 +114,11 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1341.4599609375,
+      "close": 1341.06005859375,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
-      "change_pct": -0.11
+      "change_pct": -0.14
     },
     {
       "name": "미국 10년물",
@@ -134,15 +134,15 @@
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4188.39990234375,
+      "close": 4189.60009765625,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.05
+      "change_pct": -0.02
     }
   ],
   "fallbacks": [
-    "코스피: KRX 조회 실패 → 야후로 대체 ('지수명')"
+    "코스피: KRX 조회 실패 → 야후로 대체 ('종가')"
   ],
   "errors": []
 }
