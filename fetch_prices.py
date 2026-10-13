@@ -72,56 +72,90 @@ def _get(url):
     return r.text
 
 
+def _get_json(url):
+    import os
+    import requests
+    r = requests.get(url, headers={**UA, "Referer": "https://m.stock.naver.com/"}, timeout=20)
+    r.raise_for_status()
+    j = r.json()
+    if os.environ.get("HP_DEBUG"):
+        DEBUG_NOTES.append({"url": url, "status": r.status_code,
+                            "keys": list(j.keys())[:30] if isinstance(j, dict) else type(j).__name__,
+                            "sample": str(j)[:1200]})
+    return j
+
+
+def _parse_num(v):
+    if v is None:
+        return None
+    s = str(v).replace(",", "").replace("+", "").replace("배", "").replace("%", "").replace("원", "").strip()
+    return _num(s)
+
+
+_naver_cache = {}
+
+
+def _naver_integration(code):
+    if code not in _naver_cache:
+        _naver_cache[code] = _get_json(f"https://m.stock.naver.com/api/stock/{code}/integration")
+    return _naver_cache[code]
+
+
 def naver_fundamental(code):
-    """네이버 금융 종목 메인에서 PER·PBR·EPS·배당수익률 (최근 실적 기준)."""
-    import re
-    html = _get(f"https://finance.naver.com/item/main.naver?code={code}")
-    def em(i):
-        m = re.search(r'<em id="' + i + r'"[^>]*>\s*([-0-9.,]+)\s*</em>', html)
-        return _num(m.group(1).replace(",", "")) if m else None
-    out = {"per": em("_per"), "pbr": em("_pbr"), "eps": em("_eps"), "div_yield": em("_dvr"),
-           "source": "네이버 금융"}
+    """네이버 증권(모바일 API)에서 PER·PBR·EPS·BPS·배당수익률."""
+    j = _naver_integration(code)
+    infos = j.get("totalInfos") or []
+    by = {}
+    for it in infos:
+        k = (it.get("code") or "").lower()
+        by[k] = it.get("value")
+        if it.get("key"):
+            by[it["key"]] = it.get("value")
+    def pick(*names):
+        for n in names:
+            if n in by and by[n] not in (None, "", "N/A"):
+                return _parse_num(by[n])
+        return None
+    out = {"per": pick("per", "PER"), "pbr": pick("pbr", "PBR"), "eps": pick("eps", "EPS"),
+           "bps": pick("bps", "BPS"), "div_yield": pick("dividendyieldratio", "배당수익률"),
+           "source": "네이버 증권"}
     if all(out[k] is None for k in ("per", "pbr", "eps")):
-        raise ValueError("PER/PBR 값을 찾지 못함")
+        raise ValueError("PER/PBR 값을 찾지 못함 (항목: " + ",".join(list(by.keys())[:20]) + ")")
     return out
 
 
 def naver_flows(code):
-    """네이버 금융 외국인·기관 매매 페이지에서 순매매량(주)과 근사 금액(원)."""
-    import io
-    import pandas as pd
-    html = _get(f"https://finance.naver.com/item/frgn.naver?code={code}")
-    tables = pd.read_html(io.StringIO(html))
-    tbl = None
-    for t in tables:
-        flat = [" ".join(map(str, c)) if isinstance(c, tuple) else str(c) for c in t.columns]
-        if any("기관" in c for c in flat) and any("외국인" in c for c in flat):
-            t.columns = flat
-            tbl = t
-            break
-    if tbl is None:
-        raise ValueError("매매 표를 찾지 못함")
-    date_col = [c for c in tbl.columns if "날짜" in c][0]
-    close_col = [c for c in tbl.columns if "종가" in c][0]
-    inst_col = [c for c in tbl.columns if "기관" in c and "순매매" in c][0]
-    frgn_col = [c for c in tbl.columns if "외국인" in c and "순매매" in c][0]
-    tbl = tbl.dropna(subset=[date_col])
-    tbl = tbl[tbl[date_col].astype(str).str.match(r"\d{4}\.\d{2}\.\d{2}")]
-    def n(v):
-        return _num(str(v).replace(",", "").replace("+", ""))
-    rows = [(str(r[date_col]), n(r[close_col]), n(r[inst_col]), n(r[frgn_col])) for _, r in tbl.iterrows()]
-    if not rows:
-        raise ValueError("행 없음")
+    """네이버 증권(모바일 API)에서 외국인·기관·개인 순매수량(주)과 근사 금액(원)."""
+    j = _naver_integration(code)
+    trend = j.get("dealTrendInfos") or []
+    if not trend:
+        raise ValueError("수급 데이터 없음 (키: " + ",".join(list(j.keys())[:20]) + ")")
+    def f(row, *names):
+        for n in names:
+            if n in row:
+                return _parse_num(row[n])
+        return None
+    rows = []
+    for t in trend:
+        rows.append({
+            "date": str(t.get("bizdate") or t.get("localTradedAt") or "")[:10],
+            "close": f(t, "closePrice"),
+            "frgn": f(t, "foreignerPureBuyQuant"),
+            "inst": f(t, "organPureBuyQuant"),
+            "indiv": f(t, "individualPureBuyQuant"),
+        })
     last, last5 = rows[0], rows[:5]
+    d = last["date"]
+    if len(d) == 8 and d.isdigit():
+        d = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+    amt = lambda r, k: (r[k] or 0) * (r["close"] or 0)
     return {
-        "date": last[0].replace(".", "-"),
-        "기관_순매수_주": last[2], "외국인_순매수_주": last[3],
-        "기관_5일_주": sum(r[2] or 0 for r in last5), "외국인_5일_주": sum(r[3] or 0 for r in last5),
-        "기관_순매수_원_근사": (last[2] or 0) * (last[1] or 0),
-        "외국인_순매수_원_근사": (last[3] or 0) * (last[1] or 0),
-        "기관_5일_원_근사": sum((r[2] or 0) * (r[1] or 0) for r in last5),
-        "외국인_5일_원_근사": sum((r[3] or 0) * (r[1] or 0) for r in last5),
-        "source": "네이버 금융 (순매매량 × 종가로 금액 근사)",
+        "date": d,
+        "외국인_순매수_주": last["frgn"], "기관_순매수_주": last["inst"], "개인_순매수_주": last["indiv"],
+        "외국인_5일_주": sum(r["frgn"] or 0 for r in last5), "기관_5일_주": sum(r["inst"] or 0 for r in last5),
+        "외국인_순매수_원_근사": amt(last, "frgn"), "기관_순매수_원_근사": amt(last, "inst"),
+        "외국인_5일_원_근사": sum(amt(r, "frgn") for r in last5), "기관_5일_원_근사": sum(amt(r, "inst") for r in last5),
+        "source": "네이버 증권 (순매수량 × 종가로 금액 근사)",
     }
 
 
