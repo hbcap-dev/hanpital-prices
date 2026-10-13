@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:51+09:00",
+  "updated_at": "2026-10-14T01:54+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -168,7 +168,7 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7803.64990234375,
+      "close": 7803.6201171875,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
@@ -178,11 +178,11 @@
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27219.08984375,
+      "close": 27213.869140625,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.1
+      "change_pct": -0.12
     },
     {
       "name": "코스피",
@@ -198,56 +198,36 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1339.93994140625,
+      "close": 1340.18994140625,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
-      "change_pct": -0.23
+      "change_pct": -0.21
     },
     {
       "name": "미국 10년물",
       "symbol": "^TNX",
       "fallback": null,
-      "close": 5.23199987411499,
+      "close": 5.229000091552734,
       "prev_close": 5.239999771118164,
       "date": "2026-10-13",
       "source": "yfinance (^TNX)",
-      "change_pct": -0.15
+      "change_pct": -0.21
     },
     {
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4181.5,
+      "close": 4180.2001953125,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.22
+      "change_pct": -0.25
     }
   ],
   "fallbacks": [],
   "errors": [],
   "universe_screen": [
-    {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market": "KOSPI",
-      "close": 175800.0,
-      "change_pct": -5.89,
-      "market_cap": "141조 569억원",
-      "per": 7.89,
-      "pbr": 2.04,
-      "div_yield": 0.95,
-      "high_52w": 243500.0,
-      "low_52w": 70400.0,
-      "foreign_rate": 75.21,
-      "target_mean": 495227.0,
-      "recomm_mean": 4.0,
-      "pos_52w": 0.6089,
-      "target_gap": 1.817,
-      "foreign_5d_won": -193730608100.0,
-      "inst_5d_won": -57742735100.0
-    },
     {
       "code": "064350",
       "name": "현대로템",
@@ -627,6 +607,26 @@
       "target_gap": 0.9381,
       "foreign_5d_won": -298996383000.0,
       "inst_5d_won": -85744937000.0
+    },
+    {
+      "code": "214450",
+      "name": "파마리서치",
+      "market": "KOSDAQ",
+      "close": 273500.0,
+      "change_pct": -7.91,
+      "market_cap": "2조 8,416억원",
+      "per": 17.03,
+      "pbr": 4.2,
+      "div_yield": 1.35,
+      "high_52w": 621000.0,
+      "low_52w": 254500.0,
+      "foreign_rate": 14.1,
+      "target_mean": 524667.0,
+      "recomm_mean": 4.0,
+      "pos_52w": 0.0518,
+      "target_gap": 0.9183,
+      "foreign_5d_won": 46989500500.0,
+      "inst_5d_won": -42151603000.0
     }
   ],
   "debug": [
