@@ -1,0 +1,35 @@
+name: 한피탈 시세 수집
+
+on:
+  schedule:
+    # UTC 21:40 (일~목) = 한국시간 06:40 (월~금). 깃허브 예약 실행은 지연될 수 있어 브리핑(08:22)보다 일찍 돈다.
+    - cron: "40 21 * * 0-4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install pykrx yfinance
+
+      - name: Fetch prices
+        run: python fetch_prices.py
+
+      - name: Commit prices.json
+        run: |
+          git config user.name "hanpital-bot"
+          git config user.email "hanpital-bot@users.noreply.github.com"
+          git add prices.json
+          git diff --cached --quiet || git commit -m "시세 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
