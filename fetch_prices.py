@@ -49,11 +49,26 @@ def _num(v):
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
+DEBUG_NOTES = []
+
+
 def _get(url):
+    import os
+    import re
     import requests
     r = requests.get(url, headers=UA, timeout=20)
     r.raise_for_status()
     r.encoding = r.apparent_encoding or "euc-kr"
+    if os.environ.get("HP_DEBUG"):
+        t = r.text
+        title = re.search(r"<title>(.*?)</title>", t, re.S)
+        i = t.find("_per")
+        j = t.find("순매매")
+        DEBUG_NOTES.append({"url": url, "final": r.url, "status": r.status_code, "len": len(t),
+                            "title": title.group(1).strip()[:80] if title else None,
+                            "per_ctx": t[max(0, i - 200):i + 200] if i >= 0 else None,
+                            "flow_ctx": t[max(0, j - 300):j + 300] if j >= 0 else None,
+                            "head": t[:300]})
     return r.text
 
 
@@ -61,10 +76,6 @@ def naver_fundamental(code):
     """네이버 금융 종목 메인에서 PER·PBR·EPS·배당수익률 (최근 실적 기준)."""
     import re
     html = _get(f"https://finance.naver.com/item/main.naver?code={code}")
-    import os
-    if os.environ.get("HP_DEBUG"):
-        i = html.find("_per")
-        print("DEBUG main len", len(html), "idx", i, repr(html[max(0, i - 300):i + 300]) if i >= 0 else repr(html[:600]))
     def em(i):
         m = re.search(r'<em id="' + i + r'"[^>]*>\s*([-0-9.,]+)\s*</em>', html)
         return _num(m.group(1).replace(",", "")) if m else None
@@ -213,6 +224,8 @@ def main():
         row["change_pct"] = pct(r["close"], r.get("prev_close"))
         out["markets"].append(row)
 
+    if DEBUG_NOTES:
+        out["debug"] = DEBUG_NOTES[:4]
     if out["fallbacks"] or out["errors"]:
         print("⚠️ 자동 대체/실패 항목:")
         for line in out["fallbacks"] + out["errors"]:
