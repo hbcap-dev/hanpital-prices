@@ -55,7 +55,7 @@ def naver_basic(path):
             ratio = -ratio
     if close is None:
         raise ValueError("closePrice 없음")
-    prev = close - diff if diff is not None else None
+    prev = round(close - diff, 2) if diff is not None else None
     return {
         "price": close,
         "prev_close": prev,
