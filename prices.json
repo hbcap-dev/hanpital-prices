@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:54+09:00",
+  "updated_at": "2026-10-14T07:05+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -168,21 +168,21 @@
       "name": "S&P500",
       "symbol": "^GSPC",
       "fallback": null,
-      "close": 7803.6201171875,
+      "close": 7805.4501953125,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
       "source": "yfinance (^GSPC)",
-      "change_pct": -0.05
+      "change_pct": -0.02
     },
     {
       "name": "나스닥",
       "symbol": "^IXIC",
       "fallback": null,
-      "close": 27213.869140625,
+      "close": 27204.380859375,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
       "source": "yfinance (^IXIC)",
-      "change_pct": -0.12
+      "change_pct": -0.15
     },
     {
       "name": "코스피",
@@ -198,31 +198,31 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1340.18994140625,
-      "prev_close": 1342.989990234375,
+      "close": 1340.1300048828125,
+      "prev_close": 1340.8399658203125,
       "date": "2026-10-13",
       "source": "yfinance (KRW=X)",
-      "change_pct": -0.21
+      "change_pct": -0.05
     },
     {
       "name": "미국 10년물",
       "symbol": "^TNX",
       "fallback": null,
-      "close": 5.229000091552734,
+      "close": 5.2170000076293945,
       "prev_close": 5.239999771118164,
       "date": "2026-10-13",
       "source": "yfinance (^TNX)",
-      "change_pct": -0.21
+      "change_pct": -0.44
     },
     {
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4180.2001953125,
+      "close": 4184.2001953125,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
       "source": "yfinance (GC=F)",
-      "change_pct": -0.25
+      "change_pct": -0.15
     }
   ],
   "fallbacks": [],
@@ -627,89 +627,6 @@
       "target_gap": 0.9183,
       "foreign_5d_won": 46989500500.0,
       "inst_5d_won": -42151603000.0
-    }
-  ],
-  "debug": [
-    {
-      "url": "https://m.stock.naver.com/api/stock/005930/integration",
-      "status": 200,
-      "keys": [
-        "stockEndType",
-        "itemCode",
-        "reutersCode",
-        "stockName",
-        "totalInfos",
-        "iconInfos",
-        "description",
-        "etfKeyIndicator",
-        "dealTrendInfos",
-        "researches",
-        "industryCode",
-        "industryCompareInfo",
-        "consensusInfo",
-        "shareholdersMeetingInfo",
-        "irScheduleInfo"
-      ],
-      "sample": "{'stockEndType': 'stock', 'itemCode': '005930', 'reutersCode': '005930', 'stockName': '삼성전자', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '250,500'}, {'code': 'openPrice', 'key': '시가', 'value': '245,500', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'highPrice', 'key': '고가', 'value': '247,500', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '228,000', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '43,302,975'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '10조 1,432억'}, {'code': 'marketValue', 'key': '시총', 'value': '1,368조 292억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '46.30%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '380,000'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '90,200'}, {'code': 'per', 'key': 'PER', 'value': '10.50배', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '22,292원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': '5.14배'}, {'code': 'cnsEps', 'key': '추정E"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/005500/integration",
-      "status": 200,
-      "keys": [
-        "stockEndType",
-        "itemCode",
-        "reutersCode",
-        "stockName",
-        "totalInfos",
-        "iconInfos",
-        "description",
-        "etfKeyIndicator",
-        "dealTrendInfos",
-        "researches",
-        "industryCode",
-        "industryCompareInfo",
-        "consensusInfo",
-        "shareholdersMeetingInfo",
-        "irScheduleInfo"
-      ],
-      "sample": "{'stockEndType': 'stock', 'itemCode': '005500', 'reutersCode': '005500', 'stockName': '삼진제약', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '20,100'}, {'code': 'openPrice', 'key': '시가', 'value': '20,100', 'compareToPreviousPrice': {'code': '3', 'text': '보합', 'name': 'UNCHANGED'}}, {'code': 'highPrice', 'key': '고가', 'value': '20,150', 'compareToPreviousPrice': {'code': '2', 'text': '상승', 'name': 'RISING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '19,290', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '64,435'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '12.6억'}, {'code': 'marketValue', 'key': '시총', 'value': '2,643억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '3.64%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '26,400'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '16,580'}, {'code': 'per', 'key': 'PER', 'value': '11.56배', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '1,716원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': 'N/A'}, {'code': 'cnsEps', 'key': '추정EPS', 'value': 'N/A'}, "
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/003490/integration",
-      "status": 200,
-      "keys": [
-        "stockEndType",
-        "itemCode",
-        "reutersCode",
-        "stockName",
-        "totalInfos",
-        "iconInfos",
-        "description",
-        "etfKeyIndicator",
-        "dealTrendInfos",
-        "researches",
-        "industryCode",
-        "industryCompareInfo",
-        "consensusInfo",
-        "shareholdersMeetingInfo",
-        "irScheduleInfo"
-      ],
-      "sample": "{'stockEndType': 'stock', 'itemCode': '003490', 'reutersCode': '003490', 'stockName': '대한항공', 'totalInfos': [{'code': 'lastClosePrice', 'key': '전일', 'value': '31,100'}, {'code': 'openPrice', 'key': '시가', 'value': '30,550', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'highPrice', 'key': '고가', 'value': '30,550', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'lowPrice', 'key': '저가', 'value': '29,400', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}}, {'code': 'accumulatedTradingVolume', 'key': '거래량', 'value': '2,305,249'}, {'code': 'accumulatedTradingValue', 'key': '대금', 'value': '694억'}, {'code': 'marketValue', 'key': '시총', 'value': '11조 2,491억'}, {'code': 'foreignRate', 'key': '외인소진율', 'value': '53.57%'}, {'code': 'highPriceOf52Weeks', 'key': '52주 최고', 'value': '32,500'}, {'code': 'lowPriceOf52Weeks', 'key': '52주 최저', 'value': '21,000'}, {'code': 'per', 'key': 'PER', 'value': 'N/A', 'valueDesc': '2026.06.'}, {'code': 'eps', 'key': 'EPS', 'value': '-693원', 'valueDesc': '2026.06.'}, {'code': 'cnsPer', 'key': '추정PER', 'value': '31.86배'}, {'code': 'cnsEps', 'key': '추정EPS', 'value': '95"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stocks/marketValue/KOSPI?page=1&pageSize=100",
-      "status": 200,
-      "keys": [
-        "stockListSortType",
-        "stockListCategoryType",
-        "stocks",
-        "totalCount",
-        "page",
-        "pageSize",
-        "localOpenTimeDesc",
-        "marketStatus"
-      ],
-      "sample": "{'stockListSortType': 'MARKET_VALUE', 'stockListCategoryType': 'KOSPI', 'stocks': [{'stockType': 'domestic', 'stockEndType': 'stock', 'itemCode': '005930', 'reutersCode': '005930', 'stockName': '삼성전자', 'sosok': '0', 'closePrice': '234,000', 'compareToPreviousClosePrice': '-16,500', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-6.59', 'accumulatedTradingVolume': '25,359,015', 'accumulatedTradingValue': '5,916,362', 'accumulatedTradingValueKrwHangeul': '5조 9,164억원', 'localTradedAt': '2026-10-13T20:20:23+09:00', 'marketValue': '13,680,292', 'marketValueHangeul': '1,368조 292억원', 'nav': 'N/A', 'threeMonthEarningRate': 'N/A', 'marketStatus': 'CLOSE', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-13T08:01:43.499+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId': 'Asia/Seoul', 'nationType': 'KOR', 'delayTime': 0, 'startTime': '0900', 'endTime': '1530', 'closePriceSendTime': '1630', 'nameKor': '코스피', 'nameEng': 'KOSPI', 'stockType': 'domestic', 'nationCode': 'KOR', 'nationName': '대한민국', 'name': 'KOSPI'}, 'endUrl': 'htt"
     }
   ]
 }
