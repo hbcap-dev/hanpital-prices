@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:07+09:00",
+  "updated_at": "2026-10-14T00:12+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -83,58 +83,66 @@
     {
       "name": "S&P500",
       "symbol": "^GSPC",
-      "close": 7797.490234375,
+      "fallback": null,
+      "close": 7796.60986328125,
       "prev_close": 7807.240234375,
       "date": "2026-10-13",
-      "change_pct": -0.12,
-      "source": "yfinance (^GSPC)"
+      "source": "yfinance (^GSPC)",
+      "change_pct": -0.14
     },
     {
       "name": "나스닥",
       "symbol": "^IXIC",
-      "close": 27188.40234375,
+      "fallback": null,
+      "close": 27187.08203125,
       "prev_close": 27245.900390625,
       "date": "2026-10-13",
-      "change_pct": -0.21,
-      "source": "yfinance (^IXIC)"
+      "source": "yfinance (^IXIC)",
+      "change_pct": -0.22
     },
     {
       "name": "코스피",
       "symbol": "^KS11",
+      "fallback": "KRX 조회 실패 → 야후로 대체",
       "close": 6384.240234375,
       "prev_close": 6625.93017578125,
       "date": "2026-10-12",
-      "change_pct": -3.65,
-      "source": "yfinance (^KS11)"
+      "source": "yfinance (^KS11)",
+      "change_pct": -3.65
     },
     {
       "name": "원/달러",
       "symbol": "KRW=X",
-      "close": 1341.81005859375,
+      "fallback": null,
+      "close": 1341.4599609375,
       "prev_close": 1342.989990234375,
       "date": "2026-10-13",
-      "change_pct": -0.09,
-      "source": "yfinance (KRW=X)"
+      "source": "yfinance (KRW=X)",
+      "change_pct": -0.11
     },
     {
       "name": "미국 10년물",
       "symbol": "^TNX",
-      "close": 5.218999862670898,
+      "fallback": null,
+      "close": 5.2170000076293945,
       "prev_close": 5.239999771118164,
       "date": "2026-10-13",
-      "change_pct": -0.4,
-      "source": "yfinance (^TNX)"
+      "source": "yfinance (^TNX)",
+      "change_pct": -0.44
     },
     {
       "name": "금",
       "symbol": "GC=F",
-      "close": 4192.89990234375,
+      "fallback": null,
+      "close": 4188.39990234375,
       "prev_close": 4190.60009765625,
       "date": "2026-10-13",
-      "change_pct": 0.05,
-      "source": "yfinance (GC=F)"
+      "source": "yfinance (GC=F)",
+      "change_pct": -0.05
     }
   ],
-  "fallbacks": [],
+  "fallbacks": [
+    "코스피: KRX 조회 실패 → 야후로 대체 ('지수명')"
+  ],
   "errors": []
 }
