@@ -118,7 +118,12 @@ def naver_fundamental(code):
         return None
     out = {"per": pick("per", "PER"), "pbr": pick("pbr", "PBR"), "eps": pick("eps", "EPS"),
            "bps": pick("bps", "BPS"), "div_yield": pick("dividendyieldratio", "배당수익률"),
+           "high_52w": pick("highpriceof52weeks", "52주 최고"), "low_52w": pick("lowpriceof52weeks", "52주 최저"),
+           "foreign_rate": pick("foreignrate", "외인소진율"),
            "source": "네이버 증권"}
+    c = j.get("consensusInfo")
+    if isinstance(c, dict):
+        out["consensus"] = {k: c.get(k) for k in list(c.keys())[:8]}
     if all(out[k] is None for k in ("per", "pbr", "eps")):
         raise ValueError("PER/PBR 값을 찾지 못함 (항목: " + ",".join(list(by.keys())[:20]) + ")")
     return out
