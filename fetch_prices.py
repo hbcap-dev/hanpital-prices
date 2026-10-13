@@ -164,6 +164,57 @@ def naver_flows(code):
     }
 
 
+def naver_market_list(market, size=100):
+    """네이버 증권 시가총액 상위 종목 목록 (market: KOSPI | KOSDAQ)."""
+    j = _get_json(f"https://m.stock.naver.com/api/stocks/marketValue/{market}?page=1&pageSize={size}")
+    items = j.get("stocks") if isinstance(j, dict) else j
+    out = []
+    for it in items or []:
+        if it.get("stockEndType") not in (None, "stock"):
+            continue
+        out.append({"code": it.get("itemCode"), "name": it.get("stockName"), "market": market,
+                    "close": _parse_num(it.get("closePrice")),
+                    "change_pct": _parse_num(it.get("fluctuationsRatio")),
+                    "market_cap": it.get("marketValueHangeul") or it.get("marketValue")})
+    return out
+
+
+def build_universe(held_codes):
+    """시총 상위 종목의 밸류에이션·수급을 모으고 간단한 관찰 후보 스크린을 만든다."""
+    import time
+    uni, errs = [], []
+    for mkt, n in (("KOSPI", 100), ("KOSDAQ", 50)):
+        try:
+            uni.extend(naver_market_list(mkt, n))
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{mkt} 목록 조회 실패 ({e})")
+    for row in uni:
+        try:
+            f = naver_fundamental(row["code"])
+            row.update({k: f.get(k) for k in ("per", "pbr", "div_yield", "high_52w", "low_52w", "foreign_rate")})
+            cons = (f.get("consensus") or {})
+            tgt = _parse_num(cons.get("priceTargetMean"))
+            row["target_mean"] = tgt
+            row["recomm_mean"] = _parse_num(cons.get("recommMean"))
+            c, hi, lo = row.get("close"), row.get("high_52w"), row.get("low_52w")
+            row["pos_52w"] = round((c - lo) / (hi - lo), 4) if c and hi and lo and hi > lo else None
+            row["target_gap"] = round(tgt / c - 1, 4) if tgt and c else None
+        except Exception as e:  # noqa: BLE001
+            row["fund_error"] = str(e)[:80]
+        try:
+            fl = naver_flows(row["code"])
+            row["foreign_5d_won"] = fl.get("외국인_5일_원_근사")
+            row["inst_5d_won"] = fl.get("기관_5일_원_근사")
+        except Exception:  # noqa: BLE001
+            pass
+        time.sleep(0.15)
+    cand = [r for r in uni if r["code"] not in held_codes and r.get("per") and r["per"] > 0
+            and r.get("target_gap") is not None]
+    cand.sort(key=lambda r: r["target_gap"], reverse=True)
+    screen = cand[:20]
+    return uni, screen, errs
+
+
 def krx_index(ticker):
     """국내 지수(예: KS11 코스피) 최근 2거래일 종가. FinanceDataReader 사용."""
     import FinanceDataReader as fdr
@@ -262,6 +313,16 @@ def main():
         row.update(r)
         row["change_pct"] = pct(r["close"], r.get("prev_close"))
         out["markets"].append(row)
+
+    held = {s["code"] for s in cfg["stocks"]}
+    try:
+        uni, screen, uerrs = build_universe(held)
+        out["universe_screen"] = screen
+        out["errors"].extend(uerrs)
+        json.dump({"updated_at": out["updated_at"], "count": len(uni), "stocks": uni},
+                  open("universe.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    except Exception as e:  # noqa: BLE001
+        out["errors"].append(f"관찰 후보 수집 실패 ({e})")
 
     if DEBUG_NOTES:
         out["debug"] = DEBUG_NOTES[:4]
