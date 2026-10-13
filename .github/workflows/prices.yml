@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install
-        run: pip install pykrx yfinance finance-datareader
+        run: pip install pykrx yfinance finance-datareader requests pandas lxml
 
       - name: Fetch prices
         run: python fetch_prices.py

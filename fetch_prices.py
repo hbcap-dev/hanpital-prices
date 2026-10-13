@@ -46,40 +46,68 @@ def _num(v):
         return None
 
 
-def krx_fundamental(code):
-    """pykrx 로 최근 거래일 PER·PBR·EPS·BPS·배당수익률."""
-    from pykrx import stock
-    end = dt.datetime.now(KST).date()
-    start = end - dt.timedelta(days=14)
-    df = stock.get_market_fundamental(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), code)
-    if df is None or len(df) == 0:
-        raise ValueError("no rows")
-    r = df.iloc[-1]
-    return {
-        "date": df.index[-1].strftime("%Y-%m-%d"),
-        "per": _num(r.get("PER")), "pbr": _num(r.get("PBR")),
-        "eps": _num(r.get("EPS")), "bps": _num(r.get("BPS")),
-        "div_yield": _num(r.get("DIV")),
-        "source": "pykrx (KRX)",
-    }
+UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
-def krx_flows(code):
-    """pykrx 로 투자자별 순매수 금액(원): 최근 거래일과 최근 5거래일 합."""
-    from pykrx import stock
-    end = dt.datetime.now(KST).date()
-    start = end - dt.timedelta(days=20)
-    df = stock.get_market_trading_value_by_date(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), code)
-    if df is None or len(df) == 0:
-        raise ValueError("no rows")
-    cols = {"외국인": "외국인합계", "기관": "기관합계", "개인": "개인"}
-    last, last5 = df.iloc[-1], df.tail(5)
-    out = {"date": df.index[-1].strftime("%Y-%m-%d"), "source": "pykrx (KRX)"}
-    for k, c in cols.items():
-        if c in df.columns:
-            out[f"{k}_순매수"] = _num(last[c])
-            out[f"{k}_5일"] = _num(last5[c].sum())
+def _get(url):
+    import requests
+    r = requests.get(url, headers=UA, timeout=20)
+    r.raise_for_status()
+    r.encoding = r.apparent_encoding or "euc-kr"
+    return r.text
+
+
+def naver_fundamental(code):
+    """네이버 금융 종목 메인에서 PER·PBR·EPS·배당수익률 (최근 실적 기준)."""
+    import re
+    html = _get(f"https://finance.naver.com/item/main.naver?code={code}")
+    def em(i):
+        m = re.search(r'<em id="' + i + r'"[^>]*>\s*([-0-9.,]+)\s*</em>', html)
+        return _num(m.group(1).replace(",", "")) if m else None
+    out = {"per": em("_per"), "pbr": em("_pbr"), "eps": em("_eps"), "div_yield": em("_dvr"),
+           "source": "네이버 금융"}
+    if all(out[k] is None for k in ("per", "pbr", "eps")):
+        raise ValueError("PER/PBR 값을 찾지 못함")
     return out
+
+
+def naver_flows(code):
+    """네이버 금융 외국인·기관 매매 페이지에서 순매매량(주)과 근사 금액(원)."""
+    import io
+    import pandas as pd
+    html = _get(f"https://finance.naver.com/item/frgn.naver?code={code}")
+    tables = pd.read_html(io.StringIO(html))
+    tbl = None
+    for t in tables:
+        flat = [" ".join(map(str, c)) if isinstance(c, tuple) else str(c) for c in t.columns]
+        if any("기관" in c for c in flat) and any("외국인" in c for c in flat):
+            t.columns = flat
+            tbl = t
+            break
+    if tbl is None:
+        raise ValueError("매매 표를 찾지 못함")
+    date_col = [c for c in tbl.columns if "날짜" in c][0]
+    close_col = [c for c in tbl.columns if "종가" in c][0]
+    inst_col = [c for c in tbl.columns if "기관" in c and "순매매" in c][0]
+    frgn_col = [c for c in tbl.columns if "외국인" in c and "순매매" in c][0]
+    tbl = tbl.dropna(subset=[date_col])
+    tbl = tbl[tbl[date_col].astype(str).str.match(r"\d{4}\.\d{2}\.\d{2}")]
+    def n(v):
+        return _num(str(v).replace(",", "").replace("+", ""))
+    rows = [(str(r[date_col]), n(r[close_col]), n(r[inst_col]), n(r[frgn_col])) for _, r in tbl.iterrows()]
+    if not rows:
+        raise ValueError("행 없음")
+    last, last5 = rows[0], rows[:5]
+    return {
+        "date": last[0].replace(".", "-"),
+        "기관_순매수_주": last[2], "외국인_순매수_주": last[3],
+        "기관_5일_주": sum(r[2] or 0 for r in last5), "외국인_5일_주": sum(r[3] or 0 for r in last5),
+        "기관_순매수_원_근사": (last[2] or 0) * (last[1] or 0),
+        "외국인_순매수_원_근사": (last[3] or 0) * (last[1] or 0),
+        "기관_5일_원_근사": sum((r[2] or 0) * (r[1] or 0) for r in last5),
+        "외국인_5일_원_근사": sum((r[3] or 0) * (r[1] or 0) for r in last5),
+        "source": "네이버 금융 (순매매량 × 종가로 금액 근사)",
+    }
 
 
 def krx_index(ticker):
@@ -148,12 +176,12 @@ def main():
         row["change_pct"] = pct(r["close"], r.get("prev_close"))
         if not s.get("etf"):
             try:
-                row["fundamental"] = krx_fundamental(s["code"])
+                row["fundamental"] = naver_fundamental(s["code"])
             except Exception as e:  # noqa: BLE001
                 row["fundamental"] = None
                 out["errors"].append(f"{s['name']}({s['code']}): PER·PBR 조회 실패 ({e})")
             try:
-                row["flows"] = krx_flows(s["code"])
+                row["flows"] = naver_flows(s["code"])
             except Exception as e:  # noqa: BLE001
                 row["flows"] = None
                 out["errors"].append(f"{s['name']}({s['code']}): 수급 조회 실패 ({e})")
