@@ -1,125 +1,100 @@
 """네이버 증권 리서치 목록 수집 → research.json
-제목·증권사·날짜·링크만 저장한다(리포트 본문은 저장하지 않음).
+공개 저장소이므로 제목·증권사·날짜·업종·종목·목표가·의견·링크만 저장한다(요약 본문은 저장하지 않음).
+본문은 아침 브리핑이 api_url 로 직접 읽는다.
 """
 import json
-import re
 import time
 from datetime import datetime, timedelta, timezone
 
 import requests
-from bs4 import BeautifulSoup
 
 KST = timezone(timedelta(hours=9))
-BASE = "https://finance.naver.com/research/"
+API = "https://stock.naver.com/api/stockSecurity/researches/v2/"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-      "Referer": "https://finance.naver.com/research/"}
-CATS = [  # (키, 이름, 목록 페이지, 페이지 수)
-    ("economy", "경제분석", "economy_list.naver", 2),
-    ("market", "시황정보", "market_info_list.naver", 1),
-    ("debt", "채권분석", "debt_list.naver", 1),
-    ("invest", "투자정보", "invest_list.naver", 1),
+      "Referer": "https://stock.naver.com/research"}
+CATS = [  # (키, 이름, 가져올 개수)
+    ("economy", "경제분석", 30),
+    ("market", "시황정보", 20),
+    ("invest", "투자전략", 20),
+    ("industry", "산업분석", 40),
 ]
-DAYS = 4  # 최근 며칠치(주말 포함)
-DATE_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}$")
+DAYS = 4           # 카테고리 리포트: 최근 며칠치(주말 포함)
+COMPANY_DAYS = 30  # 보유·후보 종목 리포트
+COMPANY_SCAN = 600  # 국내종목 최신 몇 건을 훑을지
+KEEP = ["nid", "title", "brokerName", "writeDate", "analystName", "industryKoreanName",
+        "itemCode", "itemName", "goalPrice", "opinionText", "readCount"]
 
 
-def fetch(url):
-    r = requests.get(url, headers=UA, timeout=20)
+def get(cat, index, size):
+    r = requests.get(f"{API}{cat}?index={index}&size={size}", headers=UA, timeout=20)
     r.raise_for_status()
-    r.encoding = "euc-kr"
-    return r.text
+    return r.json()
 
 
-def parse(html, cat_key, cat_name, page_url):
-    soup = BeautifulSoup(html, "html.parser")
-    rows = []
-    for tr in soup.select("table.type_1 tr"):
-        tds = tr.find_all("td")
-        if len(tds) < 4:
-            continue
-        a = tr.find("a", href=re.compile(r"_read\.naver"))
-        if not a:
-            continue
-        texts = [td.get_text(" ", strip=True) for td in tds]
-        date = next((t for t in texts if DATE_RE.match(t)), "")
-        if not date:
-            continue
-        # 제목 칸 다음 칸이 증권사
-        ti = next(i for i, td in enumerate(tds) if td.find("a", href=re.compile(r"_read\.naver")))
-        broker = texts[ti + 1] if ti + 1 < len(texts) else ""
-        item = ""
-        if ti > 0:  # 종목분석 목록: 앞 칸이 종목명
-            item = texts[ti - 1]
-        pdf = tr.find("a", href=re.compile(r"\.pdf", re.I))
-        nid = re.search(r"nid=(\d+)", a["href"])
-        rows.append({
-            "cat": cat_key, "category": cat_name,
-            "title": a.get_text(strip=True), "broker": broker, "item": item,
-            "date": "20" + date.replace(".", "-"),
-            "nid": nid.group(1) if nid else "",
-            "url": requests.compat.urljoin(page_url, a["href"]),
-            "pdf": pdf["href"] if pdf else "",
-        })
-    return rows
+def slim(cat, name, it):
+    row = {"cat": cat, "category": name}
+    row.update({k: it.get(k) for k in KEEP if it.get(k) not in (None, "")})
+    row["api_url"] = f"{API}{cat}?index=0&size=40"
+    row["page_url"] = f"https://stock.naver.com/research/{cat}"
+    return row
 
 
 def main():
     now = datetime.now(KST)
     cutoff = (now - timedelta(days=DAYS)).strftime("%Y-%m-%d")
+    c_cut = (now - timedelta(days=COMPANY_DAYS)).strftime("%Y-%m-%d")
     out = {"updated_at": now.isoformat(timespec="seconds"), "window_days": DAYS,
-           "source": "finance.naver.com/research", "note": "목록만 저장. 본문은 pdf 링크에서 확인.",
-           "items": [], "holdings_reports": [], "errors": []}
+           "source": "Npay 증권 리서치 (stock.naver.com/research)",
+           "note": "목록만 저장. 요약 본문은 api_url(같은 카테고리 최신 40건, nid로 찾기)에서 읽는다.",
+           "items": [], "company": [], "errors": []}
 
-    for key, name, path, pages in CATS:
-        for p in range(1, pages + 1):
-            url = f"{BASE}{path}?page={p}"
-            try:
-                html = fetch(url)
-                rows = parse(html, key, name, url)
-                if not rows and p == 1 and key == "economy":
-                    raw = requests.get(url, headers=UA, timeout=20)
-                    h = raw.content.decode("utf-8", "replace")
-                    nf = "".join(re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S))
-                    keys = sorted(set(re.findall(r'\\"([a-zA-Z]{3,30})\\":', nf)))[:150]
-                    chunks = re.findall(r'src="([^"]+app/research[^"]+\.js)"', h)
-                    found = {}
-                    for c in chunks:
-                        try:
-                            js = requests.get(c, headers=UA, timeout=20).text
-                            found[c.split("/")[-1]] = sorted(set(re.findall(r'["`\']([^"`\'\s]{0,80}(?:api|/research/)[^"`\'\s]{0,80})["`\']', js)))[:40]
-                        except Exception as e:
-                            found[c] = str(e)
-                    i = nf.find("title")
-                    out.setdefault("debug", []).append({"nf_len": len(nf), "keys": keys, "nf_sample": nf[max(0,i-500):i+1500], "chunks": found})
-                out["items"].extend(r for r in rows if r["date"] >= cutoff)
-            except Exception as e:
-                out["errors"].append(f"{name} p{p}: {type(e).__name__} {e}"[:200])
-            time.sleep(0.6)
-
-    # 보유 개별주 종목분석 리포트(최근 30일)
-    try:
-        tickers = json.load(open("tickers.json", encoding="utf-8"))
-        stocks = [t for t in tickers.get("stocks", []) if not t.get("etf")]
-    except Exception as e:
-        stocks = []
-        out["errors"].append(f"tickers.json: {e}"[:200])
-    c30 = (now - timedelta(days=30)).strftime("%Y-%m-%d")
-    for t in stocks:
-        url = f"{BASE}company_list.naver?searchType=itemCode&itemCode={t['code']}&page=1"
+    for cat, name, n in CATS:
         try:
-            rows = parse(fetch(url), "company", "종목분석", url)
-            for r in rows:
-                if r["date"] >= c30:
-                    r["code"] = t["code"]
-                    r["item"] = r["item"] or t.get("name", "")
-                    out["holdings_reports"].append(r)
+            j = get(cat, 0, n)
+            out["items"].extend(slim(cat, name, it) for it in j.get("items", [])
+                                if (it.get("writeDate") or "") >= cutoff)
         except Exception as e:
-            out["errors"].append(f"종목분석 {t['code']}: {type(e).__name__} {e}"[:200])
-        time.sleep(0.6)
+            out["errors"].append(f"{name}: {type(e).__name__} {e}"[:200])
+        time.sleep(0.5)
+
+    # 관심 종목 코드: 보유 개별주 + 주목 종목 후보(universe_screen)
+    codes = {}
+    try:
+        for t in json.load(open("tickers.json", encoding="utf-8")).get("stocks", []):
+            if not t.get("etf"):
+                codes[t["code"]] = "보유"
+    except Exception as e:
+        out["errors"].append(f"tickers.json: {e}"[:200])
+    try:
+        for t in json.load(open("prices.json", encoding="utf-8")).get("universe_screen", []):
+            codes.setdefault(str(t.get("code")), "후보")
+    except Exception as e:
+        out["errors"].append(f"prices.json: {e}"[:200])
+
+    seen = 0
+    try:
+        for idx in range(0, COMPANY_SCAN, 100):
+            j = get("company", idx, 100)
+            items = j.get("items", [])
+            for it in items:
+                if (it.get("writeDate") or "") < c_cut:
+                    continue
+                code = str(it.get("itemCode", ""))
+                if code in codes:
+                    row = slim("company", "종목분석", it)
+                    row["group"] = codes[code]
+                    out["company"].append(row)
+            seen += len(items)
+            if not items or (items[-1].get("writeDate") or "") < c_cut or not j.get("hasNext"):
+                break
+            time.sleep(0.5)
+    except Exception as e:
+        out["errors"].append(f"종목분석: {type(e).__name__} {e}"[:200])
+    out["company_scanned"] = seen
 
     json.dump(out, open("research.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"리서치 {len(out['items'])}건, 보유 종목 리포트 {len(out['holdings_reports'])}건, 오류 {len(out['errors'])}")
+    print(f"리서치 {len(out['items'])}건, 관심 종목 리포트 {len(out['company'])}건(훑은 {seen}건), 오류 {len(out['errors'])}")
 
 
 if __name__ == "__main__":
