@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T05:10+09:00",
+  "updated_at": "2026-10-15T05:18+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -207,7 +207,7 @@
       "name": "원/달러",
       "symbol": "KRW=X",
       "fallback": null,
-      "close": 1341.81005859375,
+      "close": 1341.8299560546875,
       "prev_close": 1334.1300048828125,
       "date": "2026-10-14",
       "ma20": 1355.09,
@@ -229,12 +229,12 @@
       "name": "금",
       "symbol": "GC=F",
       "fallback": null,
-      "close": 4124.39990234375,
+      "close": 4121.89990234375,
       "prev_close": 4177.2998046875,
       "date": "2026-10-14",
-      "ma20": 4238.6,
+      "ma20": 4238.48,
       "source": "yfinance (GC=F)",
-      "change_pct": -1.27
+      "change_pct": -1.33
     }
   ],
   "fallbacks": [],
