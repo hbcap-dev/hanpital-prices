@@ -39,6 +39,19 @@ def fmt_num(v):
     return f"{v:,.2f}" if abs(v) < 10000 and v != int(v) else f"{v:,.0f}"
 
 
+def send(text):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    if not token or not chat:
+        print("::warning::TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 없음 → 보내지 않음")
+        return False
+    r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                      json={"chat_id": chat, "text": text, "disable_web_page_preview": True}, timeout=15)
+    if not r.ok:
+        print(f"::warning::텔레그램 전송 실패 {r.status_code}: {r.text[:200]}")
+    return r.ok
+
+
 def main():
     now = dt.datetime.now(KST)
     today = now.date().isoformat()
@@ -52,6 +65,8 @@ def main():
 
     upd = data.get("updated_at", "")
     if not upd.startswith(today):
+        if os.environ.get("ALERT_TEST"):
+            send("🚨 한피탈 급변 · 테스트\n✅ 연결 테스트예요. 장중에 기준을 넘을 때만 이렇게 알려드릴게요.")
         print("intraday.json 이 오늘 것이 아님 → 종료")
         return
 
@@ -90,6 +105,8 @@ def main():
         state["sent"] = sorted(keys)
         json.dump(state, open("alert_state.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
+    if not msgs and os.environ.get("ALERT_TEST"):
+        msgs = ["✅ 연결 테스트예요. 기준을 넘을 때만 이렇게 알려드릴게요."]
     if not msgs:
         save(already)
         print("새 알림 없음")
