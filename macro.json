@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T05:54:36+09:00",
+ "updated_at": "2026-10-15T07:09:44+09:00",
  "source": "FRED (St. Louis Fed)",
  "items": [
   {
@@ -86,10 +86,10 @@
    "id": "T10Y2Y",
    "name": "장단기 금리차(10년-2년)",
    "unit": "%p",
-   "date": "2026-10-13",
-   "value": 0.42,
-   "prev_date": "2026-10-09",
-   "prev": 0.44,
+   "date": "2026-10-14",
+   "value": 0.37,
+   "prev_date": "2026-10-13",
+   "prev": 0.42,
    "url": "https://fred.stlouisfed.org/series/T10Y2Y"
   },
   {
