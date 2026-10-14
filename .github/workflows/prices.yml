@@ -32,11 +32,17 @@ jobs:
         env:
           HP_DEBUG: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
+      - name: Fetch DART disclosures
+        run: python dart.py
+        continue-on-error: true
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
       - name: Commit prices.json
         run: |
           git config user.name "hanpital-bot"
           git config user.email "hanpital-bot@users.noreply.github.com"
-          git add prices.json universe.json
+          git add prices.json universe.json; [ -f disclosures.json ] && git add disclosures.json
           git diff --cached --quiet || git commit -m "시세 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
           for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
           exit 1

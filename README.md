@@ -14,3 +14,8 @@
 `universe.json`: 코스피 시총 상위 100 + 코스닥 상위 50의 PER·PBR·52주 위치·목표가 괴리·5일 수급. `prices.json`의 `universe_screen`은 보유·적자·우선주를 뺀 목표가 괴리 상위 20개로, 한피탈 애널리스트의 주목 종목 후보다.
 
 `intraday.py` / `intraday.json`: 평일 장중(09~15시 매시) 보유·예정 종목, 코스피, 원/달러, KRX 금현물 현재가. 한피탈 장중 알림이 읽는다. 알림 기준 판단은 하지 않는다.
+
+## DART 공시 (disclosures.json)
+- 평일 아침 시세 수집 직후 `dart.py`가 보유 개별주 + 주목 종목 후보(universe_screen 상위 20)의 최근 7일 공시 목록을 만든다.
+- 깃허브 저장소 Settings → Secrets and variables → Actions 에 `DART_API_KEY`(OpenDART 인증키)를 등록해야 동작한다. 키가 없으면 errors에 이유만 남기고 넘어간다.
+- 제목에 주요사항보고·유상증자·실적·공급계약 등이 있으면 `important: true`.
