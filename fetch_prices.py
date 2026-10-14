@@ -21,7 +21,7 @@ def krx_price(code):
     """pykrx 로 최근 2거래일 종가."""
     from pykrx import stock
     end = dt.datetime.now(KST).date()
-    start = end - dt.timedelta(days=14)
+    start = end - dt.timedelta(days=45)
     df = stock.get_market_ohlcv(start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), code)
     df = df[df["종가"] > 0]
     if len(df) == 0:
@@ -35,7 +35,8 @@ def krx_price(code):
             name = stock.get_etf_ticker_name(code)
     except Exception:
         name = None
-    return {"close": close, "prev_close": prev, "date": date, "krx_name": name, "source": "pykrx (KRX)"}
+    ma20 = round(float(df["종가"].iloc[-20:].mean()), 1) if len(df) >= 20 else None
+    return {"close": close, "prev_close": prev, "date": date, "krx_name": name, "ma20": ma20, "source": "pykrx (KRX)"}
 
 
 def _num(v):
@@ -233,14 +234,15 @@ def krx_index(ticker):
 
 def yf_history(symbol):
     import yfinance as yf
-    h = yf.Ticker(symbol).history(period="10d", auto_adjust=False)
+    h = yf.Ticker(symbol).history(period="45d", auto_adjust=False)
     h = h.dropna(subset=["Close"])
     if len(h) == 0:
         raise ValueError("no rows")
     close = float(h["Close"].iloc[-1])
     prev = float(h["Close"].iloc[-2]) if len(h) > 1 else None
     date = h.index[-1].strftime("%Y-%m-%d")
-    return {"close": close, "prev_close": prev, "date": date}
+    ma20 = round(float(h["Close"].iloc[-20:].mean()), 2) if len(h) >= 20 else None
+    return {"close": close, "prev_close": prev, "date": date, "ma20": ma20}
 
 
 def yf_kr_price(code):

@@ -80,6 +80,15 @@ def main():
         if k and key not in sent:
             sent.add(key)
             msgs.append(f"{'📉' if k < 0 else '📈'} {s['name']} {s['change_pct']:+.2f}% ({fmt_num(s['price'])}원)")
+        for rr in rules.get("ma_rules", []):
+            if rr.get("code") != s["code"] or s.get("vs_ma20_pct") is None:
+                continue
+            v = s["vs_ma20_pct"]
+            hit = (rr["op"] == ">=" and v >= rr["pct"]) or (rr["op"] == "<=" and v <= rr["pct"])
+            key = f"{s['code']}:ma:{rr['op']}{rr['pct']}"
+            if hit and key not in sent:
+                sent.add(key)
+                msgs.append(f"🔔 {s['name']} 20일 평균 대비 {v:+.1f}% · {rr['label']}")
         for lv in rules.get("levels", []):
             if lv.get("code") != s["code"]:
                 continue

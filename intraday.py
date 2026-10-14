@@ -108,8 +108,12 @@ def main():
     now = dt.datetime.now(KST)
     out = {"updated_at": now.isoformat(timespec="minutes"), "stocks": [], "markets": [], "errors": []}
 
+    try:
+        ma = {r["code"]: r.get("ma20") for r in json.load(open("prices.json", encoding="utf-8")).get("stocks", [])}
+    except Exception:  # noqa: BLE001
+        ma = {}
     for s in cfg["stocks"]:
-        row = {"code": s["code"], "name": s["name"]}
+        row = {"code": s["code"], "name": s["name"], "ma20": ma.get(s["code"])}
         try:
             row.update(naver_basic(f"stock/{s['code']}"))
         except Exception as e1:  # noqa: BLE001
@@ -119,6 +123,8 @@ def main():
             except Exception as e2:  # noqa: BLE001
                 out["errors"].append(f"{s['name']}({s['code']}): {e1} / {e2}")
                 row["price"] = None
+        if row.get("price") and row.get("ma20"):
+            row["vs_ma20_pct"] = round((row["price"] / row["ma20"] - 1) * 100, 2)
         out["stocks"].append(row)
 
     # 코스피
