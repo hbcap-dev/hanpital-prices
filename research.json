@@ -1,0 +1,11 @@
+{
+ "updated_at": "2026-10-15T05:07:34+09:00",
+ "window_days": 4,
+ "source": "finance.naver.com/research",
+ "note": "목록만 저장. 본문은 pdf 링크에서 확인.",
+ "items": [],
+ "holdings_reports": [],
+ "errors": [
+  "채권분석 p1: HTTPError 404 Client Error: 404 for url: https://finance.naver.com/research/debt_list.naver?page=1"
+ ]
+}
