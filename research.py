@@ -75,7 +75,13 @@ def main():
         for p in range(1, pages + 1):
             url = f"{BASE}{path}?page={p}"
             try:
-                rows = parse(fetch(url), key, name, url)
+                html = fetch(url)
+                rows = parse(html, key, name, url)
+                if not rows and p == 1:
+                    sp = BeautifulSoup(html, "html.parser")
+                    tbls = [(t.get("class"), len(t.find_all("tr"))) for t in sp.find_all("table")][:6]
+                    trs = [str(tr)[:400] for tr in sp.find_all("tr") if tr.find("a")][:2]
+                    out.setdefault("debug", []).append({"cat": name, "len": len(html), "title": sp.title.string if sp.title else "", "tables": str(tbls), "trs": trs})
                 out["items"].extend(r for r in rows if r["date"] >= cutoff)
             except Exception as e:
                 out["errors"].append(f"{name} p{p}: {type(e).__name__} {e}"[:200])
