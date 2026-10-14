@@ -78,10 +78,13 @@ def main():
                 html = fetch(url)
                 rows = parse(html, key, name, url)
                 if not rows and p == 1:
-                    sp = BeautifulSoup(html, "html.parser")
-                    tbls = [(t.get("class"), len(t.find_all("tr"))) for t in sp.find_all("table")][:6]
-                    trs = [str(tr)[:400] for tr in sp.find_all("tr") if tr.find("a")][:2]
-                    out.setdefault("debug", []).append({"cat": name, "len": len(html), "title": sp.title.string if sp.title else "", "tables": str(tbls), "trs": trs})
+                    raw = requests.get(url, headers=UA, timeout=20)
+                    h = raw.content.decode("utf-8", "replace")
+                    nd = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+                    apis = sorted(set(re.findall(r'https?://[^"\'\s<>]*(?:api|research)[^"\'\s<>]*', h)))[:40]
+                    scripts = sorted(set(re.findall(r'src="([^"]+\.js)"', h)))[:30]
+                    out.setdefault("debug", []).append({"cat": name, "final_url": raw.url, "next_data": nd.group(1)[:3000] if nd else None,
+                        "apis": apis, "scripts": scripts, "research_ctx": [h[m.start()-150:m.end()+150] for m in re.finditer("research", h)][:8]})
                 out["items"].extend(r for r in rows if r["date"] >= cutoff)
             except Exception as e:
                 out["errors"].append(f"{name} p{p}: {type(e).__name__} {e}"[:200])
