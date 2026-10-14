@@ -34,11 +34,18 @@ jobs:
         env:
           HP_DEBUG: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
+      - name: Telegram alerts
+        run: python alert.py
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
       - name: Commit intraday.json
         run: |
           git config user.name "hanpital-bot"
           git config user.email "hanpital-bot@users.noreply.github.com"
-          git add intraday.json
+          git add intraday.json; [ -f alert_state.json ] && git add alert_state.json
           git diff --cached --quiet && exit 0
           git commit -m "장중 시세 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
           for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done

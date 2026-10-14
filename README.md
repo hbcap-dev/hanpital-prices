@@ -19,3 +19,7 @@
 - 평일 아침 시세 수집 직후 `dart.py`가 보유 개별주 + 주목 종목 후보(universe_screen 상위 20)의 최근 7일 공시 목록을 만든다.
 - 깃허브 저장소 Settings → Secrets and variables → Actions 에 `DART_API_KEY`(OpenDART 인증키)를 등록해야 동작한다. 키가 없으면 errors에 이유만 남기고 넘어간다.
 - 제목에 주요사항보고·유상증자·실적·공급계약 등이 있으면 `important: true`.
+
+## 텔레그램 급변 알림 (alert.py)
+- 장중 10분마다 intraday.json을 만든 직후 기준(alert_rules.json)을 처음 넘은 것만 텔레그램으로 보낸다. 같은 날 같은 단계는 한 번만(alert_state.json).
+- Secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. 없으면 보내지 않고 넘어간다.
