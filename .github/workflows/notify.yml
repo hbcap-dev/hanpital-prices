@@ -1,0 +1,26 @@
+name: 한피탈 텔레그램 전달
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: "보낼 글 (수량·금액 없이)"
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Send
+        run: python notify.py
+        env:
+          NOTIFY_TEXT: ${{ inputs.text }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
