@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T05:07:34+09:00",
+ "updated_at": "2026-10-15T05:16:34+09:00",
  "window_days": 4,
  "source": "finance.naver.com/research",
  "note": "목록만 저장. 본문은 pdf 링크에서 확인.",
@@ -7,5 +7,28 @@
  "holdings_reports": [],
  "errors": [
   "채권분석 p1: HTTPError 404 Client Error: 404 for url: https://finance.naver.com/research/debt_list.naver?page=1"
+ ],
+ "debug": [
+  {
+   "cat": "경제분석",
+   "len": 127803,
+   "title": "Npay 利�沅�",
+   "tables": "[]",
+   "trs": []
+  },
+  {
+   "cat": "시황정보",
+   "len": 127787,
+   "title": "Npay 利�沅�",
+   "tables": "[]",
+   "trs": []
+  },
+  {
+   "cat": "투자정보",
+   "len": 127797,
+   "title": "Npay 利�沅�",
+   "tables": "[]",
+   "trs": []
+  }
  ]
 }
