@@ -77,14 +77,21 @@ def main():
             try:
                 html = fetch(url)
                 rows = parse(html, key, name, url)
-                if not rows and p == 1:
+                if not rows and p == 1 and key == "economy":
                     raw = requests.get(url, headers=UA, timeout=20)
                     h = raw.content.decode("utf-8", "replace")
-                    nd = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
-                    apis = sorted(set(re.findall(r'https?://[^"\'\s<>]*(?:api|research)[^"\'\s<>]*', h)))[:40]
-                    scripts = sorted(set(re.findall(r'src="([^"]+\.js)"', h)))[:30]
-                    out.setdefault("debug", []).append({"cat": name, "final_url": raw.url, "next_data": nd.group(1)[:3000] if nd else None,
-                        "apis": apis, "scripts": scripts, "research_ctx": [h[m.start()-150:m.end()+150] for m in re.finditer("research", h)][:8]})
+                    nf = "".join(re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', h, re.S))
+                    keys = sorted(set(re.findall(r'\\"([a-zA-Z]{3,30})\\":', nf)))[:150]
+                    chunks = re.findall(r'src="([^"]+app/research[^"]+\.js)"', h)
+                    found = {}
+                    for c in chunks:
+                        try:
+                            js = requests.get(c, headers=UA, timeout=20).text
+                            found[c.split("/")[-1]] = sorted(set(re.findall(r'["`\']([^"`\'\s]{0,80}(?:api|/research/)[^"`\'\s]{0,80})["`\']', js)))[:40]
+                        except Exception as e:
+                            found[c] = str(e)
+                    i = nf.find("title")
+                    out.setdefault("debug", []).append({"nf_len": len(nf), "keys": keys, "nf_sample": nf[max(0,i-500):i+1500], "chunks": found})
                 out["items"].extend(r for r in rows if r["date"] >= cutoff)
             except Exception as e:
                 out["errors"].append(f"{name} p{p}: {type(e).__name__} {e}"[:200])
