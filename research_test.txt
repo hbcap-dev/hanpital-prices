@@ -1,0 +1,1 @@
+실패 · PROVENANCE_REQUIRED: The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply.
