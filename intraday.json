@@ -1,107 +1,107 @@
 {
-  "updated_at": "2026-10-15T04:26+09:00",
+  "updated_at": "2026-10-15T09:10+09:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
       "ma20": 262825.0,
-      "price": 234500.0,
+      "price": 218500.0,
       "prev_close": 232000.0,
-      "change_pct": 1.08,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:24+09:00",
+      "change_pct": -5.82,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:20+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -10.78
+      "vs_ma20_pct": -16.86
     },
     {
       "code": "005500",
       "name": "삼진제약",
       "ma20": 18995.5,
-      "price": 19760.0,
-      "prev_close": 19900.0,
-      "change_pct": -0.7,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:21+09:00",
+      "price": 19320.0,
+      "prev_close": 19640.0,
+      "change_pct": -1.63,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:18+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 4.02
+      "vs_ma20_pct": 1.71
     },
     {
       "code": "003490",
       "name": "대한항공",
       "ma20": 30447.5,
-      "price": 30050.0,
-      "prev_close": 30500.0,
-      "change_pct": -1.48,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:21+09:00",
+      "price": 29550.0,
+      "prev_close": 30150.0,
+      "change_pct": -1.99,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:18+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -1.31
+      "vs_ma20_pct": -2.95
     },
     {
       "code": "379800",
       "name": "KODEX 미국S&P500",
       "ma20": 23574.5,
-      "price": 23605.0,
-      "prev_close": 23650.0,
-      "change_pct": -0.19,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:22+09:00",
+      "price": 23320.0,
+      "prev_close": 23605.0,
+      "change_pct": -1.21,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:25+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 0.13
+      "vs_ma20_pct": -1.08
     },
     {
       "code": "365780",
       "name": "ACE 국고채10년",
       "ma20": 82175.0,
-      "price": 83405.0,
-      "prev_close": 83610.0,
-      "change_pct": -0.25,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:18+09:00",
+      "price": 83660.0,
+      "prev_close": 83405.0,
+      "change_pct": 0.31,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:16+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 1.5
+      "vs_ma20_pct": 1.81
     },
     {
       "code": "148020",
       "name": "RISE 200",
       "ma20": 108200.0,
-      "price": 95530.0,
-      "prev_close": 95940.0,
-      "change_pct": -0.43,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:21+09:00",
+      "price": 90570.0,
+      "prev_close": 95530.0,
+      "change_pct": -5.19,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:17+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -11.71
+      "vs_ma20_pct": -16.29
     },
     {
       "code": "488770",
       "name": "KODEX 머니마켓액티브",
       "ma20": 105656.8,
-      "price": 105825.0,
-      "prev_close": 105815.0,
+      "price": 105835.0,
+      "prev_close": 105825.0,
       "change_pct": 0.01,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:20:18+09:00",
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:16+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 0.16
+      "vs_ma20_pct": 0.17
     }
   ],
   "markets": [
     {
       "name": "코스피",
-      "price": 6008.81,
-      "prev_close": 6035.35,
-      "change_pct": -0.44,
-      "market_status": "CLOSE",
-      "traded_at": "2026-10-14T20:15:00+09:00",
+      "price": 5725.29,
+      "prev_close": 6008.81,
+      "change_pct": -4.72,
+      "market_status": "OPEN",
+      "traded_at": "2026-10-15T09:10:00+09:00",
       "source": "네이버"
     },
     {
       "name": "원/달러",
-      "price": 1340.510009765625,
-      "prev_close": 1340.510009765625,
-      "change_pct": 0.0,
-      "traded_at": "2026-10-15T04:26+09:00",
+      "price": 1341.780029296875,
+      "prev_close": 1340.31005859375,
+      "change_pct": 0.11,
+      "traded_at": "2026-10-15T09:11+09:00",
       "source": "야후 (KRW=X, 지연)"
     },
     {
@@ -110,31 +110,5 @@
       "note": "조회 실패: 400 Client Error: Bad Request for url: https://m.stock.naver.com/front-api/marketIndex/prices?category=metals&reutersCode=M04020000&page=1&pageSize=2"
     }
   ],
-  "errors": [],
-  "debug": [
-    {
-      "url": "https://m.stock.naver.com/api/stock/005930/basic",
-      "sample": "{'stockEndType': 'stock', 'itemCode': '005930', 'reutersCode': '005930', 'stockName': '삼성전자', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005930.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005930.png', 'sosok': '0', 'closePrice': '234,500', 'compareToPreviousClosePrice': '2,500', 'compareToPreviousPrice': {'code': '2', 'text': '상승', 'name': 'RISING'}, 'fluctuationsRatio': '1.08', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:24+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:01:47.812+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId': 'As"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/005500/basic",
-      "sample": "{'stockEndType': 'stock', 'itemCode': '005500', 'reutersCode': '005500', 'stockName': '삼진제약', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005500.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005500.png', 'sosok': '0', 'closePrice': '19,760', 'compareToPreviousClosePrice': '-140', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-0.70', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:21+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:01:47.383+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId': 'As"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/003490/basic",
-      "sample": "{'stockEndType': 'stock', 'itemCode': '003490', 'reutersCode': '003490', 'stockName': '대한항공', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock003490.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock003490.png', 'sosok': '0', 'closePrice': '30,050', 'compareToPreviousClosePrice': '-450', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-1.48', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:21+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:01:44.235+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId': 'As"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/379800/basic",
-      "sample": "{'stockEndType': 'etf', 'itemCode': '379800', 'reutersCode': '379800', 'stockName': 'KODEX 미국S&P500', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/etf/StockKRETFKODEX.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/etf/StockKRETFKODEX.png', 'sosok': '0', 'closePrice': '23,605', 'compareToPreviousClosePrice': '-45', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-0.19', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:22+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:02:55.275+09:00', 'stockExchangeType': {'code': 'KS', 'z"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/365780/basic",
-      "sample": "{'stockEndType': 'etf', 'itemCode': '365780', 'reutersCode': '365780', 'stockName': 'ACE 국고채10년', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/etf/StockKRETFACE.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/etf/StockKRETFACE.png', 'sosok': '0', 'closePrice': '83,405', 'compareToPreviousClosePrice': '-205', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-0.25', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:18+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:02:53.616+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId':"
-    },
-    {
-      "url": "https://m.stock.naver.com/api/stock/148020/basic",
-      "sample": "{'stockEndType': 'etf', 'itemCode': '148020', 'reutersCode': '148020', 'stockName': 'RISE 200', 'itemLogoUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/etf/StockKRETFRISE.svg', 'itemLogoPngUrl': 'https://ssl.pstatic.net/imgstock/fn/real/logo/png/etf/StockKRETFRISE.png', 'sosok': '0', 'closePrice': '95,530', 'compareToPreviousClosePrice': '-410', 'compareToPreviousPrice': {'code': '5', 'text': '하락', 'name': 'FALLING'}, 'fluctuationsRatio': '-0.43', 'marketStatus': 'CLOSE', 'marketStatusDetailType': 'close', 'localTradedAt': '2026-10-14T20:20:21+09:00', 'tradeStopType': {'code': '1', 'text': '운영.Trading', 'name': 'TRADING'}, 'tradableStatus': 'tradable', 'tradableStatusCode': 'ok', 'tradableStatusUpdatedAt': '2026-10-14T08:02:29.179+09:00', 'stockExchangeType': {'code': 'KS', 'zoneId':"
-    }
-  ]
+  "errors": []
 }
