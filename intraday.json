@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-16T13:45+09:00",
+  "updated_at": "2026-10-16T14:12+09:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
       "ma20": 260225.0,
-      "price": 220000.0,
+      "price": 220500.0,
       "prev_close": 210000.0,
-      "change_pct": 4.76,
+      "change_pct": 5.0,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:17+09:00",
+      "traded_at": "2026-10-16T14:12:23+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -15.46
+      "vs_ma20_pct": -15.27
     },
     {
       "code": "005500",
       "name": "삼진제약",
       "ma20": 19018.5,
-      "price": 19390.0,
+      "price": 19410.0,
       "prev_close": 19100.0,
-      "change_pct": 1.52,
+      "change_pct": 1.62,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:19+09:00",
+      "traded_at": "2026-10-16T14:12:19+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 1.95
+      "vs_ma20_pct": 2.06
     },
     {
       "code": "003490",
@@ -33,7 +33,7 @@
       "prev_close": 29450.0,
       "change_pct": -9.17,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:07+09:00",
+      "traded_at": "2026-10-16T14:12:20+09:00",
       "source": "네이버",
       "vs_ma20_pct": -12.18
     },
@@ -41,47 +41,47 @@
       "code": "379800",
       "name": "KODEX 미국S&P500",
       "ma20": 23585.5,
-      "price": 23515.0,
+      "price": 23502.0,
       "prev_close": 23350.0,
-      "change_pct": 0.71,
+      "change_pct": 0.65,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:44:22+09:00",
+      "traded_at": "2026-10-16T14:12:22+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -0.3
+      "vs_ma20_pct": -0.35
     },
     {
       "code": "365780",
       "name": "ACE 국고채10년",
       "ma20": 82301.5,
-      "price": 83860.0,
+      "price": 83820.0,
       "prev_close": 83925.0,
-      "change_pct": -0.08,
+      "change_pct": -0.13,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:17+09:00",
+      "traded_at": "2026-10-16T14:12:18+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 1.89
+      "vs_ma20_pct": 1.85
     },
     {
       "code": "148020",
       "name": "RISE 200",
       "ma20": 107065.2,
-      "price": 91075.0,
+      "price": 91150.0,
       "prev_close": 87640.0,
-      "change_pct": 3.92,
+      "change_pct": 4.01,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:44:53+09:00",
+      "traded_at": "2026-10-16T14:12:19+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -14.94
+      "vs_ma20_pct": -14.86
     },
     {
       "code": "488770",
       "name": "KODEX 머니마켓액티브",
       "ma20": 105673.2,
-      "price": 105857.0,
+      "price": 105855.0,
       "prev_close": 105835.0,
       "change_pct": 0.02,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:17+09:00",
+      "traded_at": "2026-10-16T14:12:18+09:00",
       "source": "네이버",
       "vs_ma20_pct": 0.17
     }
@@ -89,19 +89,19 @@
   "markets": [
     {
       "name": "코스피",
-      "price": 5773.64,
+      "price": 5774.41,
       "prev_close": 5554.22,
-      "change_pct": 3.95,
+      "change_pct": 3.96,
       "market_status": "OPEN",
-      "traded_at": "2026-10-16T13:45:00+09:00",
+      "traded_at": "2026-10-16T14:12:00+09:00",
       "source": "네이버"
     },
     {
       "name": "원/달러",
-      "price": 1342.6800537109375,
+      "price": 1342.27001953125,
       "prev_close": 1339.3499755859375,
-      "change_pct": 0.25,
-      "traded_at": "2026-10-16T13:45+09:00",
+      "change_pct": 0.22,
+      "traded_at": "2026-10-16T14:12+09:00",
       "source": "야후 (KRW=X, 지연)"
     },
     {
