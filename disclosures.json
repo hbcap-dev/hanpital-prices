@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T07:07+09:00",
-  "window": "20261009~20261016",
+  "updated_at": "2026-10-19T07:03+09:00",
+  "window": "20261012~20261019",
   "items": [
     {
       "code": "003490",
@@ -37,6 +37,30 @@
       "rm": "",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000421"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "group": "보유",
+      "rcept_dt": "20261016",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "flr_nm": "삼성물산",
+      "rcept_no": "20261016000505",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000505"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "group": "보유",
+      "rcept_dt": "20261016",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "이재용",
+      "rcept_no": "20261016000492",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000492"
     },
     {
       "code": "003490",
@@ -159,18 +183,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800442"
     },
     {
-      "code": "196170",
-      "name": "알테오젠",
-      "group": "후보",
-      "rcept_dt": "20261014",
-      "report_nm": "증권신고서(합병)",
-      "flr_nm": "알테오젠",
-      "rcept_no": "20261014000077",
-      "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000077"
-    },
-    {
       "code": "006260",
       "name": "LS",
       "group": "후보",
@@ -195,18 +207,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261013",
-      "report_nm": "결산실적공시예고(안내공시)",
-      "flr_nm": "한화오션",
-      "rcept_no": "20261013800178",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178"
-    },
-    {
       "code": "009540",
       "name": "HD한국조선해양",
       "group": "후보",
@@ -217,6 +217,18 @@
       "rm": "유",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800237"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "group": "후보",
+      "rcept_dt": "20261013",
+      "report_nm": "결산실적공시예고(안내공시)",
+      "flr_nm": "한화오션",
+      "rcept_no": "20261013800178",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178"
     },
     {
       "code": "071050",
@@ -241,6 +253,30 @@
       "rm": "유",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800250"
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "group": "후보",
+      "rcept_dt": "20261016",
+      "report_nm": "특수관계인으로부터기타유가증권매수",
+      "flr_nm": "현대자동차",
+      "rcept_no": "20261016000490",
+      "rm": "공",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000490"
+    },
+    {
+      "code": "010140",
+      "name": "삼성중공업",
+      "group": "후보",
+      "rcept_dt": "20261015",
+      "report_nm": "기업설명회(IR)개최(안내공시)",
+      "flr_nm": "삼성중공업",
+      "rcept_no": "20261015800457",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800457"
     },
     {
       "code": "000660",
@@ -301,30 +337,6 @@
       "rm": "유",
       "important": false,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800638"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "group": "후보",
-      "rcept_dt": "20261014",
-      "report_nm": "증권발행결과(자율공시)",
-      "flr_nm": "알테오젠",
-      "rcept_no": "20261014900508",
-      "rm": "코",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900508"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "group": "후보",
-      "rcept_dt": "20261014",
-      "report_nm": "증권발행결과(자율공시)",
-      "flr_nm": "알테오젠",
-      "rcept_no": "20261014900506",
-      "rm": "코",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900506"
     },
     {
       "code": "042660",
@@ -552,12 +564,6 @@
       "corp_code": "00164779"
     },
     {
-      "code": "064350",
-      "name": "현대로템",
-      "group": "후보",
-      "corp_code": "00302926"
-    },
-    {
       "code": "006260",
       "name": "LS",
       "group": "후보",
@@ -568,6 +574,12 @@
       "name": "HD현대중공업",
       "group": "후보",
       "corp_code": "01390344"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "corp_code": "00302926"
     },
     {
       "code": "402340",
@@ -600,10 +612,16 @@
       "corp_code": "01316245"
     },
     {
-      "code": "237690",
-      "name": "에스티팜",
+      "code": "267250",
+      "name": "HD현대",
       "group": "후보",
-      "corp_code": "00871833"
+      "corp_code": "01205709"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "corp_code": "00164830"
     },
     {
       "code": "042660",
@@ -618,10 +636,10 @@
       "corp_code": "00126371"
     },
     {
-      "code": "009540",
-      "name": "HD한국조선해양",
+      "code": "237690",
+      "name": "에스티팜",
       "group": "후보",
-      "corp_code": "00164830"
+      "corp_code": "00871833"
     },
     {
       "code": "034020",
@@ -630,16 +648,10 @@
       "corp_code": "00159616"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "071050",
+      "name": "한국금융지주",
       "group": "후보",
-      "corp_code": "00164742"
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "group": "후보",
-      "corp_code": "00989619"
+      "corp_code": "00432102"
     },
     {
       "code": "326030",
@@ -648,16 +660,16 @@
       "corp_code": "00878696"
     },
     {
-      "code": "071050",
-      "name": "한국금융지주",
+      "code": "010140",
+      "name": "삼성중공업",
       "group": "후보",
-      "corp_code": "00432102"
+      "corp_code": "00126478"
     },
     {
-      "code": "267250",
-      "name": "HD현대",
+      "code": "005380",
+      "name": "현대차",
       "group": "후보",
-      "corp_code": "01205709"
+      "corp_code": "00164742"
     }
   ]
 }
