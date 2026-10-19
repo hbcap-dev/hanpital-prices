@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T07:03+09:00",
-  "window": "20261012~20261019",
+  "updated_at": "2026-10-20T07:09+09:00",
+  "window": "20261013~20261020",
   "items": [
     {
       "code": "003490",
@@ -30,13 +30,13 @@
       "code": "005930",
       "name": "삼성전자",
       "group": "보유",
-      "rcept_dt": "20261012",
-      "report_nm": "자기주식취득결과보고서",
-      "flr_nm": "삼성전자",
-      "rcept_no": "20261012000421",
+      "rcept_dt": "20261019",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "최고은",
+      "rcept_no": "20261019000318",
       "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000421"
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000318"
     },
     {
       "code": "005930",
@@ -111,28 +111,88 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000379"
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "group": "보유",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "김은용",
-      "rcept_no": "20261012000021",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000021"
+      "code": "329180",
+      "name": "HD현대중공업",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "영업(잠정)실적(공정공시)",
+      "flr_nm": "HD현대중공업",
+      "rcept_no": "20261019800435",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800435"
     },
     {
-      "code": "003490",
-      "name": "대한항공",
-      "group": "보유",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "국민연금공단",
-      "rcept_no": "20261012000353",
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "주요사항보고서(자기주식취득결정)",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019000305",
       "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000353"
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000305"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019800217",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800217"
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+      "flr_nm": "LS",
+      "rcept_no": "20261019800111",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800111"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261019800441",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800441"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "영업(잠정)실적(공정공시)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261019800444",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800444"
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "단일판매ㆍ공급계약체결",
+      "flr_nm": "삼성전기",
+      "rcept_no": "20261019800610",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800610"
     },
     {
       "code": "329180",
@@ -183,18 +243,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800442"
     },
     {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "rcept_dt": "20261013",
-      "report_nm": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
-      "flr_nm": "LS",
-      "rcept_no": "20261013800056",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800056"
-    },
-    {
       "code": "329180",
       "name": "HD현대중공업",
       "group": "후보",
@@ -207,16 +255,16 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234"
     },
     {
-      "code": "009540",
-      "name": "HD한국조선해양",
+      "code": "006260",
+      "name": "LS",
       "group": "후보",
       "rcept_dt": "20261013",
-      "report_nm": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
-      "flr_nm": "HD한국조선해양",
-      "rcept_no": "20261013800237",
+      "report_nm": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+      "flr_nm": "LS",
+      "rcept_no": "20261013800056",
       "rm": "유",
       "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800237"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800056"
     },
     {
       "code": "042660",
@@ -231,6 +279,18 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800178"
     },
     {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261013",
+      "report_nm": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261013800237",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800237"
+    },
+    {
       "code": "071050",
       "name": "한국금융지주",
       "group": "후보",
@@ -243,28 +303,88 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000389"
     },
     {
-      "code": "009150",
-      "name": "삼성전기",
+      "code": "064350",
+      "name": "현대로템",
       "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "결산실적공시예고(안내공시)",
-      "flr_nm": "삼성전기",
-      "rcept_no": "20261012800250",
+      "rcept_dt": "20261019",
+      "report_nm": "주주명부폐쇄기간또는기준일설정",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019800593",
       "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800250"
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800593"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "064350",
+      "name": "현대로템",
       "group": "후보",
-      "rcept_dt": "20261016",
-      "report_nm": "특수관계인으로부터기타유가증권매수",
-      "flr_nm": "현대자동차",
-      "rcept_no": "20261016000490",
+      "rcept_dt": "20261019",
+      "report_nm": "주주총회소집결의",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019800588",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800588"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "특수관계인으로부터부동산임차",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019000136",
       "rm": "공",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000490"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000136"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "특수관계인으로부터영업양수",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019000134",
+      "rm": "공",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000134"
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "기타경영사항(자율공시)",
+      "flr_nm": "현대로템",
+      "rcept_no": "20261019800139",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800139"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "flr_nm": "한화에어로스페이스",
+      "rcept_no": "20261019000344",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000344"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261019",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "전승호",
+      "rcept_no": "20261019000052",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000052"
     },
     {
       "code": "010140",
@@ -373,162 +493,6 @@
       "rm": "",
       "important": false,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000008"
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "풍문또는보도에대한해명(미확정)(자회사의 주요경영사항)",
-      "flr_nm": "LS",
-      "rcept_no": "20261012800155",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800155"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "최준영",
-      "rcept_no": "20261012000340",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000340"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "박종민",
-      "rcept_no": "20261012000324",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000324"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "김훈민",
-      "rcept_no": "20261012000260",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000260"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "조짐모",
-      "rcept_no": "20261012000242",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000242"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "노대규",
-      "rcept_no": "20261012000231",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000231"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "윤동원",
-      "rcept_no": "20261012000205",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000205"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "박호정",
-      "rcept_no": "20261012000156",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000156"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "유상태",
-      "rcept_no": "20261012000139",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000139"
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "도규환",
-      "rcept_no": "20261012000060",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000060"
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "기업설명회(IR)개최(안내공시)",
-      "flr_nm": "삼성전기",
-      "rcept_no": "20261012800255",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255"
-    },
-    {
-      "code": "071050",
-      "name": "한국금융지주",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "[발행조건확정]증권신고서(채무증권)",
-      "flr_nm": "한국금융지주",
-      "rcept_no": "20261012000479",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000479"
-    },
-    {
-      "code": "071050",
-      "name": "한국금융지주",
-      "group": "후보",
-      "rcept_dt": "20261012",
-      "report_nm": "풍문또는보도에대한해명(미확정)",
-      "flr_nm": "한국금융지주",
-      "rcept_no": "20261012800138",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800138"
     }
   ],
   "errors": [],
@@ -552,22 +516,16 @@
       "corp_code": "00113526"
     },
     {
-      "code": "011070",
-      "name": "LG이노텍",
-      "group": "후보",
-      "corp_code": "00105961"
-    },
-    {
       "code": "000660",
       "name": "SK하이닉스",
       "group": "후보",
       "corp_code": "00164779"
     },
     {
-      "code": "006260",
-      "name": "LS",
+      "code": "011070",
+      "name": "LG이노텍",
       "group": "후보",
-      "corp_code": "00105952"
+      "corp_code": "00105961"
     },
     {
       "code": "329180",
@@ -582,6 +540,12 @@
       "corp_code": "00302926"
     },
     {
+      "code": "006260",
+      "name": "LS",
+      "group": "후보",
+      "corp_code": "00105952"
+    },
+    {
       "code": "402340",
       "name": "SK스퀘어",
       "group": "후보",
@@ -594,16 +558,10 @@
       "corp_code": "00117212"
     },
     {
-      "code": "214150",
-      "name": "클래시스",
+      "code": "267250",
+      "name": "HD현대",
       "group": "후보",
-      "corp_code": "01061327"
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "group": "후보",
-      "corp_code": "01205851"
+      "corp_code": "01205709"
     },
     {
       "code": "298040",
@@ -612,10 +570,16 @@
       "corp_code": "01316245"
     },
     {
-      "code": "267250",
-      "name": "HD현대",
+      "code": "267260",
+      "name": "HD현대일렉트릭",
       "group": "후보",
-      "corp_code": "01205709"
+      "corp_code": "01205851"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "group": "후보",
+      "corp_code": "00111704"
     },
     {
       "code": "009540",
@@ -624,10 +588,10 @@
       "corp_code": "00164830"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "214150",
+      "name": "클래시스",
       "group": "후보",
-      "corp_code": "00111704"
+      "corp_code": "01061327"
     },
     {
       "code": "009150",
@@ -642,10 +606,10 @@
       "corp_code": "00871833"
     },
     {
-      "code": "034020",
-      "name": "두산에너빌리티",
+      "code": "010140",
+      "name": "삼성중공업",
       "group": "후보",
-      "corp_code": "00159616"
+      "corp_code": "00126478"
     },
     {
       "code": "071050",
@@ -660,16 +624,16 @@
       "corp_code": "00878696"
     },
     {
-      "code": "010140",
-      "name": "삼성중공업",
+      "code": "034020",
+      "name": "두산에너빌리티",
       "group": "후보",
-      "corp_code": "00126478"
+      "corp_code": "00159616"
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "214450",
+      "name": "파마리서치",
       "group": "후보",
-      "corp_code": "00164742"
+      "corp_code": "00970453"
     }
   ]
 }
