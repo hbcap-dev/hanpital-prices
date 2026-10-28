@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T07:16+09:00",
-  "window": "20261021~20261028",
+  "updated_at": "2026-10-29T07:19+09:00",
+  "window": "20261022~20261029",
   "items": [
     {
       "code": "005930",
@@ -39,6 +39,198 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000478"
     },
     {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "영업(잠정)실적(공정공시)",
+      "flr_nm": "HD현대중공업",
+      "rcept_no": "20261028800211",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800211"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "HD현대중공업",
+      "rcept_no": "20261028800199",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800199"
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+      "flr_nm": "HD현대",
+      "rcept_no": "20261028800354",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800354"
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "HD현대",
+      "rcept_no": "20261028800319",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800319"
+    },
+    {
+      "code": "214450",
+      "name": "파마리서치",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "결산실적공시예고",
+      "flr_nm": "파마리서치",
+      "rcept_no": "20261028900421",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900421"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "주요사항보고서(자기주식취득결정)",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028000014",
+      "rm": "",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000014"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028800048",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800048"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "현금ㆍ현물배당결정",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028800045",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028800036",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800036"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261028800208",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800208"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "영업(잠정)실적(공정공시)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261028800206",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800206"
+    },
+    {
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+      "flr_nm": "HD한국조선해양",
+      "rcept_no": "20261028800202",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800202"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "정정신고서제출요구( 2026.10.19. 제출 증권신고서(합병) )",
+      "flr_nm": "금융감독원",
+      "rcept_no": "20261028100055",
+      "rm": "",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028100055"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "주요사항보고서(자기주식취득결정)(자회사의 주요경영사항)",
+      "flr_nm": "SK스퀘어",
+      "rcept_no": "20261028800051",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800051"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "현금ㆍ현물배당결정(자회사의 주요경영사항)",
+      "flr_nm": "SK스퀘어",
+      "rcept_no": "20261028800046",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800046"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정(자회사의 주요경영사항)",
+      "flr_nm": "SK스퀘어",
+      "rcept_no": "20261028800049",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800049"
+    },
+    {
       "code": "011070",
       "name": "LG이노텍",
       "group": "후보",
@@ -49,6 +241,18 @@
       "rm": "유",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800388"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "group": "후보",
+      "rcept_dt": "20261027",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "한화오션",
+      "rcept_no": "20261027800240",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800240"
     },
     {
       "code": "267250",
@@ -87,18 +291,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800430"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
-      "group": "후보",
-      "rcept_dt": "20261027",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
-      "flr_nm": "한화오션",
-      "rcept_no": "20261027800240",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800240"
-    },
-    {
       "code": "267260",
       "name": "HD현대일렉트릭",
       "group": "후보",
@@ -135,18 +327,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800226"
     },
     {
-      "code": "237690",
-      "name": "에스티팜",
-      "group": "후보",
-      "rcept_dt": "20261027",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
-      "flr_nm": "에스티팜",
-      "rcept_no": "20261027900160",
-      "rm": "코",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900160"
-    },
-    {
       "code": "298040",
       "name": "효성중공업",
       "group": "후보",
@@ -171,18 +351,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000196"
     },
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "group": "후보",
-      "rcept_dt": "20261026",
-      "report_nm": "자기주식취득결과보고서",
-      "flr_nm": "SK하이닉스",
-      "rcept_no": "20261026000259",
-      "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000259"
-    },
-    {
       "code": "000150",
       "name": "두산",
       "group": "후보",
@@ -193,6 +361,18 @@
       "rm": "유",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800380"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261026",
+      "report_nm": "자기주식취득결과보고서",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261026000259",
+      "rm": "",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000259"
     },
     {
       "code": "034020",
@@ -219,18 +399,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800489"
     },
     {
-      "code": "237690",
-      "name": "에스티팜",
-      "group": "후보",
-      "rcept_dt": "20261022",
-      "report_nm": "결산실적공시예고",
-      "flr_nm": "에스티팜",
-      "rcept_no": "20261022900499",
-      "rm": "코",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900499"
-    },
-    {
       "code": "034020",
       "name": "두산에너빌리티",
       "group": "후보",
@@ -255,64 +423,40 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800491"
     },
     {
-      "code": "267250",
-      "name": "HD현대",
+      "code": "000150",
+      "name": "두산",
       "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
-      "flr_nm": "HD현대",
-      "rcept_no": "20261021800403",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800403"
+      "rcept_dt": "20261028",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "국민연금공단",
+      "rcept_no": "20261028000179",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000179"
     },
     {
-      "code": "042660",
-      "name": "한화오션",
+      "code": "000660",
+      "name": "SK하이닉스",
       "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "최대주주등소유주식변동신고서",
-      "flr_nm": "한화오션",
-      "rcept_no": "20261021800343",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800343"
-    },
-    {
-      "code": "064350",
-      "name": "현대로템",
-      "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "단일판매ㆍ공급계약체결",
-      "flr_nm": "현대로템",
-      "rcept_no": "20261021800516",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800516"
-    },
-    {
-      "code": "009540",
-      "name": "HD한국조선해양",
-      "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
-      "flr_nm": "HD한국조선해양",
-      "rcept_no": "20261021800379",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800379"
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "group": "후보",
-      "rcept_dt": "20261027",
-      "report_nm": "신규시설투자등",
-      "flr_nm": "HD현대일렉트릭",
-      "rcept_no": "20261027800235",
+      "rcept_dt": "20261028",
+      "report_nm": "[기재정정]기업설명회(IR)개최(안내공시)",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028800052",
       "rm": "유",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800235"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800052"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261028",
+      "report_nm": "수시공시의무관련사항(공정공시)",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261028800040",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800040"
     },
     {
       "code": "079550",
@@ -327,16 +471,16 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800007"
     },
     {
-      "code": "237690",
-      "name": "에스티팜",
+      "code": "267260",
+      "name": "HD현대일렉트릭",
       "group": "후보",
       "rcept_dt": "20261027",
-      "report_nm": "기업설명회(IR)개최",
-      "flr_nm": "에스티팜",
-      "rcept_no": "20261027900228",
-      "rm": "코",
+      "report_nm": "신규시설투자등",
+      "flr_nm": "HD현대일렉트릭",
+      "rcept_no": "20261027800235",
+      "rm": "유",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900228"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800235"
     },
     {
       "code": "010140",
@@ -361,42 +505,6 @@
       "rm": "공",
       "important": false,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000283"
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "group": "후보",
-      "rcept_dt": "20261026",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "정인철",
-      "rcept_no": "20261026000273",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000273"
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "group": "후보",
-      "rcept_dt": "20261026",
-      "report_nm": "[기재정정]주식소각결정",
-      "flr_nm": "SK하이닉스",
-      "rcept_no": "20261026800524",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800524"
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "group": "후보",
-      "rcept_dt": "20261026",
-      "report_nm": "풍문또는보도에대한해명(미확정)",
-      "flr_nm": "SK하이닉스",
-      "rcept_no": "20261026800118",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800118"
     },
     {
       "code": "000150",
@@ -435,16 +543,40 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800468"
     },
     {
-      "code": "402340",
-      "name": "SK스퀘어",
+      "code": "000660",
+      "name": "SK하이닉스",
       "group": "후보",
       "rcept_dt": "20261026",
-      "report_nm": "[기재정정]주식소각결정(자회사의 주요경영사항)",
-      "flr_nm": "SK스퀘어",
-      "rcept_no": "20261026800530",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "정인철",
+      "rcept_no": "20261026000273",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000273"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261026",
+      "report_nm": "[기재정정]주식소각결정",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261026800524",
       "rm": "유",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800530"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800524"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "group": "후보",
+      "rcept_dt": "20261026",
+      "report_nm": "풍문또는보도에대한해명(미확정)",
+      "flr_nm": "SK하이닉스",
+      "rcept_no": "20261026800118",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800118"
     },
     {
       "code": "298040",
@@ -457,6 +589,18 @@
       "rm": "",
       "important": false,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000231"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "group": "후보",
+      "rcept_dt": "20261026",
+      "report_nm": "[기재정정]주식소각결정(자회사의 주요경영사항)",
+      "flr_nm": "SK스퀘어",
+      "rcept_no": "20261026800530",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800530"
     },
     {
       "code": "000660",
@@ -531,18 +675,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800117"
     },
     {
-      "code": "237690",
-      "name": "에스티팜",
-      "group": "후보",
-      "rcept_dt": "20261022",
-      "report_nm": "기업설명회(IR)개최",
-      "flr_nm": "에스티팜",
-      "rcept_no": "20261022900502",
-      "rm": "코",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900502"
-    },
-    {
       "code": "034020",
       "name": "두산에너빌리티",
       "group": "후보",
@@ -565,42 +697,6 @@
       "rm": "유",
       "important": false,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800377"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "기업설명회(IR)개최(안내공시)",
-      "flr_nm": "HD현대중공업",
-      "rcept_no": "20261021800389",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389"
-    },
-    {
-      "code": "267250",
-      "name": "HD현대",
-      "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "기업설명회(IR)개최(안내공시)",
-      "flr_nm": "HD현대",
-      "rcept_no": "20261021800480",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800480"
-    },
-    {
-      "code": "009540",
-      "name": "HD한국조선해양",
-      "group": "후보",
-      "rcept_dt": "20261021",
-      "report_nm": "기업설명회(IR)개최(안내공시)",
-      "flr_nm": "HD한국조선해양",
-      "rcept_no": "20261021800394",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800394"
     }
   ],
   "errors": [],
@@ -636,22 +732,34 @@
       "corp_code": "01390344"
     },
     {
-      "code": "267250",
-      "name": "HD현대",
-      "group": "후보",
-      "corp_code": "01205709"
-    },
-    {
       "code": "042660",
       "name": "한화오션",
       "group": "후보",
       "corp_code": "00111704"
     },
     {
-      "code": "000660",
-      "name": "SK하이닉스",
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
       "group": "후보",
-      "corp_code": "00164779"
+      "corp_code": "00503668"
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "group": "후보",
+      "corp_code": "01205709"
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "group": "후보",
+      "corp_code": "00105952"
+    },
+    {
+      "code": "214450",
+      "name": "파마리서치",
+      "group": "후보",
+      "corp_code": "00970453"
     },
     {
       "code": "000150",
@@ -666,22 +774,10 @@
       "corp_code": "01205851"
     },
     {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
+      "code": "000660",
+      "name": "SK하이닉스",
       "group": "후보",
-      "corp_code": "00503668"
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "corp_code": "00105952"
-    },
-    {
-      "code": "237690",
-      "name": "에스티팜",
-      "group": "후보",
-      "corp_code": "00871833"
+      "corp_code": "00164779"
     },
     {
       "code": "064350",
@@ -690,10 +786,10 @@
       "corp_code": "00302926"
     },
     {
-      "code": "214450",
-      "name": "파마리서치",
+      "code": "009540",
+      "name": "HD한국조선해양",
       "group": "후보",
-      "corp_code": "00970453"
+      "corp_code": "00164830"
     },
     {
       "code": "010140",
@@ -708,22 +804,10 @@
       "corp_code": "00159616"
     },
     {
-      "code": "009540",
-      "name": "HD한국조선해양",
+      "code": "214150",
+      "name": "클래시스",
       "group": "후보",
-      "corp_code": "00164830"
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "group": "후보",
-      "corp_code": "01596425"
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "group": "후보",
-      "corp_code": "01316245"
+      "corp_code": "01061327"
     },
     {
       "code": "005380",
@@ -738,10 +822,22 @@
       "corp_code": "00126566"
     },
     {
-      "code": "214150",
-      "name": "클래시스",
+      "code": "196170",
+      "name": "알테오젠",
       "group": "후보",
-      "corp_code": "01061327"
+      "corp_code": "00989619"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "group": "후보",
+      "corp_code": "01316245"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "group": "후보",
+      "corp_code": "01596425"
     }
   ]
 }
