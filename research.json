@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T07:17:07+09:00",
+ "updated_at": "2026-11-10T07:27:06+09:00",
  "window_days": 4,
  "source": "Npay 증권 리서치 (stock.naver.com/research)",
  "note": "목록과 주제 태그만 저장(요약 본문은 저장하지 않음).",
@@ -7,11 +7,251 @@
   {
    "cat": "economy",
    "category": "경제분석",
+   "nid": "14012",
+   "title": "10월 미국 고용: 본격적인 회복은 아직",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1869",
+   "topics": [
+    "고용",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14011",
+   "title": "미국 고용: 물가에 집중하기 좋은 상태",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-09",
+   "readCount": "641",
+   "topics": [
+    "고용"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14010",
+   "title": "AI가 이끈 고용, 식은 내수",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "647",
+   "topics": [
+    "고용",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14009",
+   "title": "11/09, Kiwoom Morning Letter",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "readCount": "500",
+   "topics": [
+    "AI",
+    "변동성"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14008",
+   "title": "[매크로 COMMENT] 미국 10 월 고용: 고용은 안도, 여전히 물가가 과제",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "readCount": "618",
+   "topics": [
+    "고용",
+    "경기 둔화",
+    "반등"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14007",
+   "title": "AI 투심 약화에 취약성을 노출한 원화",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "readCount": "609",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "환율",
+    "달러",
+    "엔화",
+    "고용",
+    "AI",
+    "중국",
+    "변동성"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14006",
+   "title": "AI 투자 공포 과도: 증가율 속도의 문제일뿐",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "readCount": "630",
+   "topics": [
+    "달러",
+    "경기 둔화",
+    "반도체",
+    "AI",
+    "채권",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14005",
+   "title": "신한 FX Check-up",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1980",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "환율",
+    "달러",
+    "엔화",
+    "고용",
+    "수출",
+    "반도체",
+    "AI",
+    "채권",
+    "변동성",
+    "반등"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14004",
+   "title": "신한 Econ Check-up",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1913",
+   "topics": [
+    "물가",
+    "고용",
+    "경기 둔화",
+    "수출",
+    "반도체",
+    "AI",
+    "지정학",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14003",
+   "title": "[2027년 외환시장 전망] 금리차에서 AI 자금 흐름으로",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "625",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "환율",
+    "달러",
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14002",
+   "title": "[2027년 원자재시장 전망] 공급 복원 이후 원자재 가격 차별화",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "437",
+   "topics": [
+    "관세·무역",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14001",
+   "title": "[2027년 자산배분 전망] 자산배분에서 위험배분으로",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "480",
+   "topics": [
+    "물가",
+    "경기 둔화",
+    "AI",
+    "채권"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "14000",
+   "title": "[2027년 경제전망] Time of Tempering",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "476",
+   "topics": [
+    "달러",
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
+   "nid": "13999",
+   "title": "[2027년 경제 및 금융시장 전망] Capital Race",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "816",
+   "topics": [
+    "금리",
+    "금리 인하",
+    "금리 인상",
+    "연준",
+    "한은",
+    "달러",
+    "물가",
+    "경기 둔화",
+    "반도체",
+    "AI",
+    "중국",
+    "유가",
+    "채권",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/economy"
+  },
+  {
+   "cat": "economy",
+   "category": "경제분석",
    "nid": "13998",
    "title": "11/06, Kiwoom Morning Letter",
    "brokerName": "키움증권",
    "writeDate": "2026-11-06",
-   "readCount": "1730",
+   "readCount": "1948",
    "topics": [
     "AI",
     "관세·무역",
@@ -27,7 +267,7 @@
    "title": "11/06 Weekly Macro : AI 투자 기대 조정, 물가와 연준에 주목",
    "brokerName": "키움증권",
    "writeDate": "2026-11-06",
-   "readCount": "1780",
+   "readCount": "2012",
    "topics": [
     "금리",
     "금리 인상",
@@ -42,76 +282,285 @@
    "page_url": "https://stock.naver.com/research/economy"
   },
   {
-   "cat": "economy",
-   "category": "경제분석",
-   "nid": "13996",
-   "title": "11/05, Kiwoom Morning Letter",
-   "brokerName": "키움증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1792",
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38093",
+   "title": "국내주식 마감 시황 (26.11.6) - AI 우려에 아시아 주식시장 동반 급락",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-09",
+   "readCount": "753",
    "topics": [
-    "AI",
-    "반등",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/economy"
-  },
-  {
-   "cat": "economy",
-   "category": "경제분석",
-   "nid": "13995",
-   "title": "[Global Markets Monitor] 앵그리 트럼프가 만든 블루웨이브(Blue Wave)",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-05",
-   "readCount": "2064",
-   "topics": [
-    "연준",
-    "달러",
-    "물가",
-    "AI",
-    "관세·무역",
-    "유가",
-    "변동성",
-    "지정학",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/economy"
-  },
-  {
-   "cat": "economy",
-   "category": "경제분석",
-   "nid": "13994",
-   "title": "[매크로 COMMENT] VETO 의 시대, 정책의 속도와 투자의 비용",
-   "brokerName": "SK증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1936",
-   "topics": [
-    "지정학",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/economy"
-  },
-  {
-   "cat": "economy",
-   "category": "경제분석",
-   "nid": "13993",
-   "title": "블루웨이브에 미국 금융시장이 환호한 이유",
-   "brokerName": "iM증권",
-   "writeDate": "2026-11-05",
-   "readCount": "2288",
-   "topics": [
-    "금리",
-    "달러",
+    "금리 인하",
     "경기 둔화",
     "반도체",
     "AI",
-    "유가",
-    "채권",
+    "관세·무역",
+    "외국인 매도",
     "변동성",
     "지정학",
     "정책·세제"
    ],
-   "page_url": "https://stock.naver.com/research/economy"
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38092",
+   "title": "마켓레이더 - 반도체 온기에도 엇갈린 시장 (11월 9일)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "615",
+   "topics": [
+    "금리 인상",
+    "연준",
+    "고용",
+    "반도체",
+    "AI",
+    "반등",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38091",
+   "title": "Daily 신한생각 (11월 9일)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1772",
+   "topics": [
+    "금리",
+    "환율",
+    "고용",
+    "AI",
+    "관세·무역",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38090",
+   "title": "Daily Market Digest (11월 9일)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1620",
+   "topics": [
+    "금리 인상",
+    "물가",
+    "고용",
+    "반도체",
+    "AI",
+    "외국인 매도",
+    "변동성",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38089",
+   "title": "[Market Time] 반도체 반등 시도, AI 인프라 우려는 지속",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "readCount": "528",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "연준",
+    "고용",
+    "반도체",
+    "AI",
+    "채권",
+    "외국인 매도",
+    "변동성",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38088",
+   "title": " SK증권 아침에 슥_2026.11.09",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "readCount": "525",
+   "topics": [
+    "금리",
+    "반도체",
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38087",
+   "title": "[IBKS Daily] Morning Brief(261109)",
+   "brokerName": "IBK투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1689",
+   "topics": [
+    "반도체",
+    "AI",
+    "변동성",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38086",
+   "title": "11/9 KB 리서치 모닝코멘트",
+   "brokerName": "KB증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1736",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "연준",
+    "한은",
+    "달러",
+    "물가",
+    "고용",
+    "반도체",
+    "AI",
+    "관세·무역",
+    "중국",
+    "유가",
+    "채권",
+    "변동성",
+    "반등",
+    "실적",
+    "부동산"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38085",
+   "title": "주간 증시 브리핑",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1731",
+   "topics": [
+    "환율",
+    "달러",
+    "AI",
+    "변동성",
+    "반등"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38084",
+   "title": "SK증권 Global Carbon Market Daily_261109",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "readCount": "515",
+   "topics": [
+    "AI",
+    "유가",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38083",
+   "title": "[Market Nowcast] 불확실성과 가격",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "readCount": "544",
+   "topics": [
+    "물가",
+    "고용",
+    "반도체",
+    "AI",
+    "채권",
+    "변동성",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38082",
+   "title": "국내 주식 마감 시황 - AI 발 Risk-off에 한 달 만의 서킷브레이커(11월 6일)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "546",
+   "topics": [
+    "AI",
+    "변동성"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38081",
+   "title": "신한 해외주식 Weekly (11월 06일)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "482",
+   "topics": [
+    "금리",
+    "반도체",
+    "중국",
+    "반등"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38080",
+   "title": "11/6 KB 리서치 장마감코멘트",
+   "brokerName": "KB증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1955",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "연준",
+    "물가",
+    "고용",
+    "경기 둔화",
+    "반도체",
+    "AI",
+    "변동성",
+    "반등",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
+  },
+  {
+   "cat": "market",
+   "category": "시황정보",
+   "nid": "38079",
+   "title": "글로벌 소비재 Weekly(11월 1주차); 견조한 여행 수요",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "504",
+   "topics": [
+    "달러"
+   ],
+   "page_url": "https://stock.naver.com/research/market"
   },
   {
    "cat": "market",
@@ -120,7 +569,7 @@
    "title": "마켓레이더 - 공포를 반영한 투매, 내주 초 여진 유의 (11월 6일)",
    "brokerName": "신한투자증권",
    "writeDate": "2026-11-06",
-   "readCount": "1985",
+   "readCount": "2272",
    "topics": [
     "반도체",
     "AI",
@@ -136,7 +585,7 @@
    "title": "Global Platform Weekly(11월 1주차); 선거 이후 데이터센터 리스크 본격 반영",
    "brokerName": "신한투자증권",
    "writeDate": "2026-11-06",
-   "readCount": "1264",
+   "readCount": "1533",
    "topics": [
     "달러",
     "AI"
@@ -150,7 +599,7 @@
    "title": "유안타 AI 미국 주식시장 마감 시황 (26.11.06)",
    "brokerName": "유안타증권",
    "writeDate": "2026-11-06",
-   "readCount": "5511",
+   "readCount": "7214",
    "topics": [
     "경기 둔화",
     "반도체",
@@ -168,7 +617,7 @@
    "title": "[시황저격] 중간선거 이후 AI 사이클에 던지는 네 가지 질문",
    "brokerName": "유안타증권",
    "writeDate": "2026-11-06",
-   "readCount": "1387",
+   "readCount": "1672",
    "topics": [
     "금리",
     "AI",
@@ -184,7 +633,7 @@
    "title": "국내주식 마감 시황 (26.11.5) - 시즌 종료일까",
    "brokerName": "유안타증권",
    "writeDate": "2026-11-06",
-   "readCount": "1118",
+   "readCount": "1377",
    "topics": [
     "금리",
     "금리 인상",
@@ -201,268 +650,237 @@
    "page_url": "https://stock.naver.com/research/market"
   },
   {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38073",
-   "title": "Daily 신한생각 (11월 6일)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5244",
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40770",
+   "title": "[Quant Comment] 국내외 주간 이익 동향 체크",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1611",
    "topics": [
-    "금리",
-    "금리 인하",
-    "금리 인상",
-    "환율",
-    "물가",
-    "수출",
+    "경기 둔화",
     "AI",
-    "채권",
     "실적"
    ],
-   "page_url": "https://stock.naver.com/research/market"
+   "page_url": "https://stock.naver.com/research/invest"
   },
   {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38072",
-   "title": "Daily Market Digest (11월 6일)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5156",
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40769",
+   "title": "화수분전략",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "545",
    "topics": [
-    "고용",
     "반도체",
-    "AI",
-    "변동성",
-    "실적",
-    "지정학"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38071",
-   "title": "[Market Time] 미국 기술주 급락, 확산되는 위험 회피",
-   "brokerName": "iM증권",
-   "writeDate": "2026-11-06",
-   "readCount": "1143",
-   "topics": [
-    "금리",
-    "반도체",
-    "AI",
-    "채권",
-    "변동성",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38070",
-   "title": "Japan Weekly(11월 1주차)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "913",
-   "topics": [
-    "금리",
-    "금리 인상",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38069",
-   "title": "SK증권 아침에 슥_2026.11.05",
-   "brokerName": "SK증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5464",
-   "topics": [
-    "AI",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38068",
-   "title": "[IBKS Daily] Morning Brief(261106)",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5145",
-   "topics": [
-    "환율",
-    "달러",
-    "반도체",
-    "AI",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38067",
-   "title": "Global 에너지 Weekly(11월 1주차)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "876",
-   "topics": [
-    "달러",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38066",
-   "title": "Global 산업재 Weekly(11월 1주차)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "887",
-   "topics": [
-    "달러"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38065",
-   "title": "Global IT H/W Weekly(11월 1주차)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "899",
-   "topics": [
-    "달러",
-    "AI",
-    "변동성",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38064",
-   "title": "Eugene Daily Snapshot - AI사이클에 피어나는 불신과 깊어지는 조정",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "1094",
-   "topics": [
-    "금리",
-    "고용",
-    "반도체",
-    "AI",
-    "유가",
-    "채권",
-    "변동성",
-    "반등",
-    "지정학"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38063",
-   "title": "11/6 KB 리서치 모닝코멘트",
-   "brokerName": "KB증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5247",
-   "topics": [
-    "금리",
-    "금리 인상",
-    "달러",
-    "고용",
-    "반도체",
-    "AI",
-    "중국",
-    "유가",
-    "채권",
-    "변동성",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38062",
-   "title": "SK증권 Global Carbon Market Daily_261106",
-   "brokerName": "SK증권",
-   "writeDate": "2026-11-06",
-   "readCount": "1146",
-   "topics": [
-    "유가",
     "변동성",
     "반등"
    ],
-   "page_url": "https://stock.naver.com/research/market"
+   "page_url": "https://stock.naver.com/research/invest"
   },
   {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38061",
-   "title": "Global 헬스케어 Weekly(11월 1주차); 메디케이드 삭감 축소 기대, 헬스케어 추가 모멘텀",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "902",
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40768",
+   "title": "[New K-ETF] 나스닥100 + 미국채 채권혼합",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "347",
    "topics": [
-    "달러",
-    "반등",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/market"
-  },
-  {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38060",
-   "title": "국내 주식 마감 시황 - 격한 Anti-Trump Trade에 양 시장 사이드카(11월 5일)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "918",
-   "topics": [
+    "금리",
+    "한은",
     "반도체",
     "AI",
+    "채권",
     "변동성"
    ],
-   "page_url": "https://stock.naver.com/research/market"
+   "page_url": "https://stock.naver.com/research/invest"
   },
   {
-   "cat": "market",
-   "category": "시황정보",
-   "nid": "38059",
-   "title": "11/5 KB 리서치 장마감코멘트",
-   "brokerName": "KB증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5206",
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40767",
+   "title": "[New K-ETF] 코스피200 커버드콜 액티브: 5% OTM, 15% 타겟",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "323",
    "topics": [
     "반도체",
     "AI",
-    "유가",
+    "변동성",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40766",
+   "title": "[New K-ETF] 중기채권 액티브, 현대차 로보틱스 채권혼합",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "302",
+   "topics": [
+    "금리",
+    "AI",
+    "채권",
+    "변동성"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40765",
+   "title": "[New K-ETF] 삼성전기 고정 AI 핵심기판",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "366",
+   "topics": [
+    "반도체",
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40764",
+   "title": "Tech&Stock Weekly: 클라우드플레어, AI 에이전트 시대의 수혜, 실적으로 확인",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "324",
+   "topics": [
+    "달러",
+    "AI",
     "변동성",
     "실적",
     "정책·세제"
    ],
-   "page_url": "https://stock.naver.com/research/market"
+   "page_url": "https://stock.naver.com/research/invest"
   },
   {
    "cat": "invest",
    "category": "투자전략",
-   "nid": "40734",
-   "title": "(Spot)미 중간선거 이후 증시 급락 comment",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "1401",
+   "nid": "40763",
+   "title": "[Hana China Weekly] 공급망 병목 심화되고 있는 AI 인프라 업종",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "readCount": "338",
+   "topics": [
+    "경기 둔화",
+    "반도체",
+    "중국",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40762",
+   "title": "[주황 전략] 정치발 조정은 비중 확대 기회. 매수 대응 입장 고수",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "415",
+   "topics": [
+    "경기 둔화",
+    "반도체",
+    "AI",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40761",
+   "title": "미국 중간선거에 따른 증시 영향",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "371",
+   "topics": [
+    "금리",
+    "연준",
+    "반도체",
+    "AI",
+    "채권",
+    "변동성",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40760",
+   "title": "[주간 파생시황] 2026년 11월 2일~5일",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "295",
    "topics": [
     "반도체",
+    "AI",
+    "변동성",
+    "반등"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40759",
+   "title": "[펀드 플로우 Weekly] 중국 부양책 및 미 중간선거 불확실성 해소, 주식형 펀드 20주 내 최대 순유입, ",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-09",
+   "readCount": "300",
+   "topics": [
+    "경기 둔화",
+    "채권",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40758",
+   "title": "[긴급 대응전략] 투매보단 보유, 관망보단 매수",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-09",
+   "readCount": "385",
+   "topics": [
+    "유가",
+    "변동성",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40757",
+   "title": "美 중간선거가 보여준 데이터센터 지역사회 수용성",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-09",
+   "readCount": "352",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40756",
+   "title": "THE GLOBAL 주간 증시 전략",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-09",
+   "readCount": "381",
+   "topics": [
+    "물가",
+    "경기 둔화",
     "AI",
     "변동성"
    ],
@@ -471,71 +889,41 @@
   {
    "cat": "invest",
    "category": "투자전략",
-   "nid": "40733",
-   "title": "Shinhan China Weekly(11월 1주차)",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "825",
+   "nid": "40755",
+   "title": "AI 데이터센터 규제 공포, 매도 사이드카에 이어 서킷브레이커",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-09",
+   "readCount": "306",
    "topics": [
     "금리",
-    "금리 인하",
-    "반도체",
-    "AI",
-    "관세·무역",
-    "중국",
-    "반등"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40732",
-   "title": "[신흥국 전략] 인도 이슈 업데이트: 자동차 판매 호조, 지속 가능성은?",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "readCount": "837",
-   "topics": [
-    "금리",
-    "금리 인하",
-    "금리 인상",
-    "물가",
     "경기 둔화",
-    "실적"
+    "반도체",
+    "AI",
+    "채권",
+    "변동성",
+    "정책·세제"
    ],
    "page_url": "https://stock.naver.com/research/invest"
   },
   {
    "cat": "invest",
    "category": "투자전략",
-   "nid": "40731",
-   "title": "[11월 전략] 다 준비됐다, 남은 건 수급",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "1277",
+   "nid": "40754",
+   "title": "이익은 올랐고, 가격만 무너진 UnderShooting 국면 버티거나 비중을 늘릴 때",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-09",
+   "readCount": "334",
    "topics": [
     "금리",
-    "환율",
-    "반도체",
-    "AI",
-    "관세·무역",
-    "외국인 매도",
-    "반등"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40730",
-   "title": "디지털 자산 : 디지털 자산 Daily",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-06",
-   "readCount": "4926",
-   "topics": [
+    "금리 인상",
+    "연준",
     "달러",
-    "반도체",
+    "고용",
+    "경기 둔화",
     "AI",
+    "중국",
+    "유가",
+    "금",
     "변동성",
     "반등"
    ],
@@ -544,344 +932,62 @@
   {
    "cat": "invest",
    "category": "투자전략",
-   "nid": "40729",
-   "title": "[QWER] 11월 1주차 - 3분기 실적시즌 스크리닝 전략",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-06",
-   "readCount": "749",
+   "nid": "40753",
+   "title": "Kiwoom ETF Weekly (11/09)",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "readCount": "1483",
    "topics": [
     "금리",
-    "환율",
-    "달러",
-    "경기 둔화",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40727",
-   "title": "[다음주 시장은?] Blue Wave 가 휩쓴 증시, 반전의 실마리는?",
-   "brokerName": "대신증권",
-   "writeDate": "2026-11-06",
-   "readCount": "935",
-   "topics": [
-    "금리",
-    "금리 인하",
-    "금리 인상",
-    "연준",
     "물가",
     "경기 둔화",
-    "반도체",
     "AI",
-    "관세·무역",
+    "중국",
     "유가",
     "채권",
     "변동성",
     "반등",
-    "실적",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40752",
+   "title": "블루 웨이브, 데이터센터 전력 방향성은",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "readCount": "339",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/invest"
+  },
+  {
+   "cat": "invest",
+   "category": "투자전략",
+   "nid": "40751",
+   "title": "[2026 미국 중간선거] Post BlueWave",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "readCount": "324",
+   "topics": [
     "지정학",
     "정책·세제"
    ],
    "page_url": "https://stock.naver.com/research/invest"
   },
   {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40726",
-   "title": "미 중간선거의 여진, KOSPI·KOSDAQ 매도 사이드카",
-   "brokerName": "대신증권",
-   "writeDate": "2026-11-06",
-   "readCount": "787",
-   "topics": [
-    "금리",
-    "달러",
-    "반도체",
-    "AI",
-    "유가",
-    "채권",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40725",
-   "title": "[IBKS Daily] Start with IBKS(2026.11.06) AI 규제 우려에 기술주 투매 확산",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "727",
-   "topics": [
-    "경기 둔화",
-    "반도체",
-    "AI",
-    "관세·무역",
-    "중국",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40724",
-   "title": "신한 M.R.I: 주식시장을 배회하는 AI 공급 제약이라는 유령",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "798",
-   "topics": [
-    "수출",
-    "반도체",
-    "AI",
-    "유가",
-    "지정학"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40723",
-   "title": "미국 중간선거와 Binance 해킹 사건",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "readCount": "704",
-   "topics": [
-    "달러"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40722",
-   "title": "11/06, AI 투자 사이클 축소 불안이 만들어낸 AI 패닉셀링",
-   "brokerName": "키움증권",
-   "writeDate": "2026-11-06",
-   "readCount": "881",
-   "topics": [
-    "금리",
-    "금리 인하",
-    "경기 둔화",
-    "반도체",
-    "AI",
-    "외국인 매수",
-    "변동성",
-    "실적",
-    "지정학"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40721",
-   "title": "ESG snapshot",
-   "brokerName": "SK증권",
-   "writeDate": "2026-11-06",
-   "readCount": "5071",
-   "topics": [],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40720",
-   "title": "11/06 달러, 안전자산 선호에 강보합",
-   "brokerName": "키움증권",
-   "writeDate": "2026-11-06",
-   "readCount": "715",
-   "topics": [
-    "금리",
-    "금리 인상",
-    "연준",
-    "달러",
-    "엔화",
-    "고용",
-    "반도체",
-    "AI",
-    "유가",
-    "채권",
-    "변동성",
-    "반등",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40718",
-   "title": "[EPS LIVE #235] 자동차 업종과 산업재 섹터 실적 하향",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1022",
-   "topics": [
-    "지정학"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40716",
-   "title": "블루웨이브 이후 미국 정책 방향 및 증시 전망",
-   "brokerName": "대신증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1506",
-   "topics": [
-    "관세·무역",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40715",
-   "title": "Blue Wave 에 파도친 KOSPI, AI 규제 우려 딛고 반등",
-   "brokerName": "대신증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1008",
-   "topics": [
-    "경기 둔화",
-    "반도체",
-    "AI",
-    "반등"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40714",
-   "title": "5문 5답으로 살펴보는 Blue Wave",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-05",
-   "readCount": "1110",
-   "topics": [
-    "금리 인하",
-    "물가",
-    "수출",
-    "AI",
-    "관세·무역",
-    "반등",
-    "실적",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40713",
-   "title": "방어주 로테이션 국면 진단",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-05",
-   "readCount": "990",
-   "topics": [
-    "물가"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
-   "cat": "invest",
-   "category": "투자전략",
-   "nid": "40712",
-   "title": "China Focus-증시 부양 정책 효과",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "readCount": "978",
-   "topics": [
-    "금리",
-    "금리 인하",
-    "중국",
-    "반등",
-    "실적",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/invest"
-  },
-  {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46855",
-   "title": "AASLD2026 Abstract comment; 한미 믿었다고",
+   "nid": "46921",
+   "title": "Re-NEWable Weekly [11월 2주차]",
    "brokerName": "교보증권",
-   "writeDate": "2026-11-06",
-   "analystName": "정희령",
-   "industryKoreanName": "제약",
-   "readCount": "2103",
-   "topics": [],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46854",
-   "title": "유틸리티 Weekly: LMP 시행 임박한 모습",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "analystName": "유재선",
-   "industryKoreanName": "유틸리티",
-   "readCount": "1806",
-   "topics": [
-    "금리 인상",
-    "환율",
-    "달러",
-    "유가",
-    "변동성"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46853",
-   "title": "천붕우출",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "analystName": "유재선",
-   "industryKoreanName": "유틸리티",
-   "readCount": "1935",
-   "topics": [
-    "경기 둔화",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46852",
-   "title": "미국 중간선거 배터리 수혜 논리 정교히 해야",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "analystName": "김현수",
-   "industryKoreanName": "기타",
-   "readCount": "2119",
+   "writeDate": "2026-11-09",
+   "analystName": "조혜빈",
+   "industryKoreanName": "에너지",
+   "readCount": "911",
    "topics": [
     "관세·무역",
-    "중국",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46851",
-   "title": "미국 주파수 경매는 변함없이 진행됩니다",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "analystName": "김홍식",
-   "industryKoreanName": "통신",
-   "readCount": "1785",
-   "topics": [
-    "한은",
-    "중국",
     "정책·세제"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -889,49 +995,18 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46850",
-   "title": "데이터센터 관련 과도한 우려",
+   "nid": "46920",
+   "title": "악재가 적극적으로 선반영된 주가",
    "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
+   "writeDate": "2026-11-09",
    "analystName": "김록호",
    "industryKoreanName": "반도체",
-   "readCount": "2312",
+   "readCount": "1269",
    "topics": [
     "반도체",
     "AI",
-    "변동성",
+    "중국",
     "반등",
-    "지정학",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46849",
-   "title": "[ESG] 한진칼 최대주주 된 호반, 웃돈을 가를 블록 협상",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "박세연",
-   "industryKoreanName": "기타",
-   "readCount": "5737",
-   "topics": [
-    "한은"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46848",
-   "title": "모멘텀 둔화와 기대",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "김도하",
-   "industryKoreanName": "은행",
-   "readCount": "5819",
-   "topics": [
     "실적"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -939,28 +1014,34 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46847",
-   "title": "[ESG] 5% Rule의 적용을 받는 공동보유자 범위 축소를 위한 입법 착수",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "엄수진",
-   "industryKoreanName": "기타",
-   "readCount": "5664",
-   "topics": [],
+   "nid": "46919",
+   "title": "[0의 시선] 반도체, 개와 늑대의 시간",
+   "brokerName": "교보증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최보영",
+   "industryKoreanName": "IT",
+   "readCount": "1881",
+   "topics": [
+    "금리 인하",
+    "반도체",
+    "AI",
+    "외국인 매도",
+    "반등",
+    "실적"
+   ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46846",
-   "title": "[2027년 연간전망] : 재편의 시작, 기회의 항로",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-06",
-   "analystName": "최지운",
-   "industryKoreanName": "항공운송",
-   "readCount": "1636",
+   "nid": "46918",
+   "title": "태양광, 세액공제 조기종료 회복 기대",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "윤재성",
+   "industryKoreanName": "에너지",
+   "readCount": "805",
    "topics": [
-    "중국",
     "유가"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -968,78 +1049,16 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46845",
-   "title": "전 금융권 보안체계 혁신방안",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-06",
-   "analystName": "권명준,서석준",
-   "industryKoreanName": "기타",
-   "readCount": "5762",
+   "nid": "46917",
+   "title": "철강금속 Weekly(2026.11.09): 11월 중국 건설용 강재 수요 부진 전망",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "박성봉",
+   "industryKoreanName": "철강금속",
+   "readCount": "644",
    "topics": [
-    "AI"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46844",
-   "title": "구글, 우주 궤도에서 AI 모델 구동 성공",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "정의훈",
-   "industryKoreanName": "기타",
-   "readCount": "5973",
-   "topics": [
-    "AI"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46843",
-   "title": "미국 중간선거 결과에 따른 주요 에너지 산업 영향",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "황성현",
-   "industryKoreanName": "에너지",
-   "readCount": "6156",
-   "topics": [
-    "물가",
-    "유가",
-    "실적",
-    "지정학",
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46842",
-   "title": "[IBKS Daily] 인터넷/게임",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "이승훈",
-   "industryKoreanName": "인터넷포탈",
-   "readCount": "5757",
-   "topics": [
-    "정책·세제"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46841",
-   "title": "안녕하세요 데일리에요 (로봇/방산/조선)",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "analystName": "양승윤",
-   "industryKoreanName": "기타",
-   "readCount": "5902",
-   "topics": [
+    "달러",
+    "경기 둔화",
     "중국"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -1047,52 +1066,47 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46840",
-   "title": "중간선거 이후, 섹터별 온도차 - 운송>방산>조선=로봇",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "양승윤",
+   "nid": "46916",
+   "title": "출하와 수주 기대치 상회, 마진 눈높이는 하향 조정 필요",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "김현수",
    "industryKoreanName": "기타",
-   "readCount": "2666",
+   "readCount": "738",
    "topics": [
-    "환율",
-    "달러",
-    "수출",
-    "AI",
-    "유가",
-    "실적",
-    "지정학",
-    "정책·세제"
+    "실적"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46839",
-   "title": "미국 중간선거와 섹터 영향 분석",
+   "nid": "46915",
+   "title": "AIx바이오-자본의 집약, 밸류체인을 이해하자",
    "brokerName": "DS투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "안주원",
-   "industryKoreanName": "에너지",
-   "readCount": "8307",
+   "writeDate": "2026-11-09",
+   "analystName": "김민정",
+   "industryKoreanName": "제약",
+   "readCount": "831",
    "topics": [
-    "물가",
-    "정책·세제"
+    "AI",
+    "중국"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46838",
-   "title": "Blue Wave, 풍력 숏 바이어스를 버릴 때",
-   "brokerName": "교보증권",
-   "writeDate": "2026-11-05",
-   "analystName": "조혜빈",
-   "industryKoreanName": "에너지",
-   "readCount": "2228",
+   "nid": "46914",
+   "title": "극심한 KOSPI 조정 양상 속에서 은행주 큰폭 선방",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최정욱",
+   "industryKoreanName": "은행",
+   "readCount": "677",
    "topics": [
+    "반도체",
+    "AI",
     "관세·무역",
     "정책·세제"
    ],
@@ -1101,17 +1115,18 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46837",
-   "title": "2027년 Outlook: IFRS18 도입과 환율, 그리고 증설",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-05",
-   "analystName": "심은주",
-   "industryKoreanName": "음식료",
-   "readCount": "2021",
+   "nid": "46913",
+   "title": "방산 3Q 실적 마무리, 짚고 넘어가야 할 것들",
+   "brokerName": "DS투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "강태호",
+   "industryKoreanName": "기타",
+   "readCount": "1834",
    "topics": [
     "환율",
-    "채권",
-    "변동성",
+    "달러",
+    "수출",
+    "AI",
     "실적"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -1119,29 +1134,78 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46836",
-   "title": "[ESG] 호반, 산은으로는 부족하고 다음 변수는 델타항공",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "박세연",
+   "nid": "46912",
+   "title": "데크크2 (한국데센 정상영업합니다)",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "이준호",
    "industryKoreanName": "기타",
-   "readCount": "1943",
+   "readCount": "749",
    "topics": [
-    "채권"
+    "AI"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46835",
-   "title": "디지털 자산 Daily",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이환욱",
-   "industryKoreanName": "기타",
-   "readCount": "7166",
+   "nid": "46911",
+   "title": "AI, 신(新) 엔터 창조",
+   "brokerName": "DS투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "장지혜",
+   "industryKoreanName": "미디어",
+   "readCount": "1906",
    "topics": [
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46910",
+   "title": "Weekly Comment: 중소형주 3Q26 Re(현그린/CJ프레시웨이) + 10월 수출 Re",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-09",
+   "analystName": "심은주",
+   "industryKoreanName": "음식료",
+   "readCount": "613",
+   "topics": [
+    "중국",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46909",
+   "title": "[ESG] 데이터센터 규제는 선 반영, 설비 회복은 대형 수주로 확인",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "박세연",
+   "industryKoreanName": "기타",
+   "readCount": "1922",
+   "topics": [
+    "반도체",
+    "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46908",
+   "title": "[디지털자산] [2027 디지털자산 전망] 본게임 시작",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최윤영",
+   "industryKoreanName": "기타",
+   "readCount": "646",
+   "topics": [
+    "금리",
+    "금리 인상",
     "달러",
     "변동성",
     "반등"
@@ -1151,17 +1215,30 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46834",
-   "title": "2027, 왜 다시 2차전지인가",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이안나,배종성",
+   "nid": "46907",
+   "title": "[디지털자산] 디지털자산 Weekly 2026.11.06",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최윤영",
    "industryKoreanName": "기타",
-   "readCount": "2317",
+   "readCount": "1751",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46906",
+   "title": "반도체 Valuation Call from Hawaii: 바닥을 판단하는 단 하나의 기준",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "박준영",
+   "industryKoreanName": "반도체",
+   "readCount": "2096",
    "topics": [
+    "경기 둔화",
+    "반도체",
     "AI",
-    "관세·무역",
-    "중국",
     "실적"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -1169,68 +1246,49 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46833",
-   "title": "한화솔루션, OCI홀딩스 NDR로 본 Section 232",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "황성현",
+   "nid": "46905",
+   "title": "디지털 자산 Daily",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-09",
+   "analystName": "이환욱",
    "industryKoreanName": "기타",
-   "readCount": "1894",
+   "readCount": "1745",
    "topics": [
+    "금리",
     "금리 인상",
-    "관세·무역",
-    "중국",
-    "실적",
-    "부동산"
+    "물가",
+    "고용"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46832",
-   "title": "현대차/기아 10월 글로벌 판매",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이재일",
-   "industryKoreanName": "자동차",
-   "readCount": "1701",
+   "nid": "46904",
+   "title": "신한 운송 Weekly T.M.I; 한진칼 경영권 분쟁 업데이트",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최민기",
+   "industryKoreanName": "항공운송",
+   "readCount": "635",
    "topics": [
-    "수출",
-    "중국"
+    "지정학"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46831",
-   "title": "10월 미국 신차 판매",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이재일",
-   "industryKoreanName": "자동차",
-   "readCount": "1657",
+   "nid": "46903",
+   "title": "유틸리티/신재생 Weekly Power Up(11월 2주차)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "한승훈,최민기",
+   "industryKoreanName": "유틸리티",
+   "readCount": "1845",
    "topics": [
     "금리 인하",
-    "달러"
-   ],
-   "page_url": "https://stock.naver.com/research/industry"
-  },
-  {
-   "cat": "industry",
-   "category": "산업분석",
-   "nid": "46830",
-   "title": "전력의 다음 승부처",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "한승훈",
-   "industryKoreanName": "유틸리티",
-   "readCount": "1849",
-   "topics": [
-    "달러",
     "실적",
-    "지정학",
     "정책·세제"
    ],
    "page_url": "https://stock.naver.com/research/industry"
@@ -1238,30 +1296,81 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46829",
-   "title": "안녕하세요 데일리에요 (로봇/방산/조선)",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "양승윤",
-   "industryKoreanName": "기타",
-   "readCount": "7046",
+   "nid": "46902",
+   "title": "신한 플랫폼팀 Weekly; 돈이 되는 오지랖(11월 2주차)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "지인해,고준혁,김아람,김효원",
+   "industryKoreanName": "미디어",
+   "readCount": "1803",
    "topics": [
-    "AI"
+    "경기 둔화",
+    "실적"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46828",
-   "title": "스페이스X - 퀄컴 딜에서 기회 찾아보기",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이찬영",
-   "industryKoreanName": "통신",
-   "readCount": "1559",
+   "nid": "46901",
+   "title": "신한 건설 Weekly (11월 2주차)",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "김선미,김도연",
+   "industryKoreanName": "건설",
+   "readCount": "1749",
    "topics": [
-    "고용",
+    "AI",
+    "변동성",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46900",
+   "title": "기회",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "analystName": "한동희",
+   "industryKoreanName": "건설",
+   "readCount": "1922",
+   "topics": [
+    "반도체",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46899",
+   "title": "Next Energy(Power & Battery Weekly) - 미국의 데이터센터 님비, 한국에는 기회",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "황성현",
+   "industryKoreanName": "에너지",
+   "readCount": "1900",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46898",
+   "title": "소비의 온기는 어디로 향하는가",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "조상훈",
+   "industryKoreanName": "음식료",
+   "readCount": "1828",
+   "topics": [
+    "금리",
+    "물가",
+    "경기 둔화",
+    "수출",
     "반도체",
     "중국",
     "실적"
@@ -1271,13 +1380,47 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46827",
-   "title": "美 블루 쓰나미, 그린산업 전체에 훈풍",
+   "nid": "46897",
+   "title": "10 월 항공 데이터: 일본 사상 최대",
    "brokerName": "유진투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "한병화",
+   "writeDate": "2026-11-09",
+   "analystName": "양승윤",
+   "industryKoreanName": "항공운송",
+   "readCount": "583",
+   "topics": [
+    "환율",
+    "달러",
+    "경기 둔화",
+    "AI",
+    "중국",
+    "유가",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46896",
+   "title": "안녕하세요 위클리에요(로봇/방산/조선/항공/해운) - 2026/11/02~2026/11/08",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "양승윤",
    "industryKoreanName": "기타",
-   "readCount": "7261",
+   "readCount": "1763",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46895",
+   "title": "美 중간선거 이후 인프라 투자 지형 변화 전망",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "류태환",
+   "industryKoreanName": "건설",
+   "readCount": "1826",
    "topics": [
     "AI",
     "정책·세제"
@@ -1287,31 +1430,47 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46826",
-   "title": "[IBKS Daily] 인터넷/게임",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-05",
-   "analystName": "이승훈",
-   "industryKoreanName": "게임",
-   "readCount": "1389",
+   "nid": "46894",
+   "title": "새로운 공공분양주택의 도입",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "류태환",
+   "industryKoreanName": "건설",
+   "readCount": "1734",
    "topics": [],
    "page_url": "https://stock.naver.com/research/industry"
   },
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46825",
-   "title": "2027년 전망: 은행 중심 방어력이 관건이 되는 구간",
+   "nid": "46893",
+   "title": "LCC 구하러 온 유가 하락과 강력한 일본 여행 수요",
    "brokerName": "iM증권",
-   "writeDate": "2026-11-05",
-   "analystName": "설용진",
-   "industryKoreanName": "은행",
-   "readCount": "1253",
+   "writeDate": "2026-11-09",
+   "analystName": "배세호",
+   "industryKoreanName": "항공운송",
+   "readCount": "1733",
    "topics": [
-    "금리",
-    "금리 인상",
-    "경기 둔화",
+    "달러",
     "유가",
+    "변동성",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46892",
+   "title": "키움 엔터테인먼트 Weekly: 11월2주차",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "analystName": "임수진",
+   "industryKoreanName": "기타",
+   "readCount": "1662",
+   "topics": [
+    "환율",
     "변동성",
     "실적"
    ],
@@ -1320,15 +1479,164 @@
   {
    "cat": "industry",
    "category": "산업분석",
-   "nid": "46824",
-   "title": "우주로 향할 시간",
-   "brokerName": "iM증권",
-   "writeDate": "2026-11-05",
-   "analystName": "정원석,전유진",
-   "industryKoreanName": "기타",
-   "readCount": "1431",
+   "nid": "46891",
+   "title": "[IBKS Daily] 인터넷/게임",
+   "brokerName": "IBK투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "이승훈",
+   "industryKoreanName": "인터넷포탈",
+   "readCount": "484",
    "topics": [
     "AI"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46890",
+   "title": "[Telecom Weekly] 미 중간선거 블루스윕 이후 신규 데이터센터 투자 우려 확대",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "analystName": "신희철",
+   "industryKoreanName": "통신",
+   "readCount": "622",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46889",
+   "title": "키움 음식료 Weekly (11/9)",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "analystName": "박상준",
+   "industryKoreanName": "음식료",
+   "readCount": "514",
+   "topics": [
+    "금리 인상",
+    "환율",
+    "물가"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46888",
+   "title": "Kiwoom Healthcare 종합정리 (11/9",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "analystName": "허혜민,신민수",
+   "industryKoreanName": "제약",
+   "readCount": "554",
+   "topics": [
+    "수출",
+    "중국",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46887",
+   "title": "실행의 단계로",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "analystName": "조재원",
+   "industryKoreanName": "기타",
+   "readCount": "491",
+   "topics": [],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46886",
+   "title": "미국 중간선거 블루웨이브, 오히려 기회가 될 수 있다",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "analystName": "정원석,박정하",
+   "industryKoreanName": "기타",
+   "readCount": "725",
+   "topics": [
+    "AI",
+    "실적",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46885",
+   "title": "Steel Weekly (11월 1주차)",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "analystName": "김윤상",
+   "industryKoreanName": "철강금속",
+   "readCount": "382",
+   "topics": [
+    "관세·무역",
+    "금",
+    "반등",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46884",
+   "title": "조선은 중간선거와 무관한 초당적 섹터가 아니다",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "analystName": "한승한",
+   "industryKoreanName": "조선",
+   "readCount": "662",
+   "topics": [
+    "수출",
+    "중국",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46883",
+   "title": "금리는 거들 뿐, 핵심은 시장과 주주환원",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "임희연,이지연",
+   "industryKoreanName": "금융",
+   "readCount": "487",
+   "topics": [
+    "금리",
+    "금리 인상",
+    "정책·세제"
+   ],
+   "page_url": "https://stock.naver.com/research/industry"
+  },
+  {
+   "cat": "industry",
+   "category": "산업분석",
+   "nid": "46882",
+   "title": "플랫폼에 신약 더해 새 성장동력",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "analystName": "최승환,이병화,이채윤",
+   "industryKoreanName": "제약",
+   "readCount": "621",
+   "topics": [
+    "달러",
+    "반도체",
+    "AI",
+    "관세·무역",
+    "중국",
+    "정책·세제"
    ],
    "page_url": "https://stock.naver.com/research/industry"
   }
@@ -1337,34 +1645,18 @@
   {
    "cat": "company",
    "category": "종목분석",
-   "nid": "97825",
-   "title": "헝가리 가동 본격화, 회복의 출발점",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "247540",
-   "itemName": "에코프로비엠",
-   "goalPrice": "120000",
-   "opinionText": "매수",
-   "readCount": "7092",
-   "topics": [],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97814",
-   "title": "3Q26 Re - 비우호적 시장 환경에 따른 실적 부진",
-   "brokerName": "하나증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "071050",
-   "itemName": "한국금융지주",
-   "goalPrice": "249000",
+   "nid": "97919",
+   "title": "3Q26 Review: 기대치 하회. 장기 전망 유지, 단기 반등의 조건은 수주와 제재",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "670000",
    "opinionText": "Buy",
-   "readCount": "7333",
+   "readCount": "2969",
    "topics": [
-    "금리",
-    "유가",
+    "경기 둔화",
+    "수출",
     "실적"
    ],
    "page_url": "https://stock.naver.com/research/company",
@@ -1373,55 +1665,18 @@
   {
    "cat": "company",
    "category": "종목분석",
-   "nid": "97813",
-   "title": "눈높이 조정 후 수주 확정에 주목",
+   "nid": "97915",
+   "title": "큰 그림은 유효, 단기 불확실성은 확대",
    "brokerName": "DS투자증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "247540",
-   "itemName": "에코프로비엠",
-   "goalPrice": "160000",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "600000",
    "opinionText": "매수",
-   "readCount": "6856",
-   "topics": [
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97771",
-   "title": "LFP 양극재 투자 계획 밝혀",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "247540",
-   "itemName": "에코프로비엠",
-   "goalPrice": "180000",
-   "opinionText": "Buy",
-   "readCount": "1953",
-   "topics": [
-    "중국",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97765",
-   "title": "올해는 버티고, 내년은 회복",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "247540",
-   "itemName": "에코프로비엠",
-   "goalPrice": "100000",
-   "opinionText": "없음",
-   "readCount": "1599",
+   "readCount": "2639",
    "topics": [
     "환율",
-    "경기 둔화",
+    "수출",
     "실적"
    ],
    "page_url": "https://stock.naver.com/research/company",
@@ -1430,20 +1685,19 @@
   {
    "cat": "company",
    "category": "종목분석",
-   "nid": "97758",
-   "title": "3Q26 Review: 운용 중심으로 부진한 실적 시현",
-   "brokerName": "iM증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "071050",
-   "itemName": "한국금융지주",
-   "goalPrice": "198000",
+   "nid": "97894",
+   "title": "3Q26 Re: 11~12월 수주는 좋을 겁니다.",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "1050000",
    "opinionText": "Buy",
-   "readCount": "1995",
+   "readCount": "2631",
    "topics": [
-    "금리",
-    "경기 둔화",
-    "채권",
-    "실적"
+    "수출",
+    "실적",
+    "지정학"
    ],
    "page_url": "https://stock.naver.com/research/company",
    "group": "후보"
@@ -1451,19 +1705,18 @@
   {
    "cat": "company",
    "category": "종목분석",
-   "nid": "97757",
-   "title": "3Q26 Review: 감익 예상은 했지만, 환율까지 억까해",
-   "brokerName": "SK증권",
-   "writeDate": "2026-11-06",
-   "itemCode": "071050",
-   "itemName": "한국금융지주",
-   "goalPrice": "274000",
+   "nid": "97890",
+   "title": "아쉬운 천궁-II 매출 그러나 파이프라인은 견고",
+   "brokerName": "미래에셋증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "570000",
    "opinionText": "매수",
-   "readCount": "1933",
+   "readCount": "1362",
    "topics": [
-    "환율",
-    "유가",
-    "실적"
+    "실적",
+    "지정학"
    ],
    "page_url": "https://stock.naver.com/research/company",
    "group": "후보"
@@ -1471,35 +1724,118 @@
   {
    "cat": "company",
    "category": "종목분석",
-   "nid": "97635",
-   "title": "증설과 고단화에 신규 적용처까지",
-   "brokerName": "한국IR협의회",
-   "writeDate": "2026-11-05",
-   "itemCode": "064760",
-   "itemName": "티씨케이",
-   "opinionText": "없음",
-   "readCount": "1737",
-   "topics": [
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97612",
-   "title": "업황에 장사 없음",
+   "nid": "97879",
+   "title": "3Q26 Review: 고성장에는 변함없으나 불확실성 또한 상존",
    "brokerName": "대신증권",
-   "writeDate": "2026-11-04",
-   "itemCode": "071050",
-   "itemName": "한국금융지주",
-   "goalPrice": "200000",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "550000",
    "opinionText": "Buy",
-   "readCount": "2923",
+   "readCount": "1141",
    "topics": [
-    "금리"
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97862",
+   "title": "2개월 내 해외 신규 수주 결과 기대",
+   "brokerName": "유진투자증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "670000",
+   "opinionText": "Buy",
+   "readCount": "1367",
+   "topics": [
+    "수출",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97859",
+   "title": "눈높이를 낮출 때",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "430000",
+   "opinionText": "매수",
+   "readCount": "1298",
+   "topics": [
+    "경기 둔화",
+    "관세·무역",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97856",
+   "title": "실적은 일시적 부진, 수주 가이던스 상향에 주목",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "700000",
+   "opinionText": "매수",
+   "readCount": "1204",
+   "topics": [
+    "환율",
+    "수출",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97855",
+   "title": "3Q26: 미워도 다시 한번",
+   "brokerName": "iM증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "810000",
+   "opinionText": "Buy",
+   "readCount": "1203",
+   "topics": [
+    "환율",
+    "수출",
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97853",
+   "title": "28조원 수주잔고 가이던스로 확인한 자신감",
+   "brokerName": "키움증권",
+   "writeDate": "2026-11-09",
+   "itemCode": "079550",
+   "itemName": "LIG디펜스앤에어로스페이스",
+   "goalPrice": "950000",
+   "opinionText": "Buy",
+   "readCount": "1142",
+   "topics": [
+    "경기 둔화",
+    "수출",
+    "실적",
+    "지정학"
    ],
    "page_url": "https://stock.naver.com/research/company",
    "group": "후보"
@@ -1515,7 +1851,7 @@
    "itemName": "알테오젠",
    "goalPrice": "450000",
    "opinionText": "Buy",
-   "readCount": "7530",
+   "readCount": "9532",
    "topics": [],
    "page_url": "https://stock.naver.com/research/company",
    "group": "후보"
@@ -1531,7 +1867,7 @@
    "itemName": "알테오젠",
    "goalPrice": "410000",
    "opinionText": "Buy",
-   "readCount": "6366",
+   "readCount": "7669",
    "topics": [
     "환율",
     "달러",
@@ -1551,7 +1887,7 @@
    "itemName": "SK하이닉스",
    "goalPrice": "2300000",
    "opinionText": "Buy",
-   "readCount": "25598",
+   "readCount": "29044",
    "topics": [],
    "page_url": "https://stock.naver.com/research/company",
    "group": "후보"
@@ -1567,13 +1903,148 @@
    "itemName": "삼성전자",
    "goalPrice": "370000",
    "opinionText": "Buy",
-   "readCount": "30266",
+   "readCount": "34818",
    "topics": [
     "반도체",
     "반등"
    ],
    "page_url": "https://stock.naver.com/research/company",
    "group": "보유"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97504",
+   "title": "3Q26 Review: 일시적 부진, 수주 모멘텀은 지속",
+   "brokerName": "한화투자증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "3500000",
+   "opinionText": "Buy",
+   "readCount": "5456",
+   "topics": [
+    "달러",
+    "변동성",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97489",
+   "title": "일회성 제외하면 시장 눈높이 충족",
+   "brokerName": "하나증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "3400000",
+   "opinionText": "Buy",
+   "readCount": "4916",
+   "topics": [
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97467",
+   "title": "4분기 이익 급증 전망, 765kV 성장 가속",
+   "brokerName": "유안타증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "4200000",
+   "opinionText": "Buy",
+   "readCount": "3459",
+   "topics": [
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97462",
+   "title": "3Q26 Review: 가이던스에 부합한다면",
+   "brokerName": "미래에셋증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "4000000",
+   "opinionText": "매수",
+   "readCount": "2883",
+   "topics": [
+    "달러",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97455",
+   "title": "일시적 쉼표. 저평가 탈피의 시계는 돌아간다",
+   "brokerName": "대신증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "3000000",
+   "opinionText": "Buy",
+   "readCount": "2899",
+   "topics": [
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97442",
+   "title": "주가하락에도 펀더멘털은 견고",
+   "brokerName": "SK증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "2500000",
+   "opinionText": "매수",
+   "readCount": "2403",
+   "topics": [
+    "달러",
+    "실적",
+    "지정학"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
+  },
+  {
+   "cat": "company",
+   "category": "종목분석",
+   "nid": "97403",
+   "title": "4분기로 넘어간 매출, 쌓이는 765kV",
+   "brokerName": "신한투자증권",
+   "writeDate": "2026-11-02",
+   "itemCode": "298040",
+   "itemName": "효성중공업",
+   "goalPrice": "2900000",
+   "opinionText": "매수",
+   "readCount": "2495",
+   "topics": [
+    "실적"
+   ],
+   "page_url": "https://stock.naver.com/research/company",
+   "group": "후보"
   },
   {
    "cat": "company",
@@ -1586,7 +2057,7 @@
    "itemName": "삼성전자",
    "goalPrice": "400000",
    "opinionText": "매수",
-   "readCount": "47955",
+   "readCount": "50036",
    "topics": [
     "금리 인상",
     "환율",
@@ -1607,7 +2078,7 @@
    "itemName": "삼성전자",
    "goalPrice": "500000",
    "opinionText": "Buy",
-   "readCount": "25994",
+   "readCount": "27082",
    "topics": [
     "반도체",
     "실적"
@@ -1626,7 +2097,7 @@
    "itemName": "두산에너빌리티",
    "goalPrice": "100000",
    "opinionText": "Buy",
-   "readCount": "15544",
+   "readCount": "16569",
    "topics": [
     "실적"
    ],
@@ -1644,7 +2115,7 @@
    "itemName": "삼성전자",
    "goalPrice": "480000",
    "opinionText": "Buy",
-   "readCount": "26826",
+   "readCount": "27902",
    "topics": [
     "금리 인상",
     "반도체",
@@ -1664,7 +2135,7 @@
    "itemName": "삼성전자",
    "goalPrice": "530000",
    "opinionText": "매수",
-   "readCount": "21401",
+   "readCount": "21978",
    "topics": [
     "반도체",
     "실적"
@@ -1683,7 +2154,7 @@
    "itemName": "삼성전자",
    "goalPrice": "690000",
    "opinionText": "Buy",
-   "readCount": "15771",
+   "readCount": "16058",
    "topics": [
     "환율",
     "반도체",
@@ -1703,7 +2174,7 @@
    "itemName": "삼성전자",
    "goalPrice": "580000",
    "opinionText": "Buy",
-   "readCount": "11945",
+   "readCount": "12136",
    "topics": [
     "환율",
     "고용",
@@ -1725,7 +2196,7 @@
    "itemName": "두산에너빌리티",
    "goalPrice": "85000",
    "opinionText": "Buy",
-   "readCount": "11152",
+   "readCount": "11779",
    "topics": [
     "실적"
    ],
@@ -1743,409 +2214,43 @@
    "itemName": "삼성전자",
    "goalPrice": "500000",
    "opinionText": "Buy",
-   "readCount": "12705",
+   "readCount": "12937",
    "topics": [
     "반도체"
    ],
    "page_url": "https://stock.naver.com/research/company",
    "group": "보유"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97320",
-   "title": "3Q26 Review: 희비교차",
-   "brokerName": "미래에셋증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "034020",
-   "itemName": "두산에너빌리티",
-   "goalPrice": "85000",
-   "opinionText": "매수",
-   "readCount": "9928",
-   "topics": [
-    "환율",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97317",
-   "title": "전인미답의 길",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "005930",
-   "itemName": "삼성전자",
-   "goalPrice": "450000",
-   "opinionText": "매수",
-   "readCount": "12062",
-   "topics": [
-    "고용",
-    "반도체"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "보유"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97311",
-   "title": "펀더멘털은 견고, 노이즈로 인한 일시적 주가 하락",
-   "brokerName": "유진투자증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "034020",
-   "itemName": "두산에너빌리티",
-   "goalPrice": "80000",
-   "opinionText": "Buy",
-   "readCount": "10177",
-   "topics": [
-    "환율",
-    "달러",
-    "AI",
-    "변동성",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97300",
-   "title": "주가와 수주의 온도차",
-   "brokerName": "신한투자증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "034020",
-   "itemName": "두산에너빌리티",
-   "goalPrice": "110000",
-   "opinionText": "매수",
-   "readCount": "8543",
-   "topics": [],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97291",
-   "title": "실적은 좋지만, 주주환원은 아쉽다",
-   "brokerName": "IBK투자증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "005930",
-   "itemName": "삼성전자",
-   "goalPrice": "350000",
-   "opinionText": "매수",
-   "readCount": "12917",
-   "topics": [
-    "반도체",
-    "AI",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "보유"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97278",
-   "title": "과도한 낙폭. 매력적인 진입 기회",
-   "brokerName": "키움증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "034020",
-   "itemName": "두산에너빌리티",
-   "goalPrice": "100000",
-   "opinionText": "Buy",
-   "readCount": "8343",
-   "topics": [
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97275",
-   "title": "HBM 기대감 속, 범용 메모리 출하량 급증",
-   "brokerName": "키움증권",
-   "writeDate": "2026-10-30",
-   "itemCode": "005930",
-   "itemName": "삼성전자",
-   "opinionText": "없음",
-   "readCount": "12406",
-   "topics": [
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "보유"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97256",
-   "title": "메모리 가격 상회로 실적 상향",
-   "brokerName": "하나증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "3600000",
-   "opinionText": "Buy",
-   "readCount": "22697",
-   "topics": [
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97255",
-   "title": "전방수요 지속 상향조정 중",
-   "brokerName": "하나증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "009150",
-   "itemName": "삼성전기",
-   "goalPrice": "2000000",
-   "opinionText": "Buy",
-   "readCount": "13385",
-   "topics": [
-    "금리 인상",
-    "환율",
-    "달러",
-    "AI",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97251",
-   "title": "3Q26 Review 변함없는 방향성",
-   "brokerName": "교보증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "4000000",
-   "opinionText": "Buy",
-   "readCount": "14213",
-   "topics": [
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97245",
-   "title": "4Q26 예상 영업이익 118.2조원",
-   "brokerName": "유안타증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "3700000",
-   "opinionText": "Buy",
-   "readCount": "12440",
-   "topics": [
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97243",
-   "title": "예상대로 부진한 실적. 수주 및 모멘텀은 순항 중",
-   "brokerName": "DS투자증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "329180",
-   "itemName": "HD현대중공업",
-   "goalPrice": "600000",
-   "opinionText": "매수",
-   "readCount": "7529",
-   "topics": [
-    "환율",
-    "달러",
-    "수출",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97241",
-   "title": "여전히 강력하다",
-   "brokerName": "SK증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "4000000",
-   "opinionText": "매수",
-   "readCount": "10671",
-   "topics": [
-    "환율",
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97239",
-   "title": "모든 것이 완벽했다",
-   "brokerName": "대신증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "3000000",
-   "opinionText": "Buy",
-   "readCount": "8359",
-   "topics": [
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97237",
-   "title": "3Q26 Re: 틀렸지만 기분이 좋습니다",
-   "brokerName": "DS투자증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "2640000",
-   "opinionText": "매수",
-   "readCount": "7775",
-   "topics": [
-    "환율",
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97236",
-   "title": "3Q 거침없는 이익 증가! 2027년 AI 수혜는 본격화!",
-   "brokerName": "대신증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "009150",
-   "itemName": "삼성전기",
-   "goalPrice": "2800000",
-   "opinionText": "Buy",
-   "readCount": "8475",
-   "topics": [
-    "금리 인상",
-    "AI",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97231",
-   "title": "하방보다 상방을 볼 시점",
-   "brokerName": "대신증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "329180",
-   "itemName": "HD현대중공업",
-   "goalPrice": "540000",
-   "opinionText": "Buy",
-   "readCount": "4647",
-   "topics": [
-    "중국"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97228",
-   "title": "높아지는 이익의 눈높이, 달라지는 메모리 사이클",
-   "brokerName": "한화투자증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "000660",
-   "itemName": "SK하이닉스",
-   "goalPrice": "3150000",
-   "opinionText": "Buy",
-   "readCount": "5713",
-   "topics": [
-    "금리 인상",
-    "반도체",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
-  },
-  {
-   "cat": "company",
-   "category": "종목분석",
-   "nid": "97226",
-   "title": "어디까지 올라가는 거에요?",
-   "brokerName": "미래에셋증권",
-   "writeDate": "2026-10-29",
-   "itemCode": "009150",
-   "itemName": "삼성전기",
-   "goalPrice": "2800000",
-   "opinionText": "매수",
-   "readCount": "8037",
-   "topics": [
-    "금리 인하",
-    "환율",
-    "실적"
-   ],
-   "page_url": "https://stock.naver.com/research/company",
-   "group": "후보"
   }
  ],
  "errors": [],
  "company_index_mode": "page",
  "company_scanned": 600,
  "topic_counts": {
-  "AI": 32,
-  "변동성": 24,
-  "반도체": 22,
+  "AI": 42,
+  "변동성": 28,
+  "반도체": 26,
   "실적": 20,
-  "금리": 18,
-  "달러": 15,
-  "반등": 13,
-  "유가": 11,
-  "채권": 11,
+  "금리": 19,
+  "경기 둔화": 17,
+  "반등": 17,
+  "고용": 16,
+  "채권": 16,
+  "달러": 13,
+  "금리 인상": 12,
+  "물가": 11,
   "정책·세제": 10,
-  "지정학": 10,
-  "경기 둔화": 9,
-  "관세·무역": 8,
-  "금리 인상": 8,
-  "물가": 8,
-  "금리 인하": 7,
-  "고용": 5,
-  "연준": 4,
-  "환율": 4,
-  "중국": 4,
-  "수출": 3,
-  "외국인 매도": 1,
-  "외국인 매수": 1,
-  "엔화": 1
+  "지정학": 9,
+  "연준": 8,
+  "중국": 7,
+  "유가": 7,
+  "환율": 5,
+  "관세·무역": 5,
+  "한은": 3,
+  "외국인 매도": 3,
+  "엔화": 2,
+  "수출": 2,
+  "금리 인하": 2,
+  "부동산": 1,
+  "금": 1
  }
 }
