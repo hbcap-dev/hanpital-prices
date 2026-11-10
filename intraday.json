@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-11-10T16:47+09:00",
+  "updated_at": "2026-11-10T16:48+09:00",
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
       "ma20": 218350.0,
-      "price": 198800.0,
+      "price": 198900.0,
       "prev_close": 189900.0,
-      "change_pct": 4.69,
+      "change_pct": 4.74,
       "market_status": "OPEN",
-      "traded_at": "2026-11-10T16:46:21+09:00",
+      "traded_at": "2026-11-10T16:48:19+09:00",
       "source": "네이버",
-      "vs_ma20_pct": -8.95
+      "vs_ma20_pct": -8.91
     },
     {
       "code": "005500",
       "name": "삼진제약",
       "ma20": 19565.0,
-      "price": 20000.0,
+      "price": 19990.0,
       "prev_close": 20350.0,
-      "change_pct": -1.72,
+      "change_pct": -1.77,
       "market_status": "OPEN",
-      "traded_at": "2026-11-10T16:46:20+09:00",
+      "traded_at": "2026-11-10T16:48:19+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 2.22
+      "vs_ma20_pct": 2.17
     },
     {
       "code": "003490",
@@ -33,7 +33,7 @@
       "prev_close": 29100.0,
       "change_pct": 11.51,
       "market_status": "OPEN",
-      "traded_at": "2026-11-10T16:46:20+09:00",
+      "traded_at": "2026-11-10T16:48:19+09:00",
       "source": "네이버",
       "vs_ma20_pct": 16.89
     },
@@ -45,7 +45,7 @@
       "prev_close": 22425.0,
       "change_pct": 1.36,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-10T16:46:23+09:00",
+      "traded_at": "2026-11-10T16:48:21+09:00",
       "source": "네이버",
       "vs_ma20_pct": -1.03
     },
@@ -57,7 +57,7 @@
       "prev_close": 86220.0,
       "change_pct": 0.06,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-10T15:30:30+09:00",
+      "traded_at": "2026-11-10T16:48:17+09:00",
       "source": "네이버",
       "vs_ma20_pct": 1.87
     },
@@ -69,7 +69,7 @@
       "prev_close": 78775.0,
       "change_pct": 4.42,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-10T15:44:41+09:00",
+      "traded_at": "2026-11-10T16:48:19+09:00",
       "source": "네이버",
       "vs_ma20_pct": -7.55
     },
@@ -81,7 +81,7 @@
       "prev_close": 106100.0,
       "change_pct": 0.01,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-10T15:50:21+09:00",
+      "traded_at": "2026-11-10T16:48:17+09:00",
       "source": "네이버",
       "vs_ma20_pct": 0.15
     }
@@ -98,10 +98,10 @@
     },
     {
       "name": "원/달러",
-      "price": 1334.8800048828125,
+      "price": 1335.199951171875,
       "prev_close": 1362.699951171875,
-      "change_pct": -2.04,
-      "traded_at": "2026-11-10T16:47+09:00",
+      "change_pct": -2.02,
+      "traded_at": "2026-11-10T16:48+09:00",
       "source": "야후 (KRW=X, 지연)"
     },
     {
