@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T07:27:28+09:00",
+ "updated_at": "2026-11-12T07:41:13+09:00",
  "source": "FRED (St. Louis Fed)",
  "items": [
   {
@@ -56,9 +56,9 @@
    "id": "DFEDTARU",
    "name": "연준 기준금리 상단",
    "unit": "%",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "value": 4.0,
-   "prev_date": "2026-11-09",
+   "prev_date": "2026-11-10",
    "prev": 4.0,
    "url": "https://fred.stlouisfed.org/series/DFEDTARU"
   },
@@ -106,10 +106,10 @@
    "id": "VIXCLS",
    "name": "VIX",
    "unit": "pt",
-   "date": "2026-11-09",
-   "value": 19.92,
-   "prev_date": "2026-11-06",
-   "prev": 25.64,
+   "date": "2026-11-10",
+   "value": 19.46,
+   "prev_date": "2026-11-09",
+   "prev": 19.92,
    "url": "https://fred.stlouisfed.org/series/VIXCLS"
   },
   {
