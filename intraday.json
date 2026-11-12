@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:51+09:00",
+  "updated_at": "2026-11-12T16:53+09:00",
   "stocks": [
     {
       "code": "005930",
@@ -9,7 +9,7 @@
       "prev_close": 206000.0,
       "change_pct": 0.73,
       "market_status": "OPEN",
-      "traded_at": "2026-11-12T16:51:22+09:00",
+      "traded_at": "2026-11-12T16:52:58+09:00",
       "source": "네이버",
       "vs_ma20_pct": -3.57
     },
@@ -21,7 +21,7 @@
       "prev_close": 19240.0,
       "change_pct": 2.6,
       "market_status": "OPEN",
-      "traded_at": "2026-11-12T16:51:21+09:00",
+      "traded_at": "2026-11-12T16:52:20+09:00",
       "source": "네이버",
       "vs_ma20_pct": 0.94
     },
@@ -29,13 +29,13 @@
       "code": "003490",
       "name": "대한항공",
       "ma20": 27937.5,
-      "price": 31500.0,
+      "price": 31550.0,
       "prev_close": 31500.0,
-      "change_pct": 0.0,
+      "change_pct": 0.16,
       "market_status": "OPEN",
-      "traded_at": "2026-11-12T16:51:21+09:00",
+      "traded_at": "2026-11-12T16:53:00+09:00",
       "source": "네이버",
-      "vs_ma20_pct": 12.75
+      "vs_ma20_pct": 12.93
     },
     {
       "code": "379800",
@@ -45,7 +45,7 @@
       "prev_close": 22680.0,
       "change_pct": -0.09,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-12T16:51:24+09:00",
+      "traded_at": "2026-11-12T15:59:58+09:00",
       "source": "네이버",
       "vs_ma20_pct": -0.99
     },
@@ -57,7 +57,7 @@
       "prev_close": 85550.0,
       "change_pct": 0.26,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-12T16:51:19+09:00",
+      "traded_at": "2026-11-12T16:53:14+09:00",
       "source": "네이버",
       "vs_ma20_pct": 1.0
     },
@@ -69,7 +69,7 @@
       "prev_close": 84745.0,
       "change_pct": -0.38,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-12T16:51:20+09:00",
+      "traded_at": "2026-11-12T16:53:16+09:00",
       "source": "네이버",
       "vs_ma20_pct": -3.86
     },
@@ -81,7 +81,7 @@
       "prev_close": 106125.0,
       "change_pct": 0.01,
       "market_status": "CLOSE",
-      "traded_at": "2026-11-12T16:51:19+09:00",
+      "traded_at": "2026-11-12T16:53:17+09:00",
       "source": "네이버",
       "vs_ma20_pct": 0.15
     }
@@ -98,10 +98,10 @@
     },
     {
       "name": "원/달러",
-      "price": 1332.780029296875,
+      "price": 1333.4100341796875,
       "prev_close": 1341.9100341796875,
-      "change_pct": -0.68,
-      "traded_at": "2026-11-12T16:51+09:00",
+      "change_pct": -0.63,
+      "traded_at": "2026-11-12T16:53+09:00",
       "source": "야후 (KRW=X, 지연)"
     },
     {
