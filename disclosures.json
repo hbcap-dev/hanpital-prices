@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-12T07:36+09:00",
-  "window": "20261105~20261112",
+  "updated_at": "2026-11-13T07:27+09:00",
+  "window": "20261106~20261113",
   "items": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "group": "보유",
+      "rcept_dt": "20261112",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "송기재",
+      "rcept_no": "20261112000017",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000017"
+    },
     {
       "code": "005930",
       "name": "삼성전자",
@@ -147,16 +159,124 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000022"
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "group": "보유",
-      "rcept_dt": "20261105",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "박세근",
-      "rcept_no": "20261105000566",
+      "code": "196170",
+      "name": "알테오젠",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "[첨부정정]주요사항보고서(회사합병결정)",
+      "flr_nm": "알테오젠",
+      "rcept_no": "20261112000227",
       "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000566"
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000227"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "[기재정정]주요사항보고서(회사합병결정)",
+      "flr_nm": "알테오젠",
+      "rcept_no": "20261112000210",
+      "rm": "정",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000210"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "[기재정정]회사합병결정(종속회사의주요경영사항)",
+      "flr_nm": "알테오젠",
+      "rcept_no": "20261112900267",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900267"
+    },
+    {
+      "code": "214150",
+      "name": "클래시스",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "클래시스",
+      "rcept_no": "20261112900535",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900535"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "[기재정정]단일판매ㆍ공급계약체결",
+      "flr_nm": "HD현대중공업",
+      "rcept_no": "20261112800662",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800662"
+    },
+    {
+      "code": "095610",
+      "name": "테스",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "단일판매ㆍ공급계약체결",
+      "flr_nm": "테스",
+      "rcept_no": "20261112900396",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900396"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "미래에셋증권",
+      "rcept_no": "20261112801045",
+      "rm": "유",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112801045"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "증권발행실적보고서",
+      "flr_nm": "미래에셋증권",
+      "rcept_no": "20261112000135",
+      "rm": "",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000135"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "미래에셋증권",
+      "rcept_no": "20261112800178",
+      "rm": "유정",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800178"
+    },
+    {
+      "code": "257720",
+      "name": "실리콘투",
+      "group": "후보",
+      "rcept_dt": "20261111",
+      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "flr_nm": "실리콘투",
+      "rcept_no": "20261111900551",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900551"
     },
     {
       "code": "006800",
@@ -181,18 +301,6 @@
       "rm": "",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000186"
-    },
-    {
-      "code": "257720",
-      "name": "실리콘투",
-      "group": "후보",
-      "rcept_dt": "20261111",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
-      "flr_nm": "실리콘투",
-      "rcept_no": "20261111900551",
-      "rm": "코",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900551"
     },
     {
       "code": "064350",
@@ -267,6 +375,18 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800403"
     },
     {
+      "code": "257720",
+      "name": "실리콘투",
+      "group": "후보",
+      "rcept_dt": "20261109",
+      "report_nm": "결산실적공시예고",
+      "flr_nm": "실리콘투",
+      "rcept_no": "20261109900270",
+      "rm": "코",
+      "important": true,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900270"
+    },
+    {
       "code": "329180",
       "name": "HD현대중공업",
       "group": "후보",
@@ -289,18 +409,6 @@
       "rm": "",
       "important": true,
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000008"
-    },
-    {
-      "code": "257720",
-      "name": "실리콘투",
-      "group": "후보",
-      "rcept_dt": "20261109",
-      "report_nm": "결산실적공시예고",
-      "flr_nm": "실리콘투",
-      "rcept_no": "20261109900270",
-      "rm": "코",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900270"
     },
     {
       "code": "006260",
@@ -339,88 +447,52 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000166"
     },
     {
-      "code": "009150",
-      "name": "삼성전기",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "[기재정정]타법인주식및출자증권취득결정",
-      "flr_nm": "삼성전기",
-      "rcept_no": "20261105800383",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800383"
-    },
-    {
       "code": "011070",
       "name": "LG이노텍",
       "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "최대주주등소유주식변동신고서",
+      "rcept_dt": "20261112",
+      "report_nm": "분기보고서 (2026.09)",
       "flr_nm": "LG이노텍",
-      "rcept_no": "20261105800302",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800302"
+      "rcept_no": "20261112000323",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000323"
+    },
+    {
+      "code": "095610",
+      "name": "테스",
+      "group": "후보",
+      "rcept_dt": "20261112",
+      "report_nm": "분기보고서 (2026.09)",
+      "flr_nm": "테스",
+      "rcept_no": "20261112000090",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000090"
     },
     {
       "code": "006800",
       "name": "미래에셋증권",
       "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "증권발행실적보고서",
+      "rcept_dt": "20261112",
+      "report_nm": "기업설명회(IR)개최(안내공시)",
       "flr_nm": "미래에셋증권",
-      "rcept_no": "20261105000498",
-      "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000498"
+      "rcept_no": "20261112800560",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800560"
     },
     {
       "code": "006800",
       "name": "미래에셋증권",
       "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "증권발행실적보고서",
+      "rcept_dt": "20261112",
+      "report_nm": "수시공시의무관련사항(공정공시)",
       "flr_nm": "미래에셋증권",
-      "rcept_no": "20261105000282",
-      "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000282"
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "증권발행실적보고서",
-      "flr_nm": "미래에셋증권",
-      "rcept_no": "20261105000256",
-      "rm": "",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000256"
-    },
-    {
-      "code": "071050",
-      "name": "한국금융지주",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)",
-      "flr_nm": "한국금융지주",
-      "rcept_no": "20261105800548",
+      "rcept_no": "20261112800191",
       "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800548"
-    },
-    {
-      "code": "071050",
-      "name": "한국금융지주",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
-      "flr_nm": "한국금융지주",
-      "rcept_no": "20261105800541",
-      "rm": "유",
-      "important": true,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800541"
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800191"
     },
     {
       "code": "214150",
@@ -435,16 +507,16 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900155"
     },
     {
-      "code": "071050",
-      "name": "한국금융지주",
+      "code": "042660",
+      "name": "한화오션",
       "group": "후보",
       "rcept_dt": "20261111",
-      "report_nm": "풍문또는보도에대한해명(미확정)",
-      "flr_nm": "한국금융지주",
-      "rcept_no": "20261111800298",
-      "rm": "유",
+      "report_nm": "분기보고서 (2026.09)",
+      "flr_nm": "한화오션",
+      "rcept_no": "20261111000263",
+      "rm": "",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800298"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000263"
     },
     {
       "code": "006260",
@@ -483,40 +555,16 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000360"
     },
     {
-      "code": "007660",
-      "name": "이수페타시스",
+      "code": "257720",
+      "name": "실리콘투",
       "group": "후보",
       "rcept_dt": "20261110",
-      "report_nm": "기업설명회(IR)개최(안내공시)",
-      "flr_nm": "이수페타시스",
-      "rcept_no": "20261110800572",
-      "rm": "유",
+      "report_nm": "기업설명회(IR)개최",
+      "flr_nm": "실리콘투",
+      "rcept_no": "20261110900414",
+      "rm": "코",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800572"
-    },
-    {
-      "code": "007660",
-      "name": "이수페타시스",
-      "group": "후보",
-      "rcept_dt": "20261110",
-      "report_nm": "주식등의대량보유상황보고서(일반)",
-      "flr_nm": "이수",
-      "rcept_no": "20261110000334",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000334"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "group": "후보",
-      "rcept_dt": "20261110",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "박우범",
-      "rcept_no": "20261110000239",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000239"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900414"
     },
     {
       "code": "006800",
@@ -567,16 +615,40 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000169"
     },
     {
-      "code": "257720",
-      "name": "실리콘투",
+      "code": "010120",
+      "name": "LS ELECTRIC",
       "group": "후보",
       "rcept_dt": "20261110",
-      "report_nm": "기업설명회(IR)개최",
-      "flr_nm": "실리콘투",
-      "rcept_no": "20261110900414",
-      "rm": "코",
+      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "flr_nm": "박우범",
+      "rcept_no": "20261110000239",
+      "rm": "",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900414"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000239"
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "group": "후보",
+      "rcept_dt": "20261110",
+      "report_nm": "기업설명회(IR)개최(안내공시)",
+      "flr_nm": "이수페타시스",
+      "rcept_no": "20261110800572",
+      "rm": "유",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800572"
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "group": "후보",
+      "rcept_dt": "20261110",
+      "report_nm": "주식등의대량보유상황보고서(일반)",
+      "flr_nm": "이수",
+      "rcept_no": "20261110000334",
+      "rm": "",
+      "important": false,
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000334"
     },
     {
       "code": "011070",
@@ -615,18 +687,6 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000091"
     },
     {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "group": "후보",
-      "rcept_dt": "20261109",
-      "report_nm": "의결권대리행사권유참고서류",
-      "flr_nm": "HD현대중공업",
-      "rcept_no": "20261109000191",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000191"
-    },
-    {
       "code": "084370",
       "name": "유진테크",
       "group": "후보",
@@ -651,16 +711,16 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000278"
     },
     {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
+      "code": "329180",
+      "name": "HD현대중공업",
       "group": "후보",
       "rcept_dt": "20261109",
-      "report_nm": "타인에대한채무보증결정",
-      "flr_nm": "HD현대일렉트릭",
-      "rcept_no": "20261109800698",
-      "rm": "유",
+      "report_nm": "의결권대리행사권유참고서류",
+      "flr_nm": "HD현대중공업",
+      "rcept_no": "20261109000191",
+      "rm": "",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800698"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000191"
     },
     {
       "code": "329180",
@@ -759,160 +819,28 @@
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000182"
     },
     {
-      "code": "011070",
-      "name": "LG이노텍",
+      "code": "042660",
+      "name": "한화오션",
       "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "주식등의대량보유상황보고서(일반)",
-      "flr_nm": "LG전자",
-      "rcept_no": "20261105000074",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000074"
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "문혁수",
-      "rcept_no": "20261105000071",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000071"
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-      "flr_nm": "LS",
-      "rcept_no": "20261105000377",
-      "rm": "공",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000377"
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "특수관계인에대한출자",
-      "flr_nm": "LS",
-      "rcept_no": "20261105000352",
-      "rm": "공",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000352"
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "단기차입금증가결정(자회사의 주요경영사항)",
-      "flr_nm": "LS",
-      "rcept_no": "20261105800557",
+      "rcept_dt": "20261106",
+      "report_nm": "풍문또는보도에대한해명(미확정)",
+      "flr_nm": "한화오션",
+      "rcept_no": "20261106800647",
       "rm": "유",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800557"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800647"
     },
     {
-      "code": "214150",
-      "name": "클래시스",
+      "code": "237690",
+      "name": "에스티팜",
       "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "기업설명회(IR)개최",
-      "flr_nm": "클래시스",
-      "rcept_no": "20261105900645",
-      "rm": "코",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900645"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "단기차입금증가결정",
-      "flr_nm": "엘에스일렉트릭",
-      "rcept_no": "20261105800556",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800556"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-      "flr_nm": "엘에스일렉트릭",
-      "rcept_no": "20261105000308",
-      "rm": "공",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000308"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "영업양도결정(종속회사의주요경영사항)",
-      "flr_nm": "엘에스일렉트릭",
-      "rcept_no": "20261105800509",
-      "rm": "유",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800509"
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "투자설명서(일괄신고)",
-      "flr_nm": "미래에셋증권",
-      "rcept_no": "20261105000340",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000340"
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "일괄신고추가서류(파생결합증권-상장지수증권)",
-      "flr_nm": "미래에셋증권",
-      "rcept_no": "20261105000309",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000309"
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "group": "후보",
-      "rcept_dt": "20261105",
+      "rcept_dt": "20261106",
       "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "김지홍",
-      "rcept_no": "20261105000483",
+      "flr_nm": "최용락",
+      "rcept_no": "20261106000263",
       "rm": "",
       "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000483"
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "group": "후보",
-      "rcept_dt": "20261105",
-      "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "flr_nm": "김선길",
-      "rcept_no": "20261105000139",
-      "rm": "",
-      "important": false,
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000139"
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000263"
     }
   ],
   "errors": [],
@@ -948,22 +876,16 @@
       "corp_code": "00105961"
     },
     {
-      "code": "006260",
-      "name": "LS",
-      "group": "후보",
-      "corp_code": "00105952"
-    },
-    {
-      "code": "000150",
-      "name": "두산",
-      "group": "후보",
-      "corp_code": "00117212"
-    },
-    {
       "code": "000660",
       "name": "SK하이닉스",
       "group": "후보",
       "corp_code": "00164779"
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "group": "후보",
+      "corp_code": "00105952"
     },
     {
       "code": "196170",
@@ -972,16 +894,16 @@
       "corp_code": "00989619"
     },
     {
+      "code": "000150",
+      "name": "두산",
+      "group": "후보",
+      "corp_code": "00117212"
+    },
+    {
       "code": "064350",
       "name": "현대로템",
       "group": "후보",
       "corp_code": "00302926"
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "group": "후보",
-      "corp_code": "01390344"
     },
     {
       "code": "402340",
@@ -990,52 +912,10 @@
       "corp_code": "01596425"
     },
     {
-      "code": "084370",
-      "name": "유진테크",
-      "group": "후보",
-      "corp_code": "00531014"
-    },
-    {
-      "code": "267250",
-      "name": "HD현대",
-      "group": "후보",
-      "corp_code": "01205709"
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "group": "후보",
-      "corp_code": "00159616"
-    },
-    {
       "code": "214150",
       "name": "클래시스",
       "group": "후보",
       "corp_code": "01061327"
-    },
-    {
-      "code": "095610",
-      "name": "테스",
-      "group": "후보",
-      "corp_code": "00524421"
-    },
-    {
-      "code": "007660",
-      "name": "이수페타시스",
-      "group": "후보",
-      "corp_code": "00107613"
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "group": "후보",
-      "corp_code": "00105855"
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "group": "후보",
-      "corp_code": "00111722"
     },
     {
       "code": "257720",
@@ -1044,16 +924,64 @@
       "corp_code": "00982023"
     },
     {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
+      "code": "084370",
+      "name": "유진테크",
       "group": "후보",
-      "corp_code": "01205851"
+      "corp_code": "00531014"
     },
     {
-      "code": "071050",
-      "name": "한국금융지주",
+      "code": "329180",
+      "name": "HD현대중공업",
       "group": "후보",
-      "corp_code": "00432102"
+      "corp_code": "01390344"
+    },
+    {
+      "code": "095610",
+      "name": "테스",
+      "group": "후보",
+      "corp_code": "00524421"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "group": "후보",
+      "corp_code": "00159616"
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "group": "후보",
+      "corp_code": "01205709"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "group": "후보",
+      "corp_code": "00111722"
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "group": "후보",
+      "corp_code": "00105855"
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "group": "후보",
+      "corp_code": "00111704"
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "group": "후보",
+      "corp_code": "00107613"
+    },
+    {
+      "code": "237690",
+      "name": "에스티팜",
+      "group": "후보",
+      "corp_code": "00871833"
     }
   ]
 }
