@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T12:48:55+09:00",
+ "updated_at": "2026-11-27T12:53:25+09:00",
  "source": "FRED (St. Louis Fed)",
  "items": [
   {
@@ -56,9 +56,9 @@
    "id": "DFEDTARU",
    "name": "연준 기준금리 상단",
    "unit": "%",
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "value": 4.0,
-   "prev_date": "2026-11-24",
+   "prev_date": "2026-11-25",
    "prev": 4.0,
    "url": "https://fred.stlouisfed.org/series/DFEDTARU"
   },
